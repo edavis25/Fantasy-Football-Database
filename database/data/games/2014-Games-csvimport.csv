@@ -1,0 +1,268 @@
+Week,Day,Date,WinnerID,LoserID,WinnerScore,LoserScore,Stadium,Time,Duration,Attendance,Temperature,Humidity,Wind,Favored Team , spread,over/under,Result,URL
+1,Mon,2014-09-08,1,27,18,17,University of Phoenix Stadium,9:20pm,3:08,61292,null,null,0,Arizona Cardinals ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201409080crd.htm
+1,Sun,2014-09-07,2,21,37,34,Georgia Dome,1:03pm,3:18,70706,null,null,0,New Orleans Saints ,3.0,51.5 ,O,http://www.pro-football-reference.com/boxscores/201409070atl.htm
+1,Sun,2014-09-07,4,6,23,20,Soldier Field,1:00pm,3:17,62425,74,45,3,Chicago Bears ,7.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201409070chi.htm
+1,Sun,2014-09-07,5,30,20,14,Raymond James Stadium,4:25pm,2:54,62442,88,29,6,Tampa Bay Buccaneers ,2.5,39.5 ,U,http://www.pro-football-reference.com/boxscores/201409070tam.htm
+1,Sun,2014-09-07,7,3,23,16,M&T Bank Stadium,1:02pm,3:14,70925,74,45,8,Baltimore Ravens ,2.0,43.0 ,U,http://www.pro-football-reference.com/boxscores/201409070rav.htm
+1,Sun,2014-09-07,10,14,31,24,Sports Authority Field at Mile High,8:30pm,3:13,76939,75,41,6,Denver Broncos ,7.5,55.0 ,P,http://www.pro-football-reference.com/boxscores/201409070den.htm
+1,Mon,2014-09-08,11,22,35,14,Ford Field,7:11pm,2:56,64401,null,null,0,Detroit Lions ,5.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201409080det.htm
+1,Sun,2014-09-07,13,32,17,6,NRG Stadium,1:03pm,2:56,71770,null,null,0,Houston Texans ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201409070htx.htm
+1,Sun,2014-09-07,18,20,33,20,Sun Life Stadium,1:03pm,3:17,70630,89,61,0,New England Patriots ,5.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201409070mia.htm
+1,Sun,2014-09-07,19,17,34,6,Edward Jones Dome,1:00pm,3:03,55919,null,null,0,St. Louis Rams ,3.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/201409070ram.htm
+1,Sun,2014-09-07,23,24,19,14,MetLife Stadium,1:02pm,2:58,78160,76,47,12,New York Jets ,5.5,40.0 ,U,http://www.pro-football-reference.com/boxscores/201409070nyj.htm
+1,Sun,2014-09-07,25,15,34,17,Lincoln Financial Field,1:02pm,3:23,69596,75,51,9,Philadelphia Eagles ,10.5,52.0 ,U,http://www.pro-football-reference.com/boxscores/201409070phi.htm
+1,Sun,2014-09-07,26,8,30,27,Heinz Field,1:02pm,3:07,64598,71,55,6,Pittsburgh Steelers ,7.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/201409070pit.htm
+1,Sun,2014-09-07,28,9,28,17,AT&T Stadium,4:25pm,3:04,91174,null,null,0,San Francisco 49ers ,4.5,51.0 ,U,http://www.pro-football-reference.com/boxscores/201409070dal.htm
+1,Thu,2014-09-04,29,12,36,16,CenturyLink Field,8:42pm,2:56,68424,71,52,11,Seattle Seahawks ,8.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201409040sea.htm
+1,Sun,2014-09-07,31,16,26,10,Arrowhead Stadium,1:02pm,3:22,73569,69,57,7,Kansas City Chiefs ,3.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/201409070kan.htm
+10,Sun,2014-11-09,1,17,31,14,University of Phoenix Stadium,4:25pm,3:02,61363,null,null,0,Arizona Cardinals ,7.0,43.0 ,O,http://www.pro-football-reference.com/boxscores/201411090crd.htm
+10,Sun,2014-11-09,2,30,27,17,Raymond James Stadium,1:04pm,3:13,57751,64,73,5,Atlanta Falcons ,3.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201411090tam.htm
+10,Sun,2014-11-09,3,31,21,7,M&T Bank Stadium,1:03pm,2:55,70914,57,37,7,Baltimore Ravens ,10.5,44.5 ,U,http://www.pro-football-reference.com/boxscores/201411090rav.htm
+10,Thu,2014-11-06,8,7,24,3,Paul Brown Stadium,8:29pm,3:14,65871,42,86,17,Cincinnati Bengals ,6.5,46.0 ,U,http://www.pro-football-reference.com/boxscores/201411060cin.htm
+10,Sun,2014-11-09,9,15,31,17,Wembley Stadium,1:06pm,3:08,83603,50,71,3,Dallas Cowboys ,7.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201411090jax.htm
+10,Sun,2014-11-09,10,24,41,17,O.co Coliseum,4:05pm,3:08,54803,68,65,6,Denver Broncos ,12.5,51.0 ,O,http://www.pro-football-reference.com/boxscores/201411090rai.htm
+10,Sun,2014-11-09,11,18,20,16,Ford Field,1:02pm,3:08,63179,null,null,0,Detroit Lions ,3.0,43.0 ,U,http://www.pro-football-reference.com/boxscores/201411090det.htm
+10,Sun,2014-11-09,12,6,55,14,Lambeau Field,8:30pm,3:22,78292,34,90,5,Green Bay Packers ,9.5,54.0 ,O,http://www.pro-football-reference.com/boxscores/201411090gnb.htm
+10,Sun,2014-11-09,16,4,17,13,Ralph Wilson Stadium,1:02pm,3:02,68119,42,72,10,Buffalo Bills ,1.5,42.0 ,U,http://www.pro-football-reference.com/boxscores/201411090buf.htm
+10,Sun,2014-11-09,23,26,20,13,MetLife Stadium,1:02pm,2:58,78160,58,36,8,Pittsburgh Steelers ,4.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201411090nyj.htm
+10,Mon,2014-11-10,25,5,45,21,Lincoln Financial Field,8:32pm,3:10,69596,52,61,5,Philadelphia Eagles ,7.0,48.5 ,O,http://www.pro-football-reference.com/boxscores/201411100phi.htm
+10,Sun,2014-11-09,28,21,27,24,Louisiana Superdome,1:03pm,3:38,73129,null,null,0,New Orleans Saints ,5.5,49.0 ,O,http://www.pro-football-reference.com/boxscores/201411090nor.htm
+10,Sun,2014-11-09,29,22,38,17,CenturyLink Field,4:26pm,2:56,68352,50,88,0,Seattle Seahawks ,9.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201411090sea.htm
+11,Sun,2014-11-16,1,11,14,6,University of Phoenix Stadium,4:25pm,2:52,62487,null,null,0,Arizona Cardinals ,1.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201411160crd.htm
+11,Sun,2014-11-16,2,5,19,17,Bank of America Stadium,1:03pm,3:07,73314,48,28,3,Atlanta Falcons ,1.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201411160car.htm
+11,Sun,2014-11-16,6,19,21,13,Soldier Field,1:02pm,2:56,61792,31,76,12,Chicago Bears ,2.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201411160chi.htm
+11,Sun,2014-11-16,7,21,27,10,Louisiana Superdome,1:02pm,2:50,73073,null,null,0,New Orleans Saints ,7.0,51.0 ,U,http://www.pro-football-reference.com/boxscores/201411160nor.htm
+11,Sun,2014-11-16,12,25,53,20,Lambeau Field,4:25pm,3:04,78270,28,72,13,Green Bay Packers ,5.5,55.0 ,O,http://www.pro-football-reference.com/boxscores/201411160gnb.htm
+11,Sun,2014-11-16,13,8,23,7,FirstEnergy Stadium,1:03pm,3:10,67431,34,57,9,Cleveland Browns ,3.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/201411160cle.htm
+11,Sun,2014-11-16,16,29,24,20,Arrowhead Stadium,1:04pm,3:04,76463,21,65,8,null,0,42.5 ,O,http://www.pro-football-reference.com/boxscores/201411160kan.htm
+11,Thu,2014-11-13,18,4,22,9,Sun Life Stadium,8:26pm,2:58,71573,74,76,4,Miami Dolphins ,5.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201411130mia.htm
+11,Sun,2014-11-16,20,14,42,20,Lucas Oil Stadium,8:31pm,2:58,66751,null,null,0,Indianapolis Colts ,3.0,57.0 ,O,http://www.pro-football-reference.com/boxscores/201411160clt.htm
+11,Mon,2014-11-17,26,31,27,24,LP Field,8:30pm,2:47,69143,25,64,9,Pittsburgh Steelers ,5.5,45.5 ,O,http://www.pro-football-reference.com/boxscores/201411170oti.htm
+11,Sun,2014-11-16,27,24,13,6,Qualcomm Stadium,4:05pm,3:05,66720,72,40,13,San Diego Chargers ,10.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201411160sdg.htm
+11,Sun,2014-11-16,28,22,16,10,MetLife Stadium,1:03pm,3:08,80352,42,53,0,San Francisco 49ers ,4.0,44.5 ,U,http://www.pro-football-reference.com/boxscores/201411160nyg.htm
+11,Sun,2014-11-16,17,10,22,7,Edward Jones Dome,1:00pm,3:02,59401,null,null,0,Denver Broncos ,9.5,51.0 ,U,http://www.pro-football-reference.com/boxscores/201411160ram.htm
+11,Sun,2014-11-16,30,32,27,7,FedExField,1:03pm,2:55,77442,45,39,6,Washington Redskins ,7.5,45.5 ,U,http://www.pro-football-reference.com/boxscores/201411160was.htm
+12,Mon,2014-11-24,3,21,34,27,Louisiana Superdome,8:30pm,3:08,73373,null,null,0,New Orleans Saints ,3.0,51.0 ,O,http://www.pro-football-reference.com/boxscores/201411240nor.htm
+12,Mon,2014-11-24,4,23,38,3,Ford Field,7:05pm,2:50,56044,null,null,0,Buffalo Bills ,2.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/201411240buf.htm
+12,Sun,2014-11-23,6,30,21,13,Soldier Field,1:02pm,3:17,61109,54,75,12,Chicago Bears ,4.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201411230chi.htm
+12,Sun,2014-11-23,7,13,22,13,NRG Stadium,1:02pm,3:02,71777,null,null,0,Houston Texans ,2.5,44.5 ,U,http://www.pro-football-reference.com/boxscores/201411230htx.htm
+12,Sun,2014-11-23,8,2,26,24,Georgia Dome,1:02pm,3:05,70046,null,null,0,Atlanta Falcons ,2.5,48.5 ,O,http://www.pro-football-reference.com/boxscores/201411230atl.htm
+12,Sun,2014-11-23,9,22,31,28,MetLife Stadium,8:30pm,3:18,80520,51,58,2,Dallas Cowboys ,5.0,49.0 ,O,http://www.pro-football-reference.com/boxscores/201411230nyg.htm
+12,Sun,2014-11-23,10,18,39,36,Sports Authority Field at Mile High,4:25pm,3:10,76987,39,36,6,Denver Broncos ,7.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201411230den.htm
+12,Sun,2014-11-23,12,19,24,21,TCF Bank Stadium,1:03pm,2:57,52386,49,0,0,Green Bay Packers ,7.5,50.0 ,U,http://www.pro-football-reference.com/boxscores/201411230min.htm
+12,Sun,2014-11-23,14,15,23,3,Lucas Oil Stadium,1:02pm,3:03,64328,null,null,0,Indianapolis Colts ,13.5,49.0 ,U,http://www.pro-football-reference.com/boxscores/201411230clt.htm
+12,Sun,2014-11-23,20,11,34,9,Gillette Stadium,1:02pm,3:18,68756,58,40,7,New England Patriots ,7.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/201411230nwe.htm
+12,Thu,2014-11-20,24,16,24,20,O.co Coliseum,8:26pm,3:12,52865,57,88,6,Kansas City Chiefs ,7.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/201411200rai.htm
+12,Sun,2014-11-23,25,31,43,24,Lincoln Financial Field,1:02pm,3:34,69596,54,33,7,Philadelphia Eagles ,11.0,49.0 ,O,http://www.pro-football-reference.com/boxscores/201411230phi.htm
+12,Sun,2014-11-23,27,17,27,24,Qualcomm Stadium,4:05pm,3:11,66040,72,40,5,San Diego Chargers ,5.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/201411230sdg.htm
+12,Sun,2014-11-23,28,32,17,13,Levi's Stadium,4:25pm,2:56,70799,62,44,9,San Francisco 49ers ,9.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201411230sfo.htm
+12,Sun,2014-11-23,29,1,19,3,CenturyLink Field,4:06pm,2:45,68327,51,79,10,Seattle Seahawks ,7.0,41.5 ,U,http://www.pro-football-reference.com/boxscores/201411230sea.htm
+13,Sun,2014-11-30,2,1,29,18,Georgia Dome,4:05pm,3:02,69557,null,null,0,Arizona Cardinals ,1.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201411300atl.htm
+13,Sun,2014-11-30,4,8,26,10,Ralph Wilson Stadium,1:02pm,3:13,68576,57,61,17,Buffalo Bills ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201411300buf.htm
+13,Sun,2014-11-30,7,30,14,13,Raymond James Stadium,1:02pm,3:03,56340,77,54,7,Cincinnati Bengals ,6.0,43.5 ,U,http://www.pro-football-reference.com/boxscores/201411300tam.htm
+13,Sun,2014-11-30,10,16,29,16,Arrowhead Stadium,8:32pm,3:05,76894,27,48,18,null,0,49.5 ,U,http://www.pro-football-reference.com/boxscores/201411300kan.htm
+13,Thu,2014-11-27,11,6,34,17,Ford Field,12:39pm,3:11,64175,null,null,0,Detroit Lions ,7.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/201411270det.htm
+13,Sun,2014-11-30,12,20,26,21,Lambeau Field,4:25pm,3:00,78431,28,60,14,Green Bay Packers ,3.0,58.0 ,U,http://www.pro-football-reference.com/boxscores/201411300gnb.htm
+13,Sun,2014-11-30,13,31,45,21,NRG Stadium,1:02pm,3:00,71714,null,null,0,Houston Texans ,7.0,43.0 ,O,http://www.pro-football-reference.com/boxscores/201411300htx.htm
+13,Sun,2014-11-30,14,32,49,27,Lucas Oil Stadium,1:02pm,3:21,65352,null,null,0,Indianapolis Colts ,8.5,49.0 ,O,http://www.pro-football-reference.com/boxscores/201411300clt.htm
+13,Sun,2014-11-30,15,22,25,24,EverBank Field,1:03pm,3:09,64687,71,0,5,New York Giants ,3.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201411300jax.htm
+13,Mon,2014-12-01,18,23,16,13,MetLife Stadium,8:30pm,2:52,78160,42,75,6,Miami Dolphins ,7.0,41.5 ,U,http://www.pro-football-reference.com/boxscores/201412010nyj.htm
+13,Sun,2014-11-30,19,5,31,13,TCF Bank Stadium,1:02pm,2:50,52016,12,0,17,Minnesota Vikings ,2.5,41.5 ,O,http://www.pro-football-reference.com/boxscores/201411300min.htm
+13,Sun,2014-11-30,21,26,35,32,Heinz Field,1:02pm,3:18,61916,63,55,15,Pittsburgh Steelers ,3.5,54.5 ,O,http://www.pro-football-reference.com/boxscores/201411300pit.htm
+13,Thu,2014-11-27,25,9,33,10,AT&T Stadium,4:36pm,3:13,91379,null,null,0,Dallas Cowboys ,3.5,57.0 ,U,http://www.pro-football-reference.com/boxscores/201411270dal.htm
+13,Sun,2014-11-30,27,3,34,33,M&T Bank Stadium,1:02pm,3:24,71060,54,0,8,Baltimore Ravens ,6.5,45.5 ,O,http://www.pro-football-reference.com/boxscores/201411300rav.htm
+13,Thu,2014-11-27,29,28,19,3,Levi's Stadium,8:31pm,3:01,70799,68,45,0,San Francisco 49ers ,1.5,40.5 ,U,http://www.pro-football-reference.com/boxscores/201411270sfo.htm
+13,Sun,2014-11-30,17,24,52,0,Edward Jones Dome,1:00pm,3:11,55650,null,null,0,St. Louis Rams ,6.0,43.0 ,O,http://www.pro-football-reference.com/boxscores/201411300ram.htm
+14,Sun,2014-12-07,1,16,17,14,University of Phoenix Stadium,4:05pm,3:10,62387,null,null,0,Kansas City Chiefs ,2.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/201412070crd.htm
+14,Sun,2014-12-07,3,18,28,13,Sun Life Stadium,1:02pm,3:05,70244,76,68,10,Miami Dolphins ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201412070mia.htm
+14,Sun,2014-12-07,5,21,41,10,Louisiana Superdome,1:03pm,3:16,73006,null,null,0,New Orleans Saints ,9.0,50.5 ,O,http://www.pro-football-reference.com/boxscores/201412070nor.htm
+14,Thu,2014-12-04,9,6,41,28,Soldier Field,8:26pm,3:08,61558,35,62,5,Dallas Cowboys ,4.0,50.5 ,O,http://www.pro-football-reference.com/boxscores/201412040chi.htm
+14,Sun,2014-12-07,10,4,24,17,Sports Authority Field at Mile High,4:05pm,3:07,76913,63,15,3,Denver Broncos ,9.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/201412070den.htm
+14,Sun,2014-12-07,11,30,34,17,Ford Field,1:02pm,3:10,61489,null,null,0,Detroit Lions ,10.5,42.0 ,O,http://www.pro-football-reference.com/boxscores/201412070det.htm
+14,Mon,2014-12-08,12,2,43,37,Lambeau Field,8:30pm,3:16,77512,33,96,0,Green Bay Packers ,13.5,54.5 ,O,http://www.pro-football-reference.com/boxscores/201412080gnb.htm
+14,Sun,2014-12-07,13,15,27,13,EverBank Field,1:03pm,3:00,61070,61,60,15,Houston Texans ,6.5,42.0 ,U,http://www.pro-football-reference.com/boxscores/201412070jax.htm
+14,Sun,2014-12-07,14,8,25,24,FirstEnergy Stadium,1:03pm,3:28,67431,37,61,10,Indianapolis Colts ,3.0,50.0 ,U,http://www.pro-football-reference.com/boxscores/201412070cle.htm
+14,Sun,2014-12-07,19,23,30,24,TCF Bank Stadium,1:02pm,3:17,52152,32,0,17,Minnesota Vikings ,4.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/201412070min.htm
+14,Sun,2014-12-07,20,27,23,14,Qualcomm Stadium,8:30pm,3:06,68815,67,59,7,New England Patriots ,4.0,54.0 ,U,http://www.pro-football-reference.com/boxscores/201412070sdg.htm
+14,Sun,2014-12-07,22,31,36,7,LP Field,1:03pm,3:04,69143,45,57,6,New York Giants ,3.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201412070oti.htm
+14,Sun,2014-12-07,24,28,24,13,O.co Coliseum,4:25pm,3:04,55300,63,78,0,San Francisco 49ers ,9.0,40.5 ,U,http://www.pro-football-reference.com/boxscores/201412070rai.htm
+14,Sun,2014-12-07,26,7,42,21,Paul Brown Stadium,1:02pm,3:11,65512,39,70,8,Cincinnati Bengals ,3.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201412070cin.htm
+14,Sun,2014-12-07,29,25,24,14,Lincoln Financial Field,4:25pm,3:17,69596,45,32,15,Seattle Seahawks ,2.0,48.0 ,U,http://www.pro-football-reference.com/boxscores/201412070phi.htm
+14,Sun,2014-12-07,17,32,24,0,FedExField,1:03pm,2:49,71120,45,37,8,St. Louis Rams ,3.0,44.5 ,U,http://www.pro-football-reference.com/boxscores/201412070was.htm
+15,Thu,2014-12-11,1,17,12,6,Edward Jones Dome,8:25pm,3:09,55880,null,null,0,St. Louis Rams ,4.5,40.5 ,U,http://www.pro-football-reference.com/boxscores/201412110ram.htm
+15,Sun,2014-12-14,3,15,20,12,M&T Bank Stadium,1:02pm,3:07,70801,47,64,3,Baltimore Ravens ,13.5,45.0 ,U,http://www.pro-football-reference.com/boxscores/201412140rav.htm
+15,Sun,2014-12-14,4,12,21,13,Ralph Wilson Stadium,1:02pm,3:14,70214,38,89,10,Green Bay Packers ,4.0,50.0 ,U,http://www.pro-football-reference.com/boxscores/201412140buf.htm
+15,Sun,2014-12-14,5,30,19,17,Bank of America Stadium,1:03pm,3:10,72842,60,36,0,Carolina Panthers ,3.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201412140car.htm
+15,Sun,2014-12-14,7,8,30,0,FirstEnergy Stadium,1:02pm,2:50,67431,43,94,7,Cleveland Browns ,1.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201412140cle.htm
+15,Sun,2014-12-14,9,25,38,27,Lincoln Financial Field,8:35pm,3:04,69596,41,69,9,Philadelphia Eagles ,3.0,55.0 ,O,http://www.pro-football-reference.com/boxscores/201412140phi.htm
+15,Sun,2014-12-14,10,27,22,10,Qualcomm Stadium,4:05pm,3:06,68682,64,46,6,Denver Broncos ,4.5,50.5 ,U,http://www.pro-football-reference.com/boxscores/201412140sdg.htm
+15,Sun,2014-12-14,11,19,16,14,Ford Field,4:25pm,2:49,62490,null,null,0,Detroit Lions ,7.5,41.5 ,U,http://www.pro-football-reference.com/boxscores/201412140det.htm
+15,Sun,2014-12-14,14,13,17,10,Lucas Oil Stadium,1:02pm,3:06,65148,null,null,0,Indianapolis Colts ,6.5,49.0 ,U,http://www.pro-football-reference.com/boxscores/201412140clt.htm
+15,Sun,2014-12-14,16,24,31,13,Arrowhead Stadium,1:03pm,3:24,72153,58,78,16,Kansas City Chiefs ,10.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/201412140kan.htm
+15,Sun,2014-12-14,20,18,41,13,Gillette Stadium,1:02pm,3:08,68756,43,55,9,New England Patriots ,7.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/201412140nwe.htm
+15,Mon,2014-12-15,21,6,31,15,Soldier Field,8:30pm,3:03,60996,44,93,5,New Orleans Saints ,3.0,53.5 ,U,http://www.pro-football-reference.com/boxscores/201412150chi.htm
+15,Sun,2014-12-14,22,32,24,13,MetLife Stadium,1:02pm,3:06,77628,43,63,9,New York Giants ,6.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201412140nyg.htm
+15,Sun,2014-12-14,23,31,16,11,LP Field,4:05pm,3:15,69143,54,58,6,New York Jets ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201412140oti.htm
+15,Sun,2014-12-14,26,2,27,20,Georgia Dome,1:02pm,2:52,71161,null,null,0,Pittsburgh Steelers ,3.0,55.0 ,U,http://www.pro-football-reference.com/boxscores/201412140atl.htm
+15,Sun,2014-12-14,29,28,17,7,CenturyLink Field,4:26pm,2:57,68526,46,74,4,Seattle Seahawks ,9.5,38.0 ,U,http://www.pro-football-reference.com/boxscores/201412140sea.htm
+16,Sun,2014-12-21,2,21,30,14,Louisiana Superdome,1:03pm,3:00,73164,null,null,0,New Orleans Saints ,6.0,56.5 ,U,http://www.pro-football-reference.com/boxscores/201412210nor.htm
+16,Sun,2014-12-21,5,8,17,13,Bank of America Stadium,1:04pm,3:02,73810,48,65,3,Carolina Panthers ,6.0,40.0 ,U,http://www.pro-football-reference.com/boxscores/201412210car.htm
+16,Mon,2014-12-22,7,10,37,28,Paul Brown Stadium,8:30pm,3:20,66107,47,70,8,Denver Broncos ,3.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201412220cin.htm
+16,Sun,2014-12-21,9,14,42,7,AT&T Stadium,4:26pm,2:49,91899,null,null,0,Dallas Cowboys ,3.0,54.0 ,U,http://www.pro-football-reference.com/boxscores/201412210dal.htm
+16,Sun,2014-12-21,11,6,20,14,Soldier Field,1:03pm,3:03,61420,36,74,13,Detroit Lions ,10.0,44.5 ,U,http://www.pro-football-reference.com/boxscores/201412210chi.htm
+16,Sun,2014-12-21,12,30,20,3,Raymond James Stadium,1:03pm,2:44,64247,75,65,7,Green Bay Packers ,12.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201412210tam.htm
+16,Sun,2014-12-21,13,3,25,13,NRG Stadium,1:02pm,3:30,71771,null,null,0,Baltimore Ravens ,6.5,42.0 ,U,http://www.pro-football-reference.com/boxscores/201412210htx.htm
+16,Thu,2014-12-18,15,31,21,13,EverBank Field,8:26pm,2:49,61202,58,0,2,Jacksonville Jaguars ,4.5,39.0 ,U,http://www.pro-football-reference.com/boxscores/201412180jax.htm
+16,Sun,2014-12-21,18,19,37,35,Sun Life Stadium,1:03pm,3:28,66203,80,58,9,Miami Dolphins ,4.5,42.5 ,O,http://www.pro-football-reference.com/boxscores/201412210mia.htm
+16,Sun,2014-12-21,20,23,17,16,MetLife Stadium,1:02pm,2:51,78160,34,75,9,New England Patriots ,10.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201412210nyj.htm
+16,Sun,2014-12-21,22,17,37,27,Edward Jones Dome,4:05pm,3:19,55851,null,null,0,St. Louis Rams ,6.5,43.5 ,O,http://www.pro-football-reference.com/boxscores/201412210ram.htm
+16,Sun,2014-12-21,24,4,26,24,O.co Coliseum,4:25pm,3:19,53436,64,84,10,Buffalo Bills ,6.5,42.0 ,O,http://www.pro-football-reference.com/boxscores/201412210rai.htm
+16,Sun,2014-12-21,26,16,20,12,Heinz Field,1:02pm,3:01,60865,36,50,1,Pittsburgh Steelers ,2.5,49.5 ,U,http://www.pro-football-reference.com/boxscores/201412210pit.htm
+16,Sat,2014-12-20,27,28,38,35,Levi's Stadium,8:26pm,3:51,70699,61,75,5,San Francisco 49ers ,1.5,40.5 ,O,http://www.pro-football-reference.com/boxscores/201412200sfo.htm
+16,Sun,2014-12-21,29,1,35,6,University of Phoenix Stadium,8:30pm,3:14,63806,null,null,0,Seattle Seahawks ,9.0,36.0 ,O,http://www.pro-football-reference.com/boxscores/201412210crd.htm
+16,Sat,2014-12-20,32,25,27,24,FedExField,4:30pm,3:06,78897,37,56,0,Philadelphia Eagles ,7.0,51.0 ,P,http://www.pro-football-reference.com/boxscores/201412200was.htm
+17,Sun,2014-12-28,3,8,20,10,M&T Bank Stadium,1:02pm,3:05,71070,54,0,5,Baltimore Ravens ,13.5,39.5 ,U,http://www.pro-football-reference.com/boxscores/201412280rav.htm
+17,Sun,2014-12-28,4,20,17,9,Gillette Stadium,1:02pm,2:43,68756,49,74,9,New England Patriots ,6.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201412280nwe.htm
+17,Sun,2014-12-28,5,2,34,3,Georgia Dome,4:25pm,2:51,71015,null,null,0,Atlanta Falcons ,3.0,48.0 ,U,http://www.pro-football-reference.com/boxscores/201412280atl.htm
+17,Sun,2014-12-28,9,32,44,17,FedExField,1:05pm,3:12,80897,58,54,0,Dallas Cowboys ,6.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201412280was.htm
+17,Sun,2014-12-28,10,24,47,14,Sports Authority Field at Mile High,4:25pm,3:18,76929,40,28,7,Denver Broncos ,14.0,48.0 ,O,http://www.pro-football-reference.com/boxscores/201412280den.htm
+17,Sun,2014-12-28,12,11,30,20,Lambeau Field,4:25pm,3:16,78408,27,69,5,Green Bay Packers ,7.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/201412280gnb.htm
+17,Sun,2014-12-28,13,15,23,17,NRG Stadium,1:03pm,3:07,71777,null,null,0,Houston Texans ,7.5,38.0 ,O,http://www.pro-football-reference.com/boxscores/201412280htx.htm
+17,Sun,2014-12-28,14,31,27,10,LP Field,1:02pm,2:58,69143,40,99,6,Indianapolis Colts ,7.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201412280oti.htm
+17,Sun,2014-12-28,16,27,19,7,Arrowhead Stadium,1:03pm,3:04,73952,31,63,7,Kansas City Chiefs ,2.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/201412280kan.htm
+17,Sun,2014-12-28,19,6,13,9,TCF Bank Stadium,1:02pm,2:53,52364,15,77,0,Minnesota Vikings ,7.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201412280min.htm
+17,Sun,2014-12-28,21,30,23,20,Raymond James Stadium,1:03pm,2:55,59952,79,74,6,New Orleans Saints ,5.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201412280tam.htm
+17,Sun,2014-12-28,23,18,37,24,Sun Life Stadium,1:02pm,3:09,70220,80,68,12,Miami Dolphins ,6.5,41.0 ,O,http://www.pro-football-reference.com/boxscores/201412280mia.htm
+17,Sun,2014-12-28,25,22,34,26,MetLife Stadium,1:02pm,3:14,79150,48,82,8,null,0,52.0 ,O,http://www.pro-football-reference.com/boxscores/201412280nyg.htm
+17,Sun,2014-12-28,26,7,27,17,Heinz Field,8:30pm,3:00,64697,37,68,5,Pittsburgh Steelers ,3.5,48.0 ,U,http://www.pro-football-reference.com/boxscores/201412280pit.htm
+17,Sun,2014-12-28,28,1,20,17,Levi's Stadium,4:25pm,3:03,70699,51,60,3,San Francisco 49ers ,6.5,37.5 ,U,http://www.pro-football-reference.com/boxscores/201412280sfo.htm
+17,Sun,2014-12-28,29,17,20,6,CenturyLink Field,4:27pm,2:57,68453,43,81,5,Seattle Seahawks ,11.0,41.5 ,U,http://www.pro-football-reference.com/boxscores/201412280sea.htm
+2,Sun,2014-09-14,1,22,25,14,MetLife Stadium,1:04pm,3:00,78344,66,48,1,Arizona Cardinals ,2.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201409140nyg.htm
+2,Thu,2014-09-11,3,26,26,6,M&T Bank Stadium,8:28pm,2:56,71181,82,40,6,Baltimore Ravens ,2.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201409110rav.htm
+2,Sun,2014-09-14,4,18,29,10,Ralph Wilson Stadium,1:02pm,3:07,69954,58,56,4,Buffalo Bills ,1.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/201409140buf.htm
+2,Sun,2014-09-14,5,11,24,7,Bank of America Stadium,1:04pm,3:05,73586,70,63,9,Carolina Panthers ,2.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201409140car.htm
+2,Sun,2014-09-14,6,28,28,20,Levi's Stadium,8:31pm,3:15,70799,78,48,10,San Francisco 49ers ,7.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201409140sfo.htm
+2,Sun,2014-09-14,7,2,24,10,Paul Brown Stadium,1:05pm,3:11,58574,66,48,4,Cincinnati Bengals ,6.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201409140cin.htm
+2,Sun,2014-09-14,8,21,26,24,FirstEnergy Stadium,1:03pm,3:08,67407,61,62,6,New Orleans Saints ,6.0,48.5 ,O,http://www.pro-football-reference.com/boxscores/201409140cle.htm
+2,Sun,2014-09-14,9,31,26,10,LP Field,1:03pm,2:56,69143,75,45,2,Tennessee Titans ,3.5,49.5 ,U,http://www.pro-football-reference.com/boxscores/201409140oti.htm
+2,Sun,2014-09-14,10,16,24,17,Sports Authority Field at Mile High,4:25pm,3:08,76900,85,16,7,Denver Broncos ,11.5,50.5 ,U,http://www.pro-football-reference.com/boxscores/201409140den.htm
+2,Sun,2014-09-14,12,23,31,24,Lambeau Field,4:25pm,3:21,78041,63,52,15,Green Bay Packers ,7.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/201409140gnb.htm
+2,Sun,2014-09-14,13,24,30,14,O.co Coliseum,4:25pm,2:58,54063,67,69,16,Houston Texans ,3.0,40.0 ,O,http://www.pro-football-reference.com/boxscores/201409140rai.htm
+2,Sun,2014-09-14,20,19,30,7,TCF Bank Stadium,1:05pm,3:03,52350,58,0,0,New England Patriots ,5.5,48.5 ,U,http://www.pro-football-reference.com/boxscores/201409140min.htm
+2,Mon,2014-09-15,25,14,30,27,Lucas Oil Stadium,8:31pm,3:01,64871,null,null,0,Indianapolis Colts ,3.0,54.0 ,O,http://www.pro-football-reference.com/boxscores/201409150clt.htm
+2,Sun,2014-09-14,27,29,30,21,Qualcomm Stadium,4:05pm,3:05,67916,94,33,8,Seattle Seahawks ,5.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/201409140sdg.htm
+2,Sun,2014-09-14,17,30,19,17,Raymond James Stadium,4:05pm,3:41,59923,88,47,8,Tampa Bay Buccaneers ,5.5,38.0 ,U,http://www.pro-football-reference.com/boxscores/201409140tam.htm
+2,Sun,2014-09-14,32,15,41,10,FedExField,1:05pm,3:15,80037,65,50,6,Washington Redskins ,6.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/201409140was.htm
+3,Sun,2014-09-21,1,28,23,14,University of Phoenix Stadium,3:05pm,3:02,61572,null,null,0,San Francisco 49ers ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201409210crd.htm
+3,Thu,2014-09-18,2,30,56,14,Georgia Dome,8:26pm,3:13,70318,null,null,0,Atlanta Falcons ,6.0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201409180atl.htm
+3,Sun,2014-09-21,3,8,23,21,FirstEnergy Stadium,1:02pm,2:57,67407,71,70,23,Baltimore Ravens ,2.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/201409210cle.htm
+3,Mon,2014-09-22,6,23,27,19,MetLife Stadium,8:30pm,3:14,78160,60,47,10,New York Jets ,2.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/201409220nyj.htm
+3,Sun,2014-09-21,7,31,33,7,Paul Brown Stadium,1:02pm,2:56,56743,74,66,20,Cincinnati Bengals ,6.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/201409210cin.htm
+3,Sun,2014-09-21,9,17,34,31,Edward Jones Dome,1:00pm,3:02,58739,null,null,0,Dallas Cowboys ,1.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/201409210ram.htm
+3,Sun,2014-09-21,11,12,19,7,Ford Field,1:02pm,2:46,62418,null,null,0,Detroit Lions ,2.5,52.5 ,U,http://www.pro-football-reference.com/boxscores/201409210det.htm
+3,Sun,2014-09-21,14,15,44,17,EverBank Field,1:02pm,3:05,60601,85,0,5,Indianapolis Colts ,7.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201409210jax.htm
+3,Sun,2014-09-21,16,18,34,15,Sun Life Stadium,4:25pm,3:01,70313,88,56,4,Miami Dolphins ,3.5,42.5 ,O,http://www.pro-football-reference.com/boxscores/201409210mia.htm
+3,Sun,2014-09-21,20,24,16,9,Gillette Stadium,1:02pm,2:52,68756,78,67,11,New England Patriots ,14.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201409210nwe.htm
+3,Sun,2014-09-21,21,19,20,9,Louisiana Superdome,1:03pm,2:47,73005,null,null,0,New Orleans Saints ,10.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201409210nor.htm
+3,Sun,2014-09-21,22,13,30,17,MetLife Stadium,1:02pm,2:55,77462,70,94,4,New York Giants ,1.5,41.5 ,O,http://www.pro-football-reference.com/boxscores/201409210nyg.htm
+3,Sun,2014-09-21,25,32,37,34,Lincoln Financial Field,1:02pm,3:33,69596,79,62,4,Philadelphia Eagles ,6.0,50.5 ,O,http://www.pro-football-reference.com/boxscores/201409210phi.htm
+3,Sun,2014-09-21,26,5,37,19,Bank of America Stadium,8:31pm,3:13,73945,79,52,7,Carolina Panthers ,3.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/201409210car.htm
+3,Sun,2014-09-21,27,4,22,10,Ralph Wilson Stadium,1:02pm,3:04,68611,72,73,24,Buffalo Bills ,2.5,45.5 ,U,http://www.pro-football-reference.com/boxscores/201409210buf.htm
+3,Sun,2014-09-21,29,10,26,20,CenturyLink Field,4:25pm,3:33,68447,70,67,7,Seattle Seahawks ,4.5,48.5 ,U,http://www.pro-football-reference.com/boxscores/201409210sea.htm
+4,Sun,2014-09-28,3,5,38,10,M&T Bank Stadium,1:02pm,2:55,71218,78,0,4,Baltimore Ravens ,3.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/201409280rav.htm
+4,Sun,2014-09-28,9,21,38,17,AT&T Stadium,8:31pm,3:00,91176,null,null,0,New Orleans Saints ,3.0,53.5 ,O,http://www.pro-football-reference.com/boxscores/201409280dal.htm
+4,Sun,2014-09-28,11,23,24,17,MetLife Stadium,1:02pm,3:01,78160,80,46,0,Detroit Lions ,1.5,45.0 ,U,http://www.pro-football-reference.com/boxscores/201409280nyj.htm
+4,Sun,2014-09-28,12,6,38,17,Soldier Field,1:02pm,2:56,61736,70,67,3,Green Bay Packers ,1.5,51.5 ,O,http://www.pro-football-reference.com/boxscores/201409280chi.htm
+4,Sun,2014-09-28,13,4,23,17,NRG Stadium,1:02pm,3:24,71756,null,null,0,Houston Texans ,3.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201409280htx.htm
+4,Sun,2014-09-28,14,31,41,17,Lucas Oil Stadium,1:03pm,3:11,64757,null,null,0,Indianapolis Colts ,7.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/201409280clt.htm
+4,Mon,2014-09-29,16,20,41,14,Arrowhead Stadium,8:31pm,2:48,76613,82,42,3,New England Patriots ,3.0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201409290kan.htm
+4,Sun,2014-09-28,18,24,38,14,Wembley Stadium,1:06pm,2:57,83436,74,56,6,Miami Dolphins ,3.5,40.5 ,O,http://www.pro-football-reference.com/boxscores/201409280rai.htm
+4,Sun,2014-09-28,19,2,41,28,TCF Bank Stadium,4:25pm,3:19,52173,82,0,0,Atlanta Falcons ,3.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201409280min.htm
+4,Thu,2014-09-25,22,32,45,14,FedExField,8:26pm,3:10,80573,64,88,4,Washington Redskins ,3.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/201409250was.htm
+4,Sun,2014-09-28,27,15,33,14,Qualcomm Stadium,4:05pm,3:06,56553,73,54,8,San Diego Chargers ,12.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201409280sdg.htm
+4,Sun,2014-09-28,28,25,26,21,Levi's Stadium,4:25pm,3:25,70799,72,51,4,San Francisco 49ers ,5.0,50.0 ,U,http://www.pro-football-reference.com/boxscores/201409280sfo.htm
+4,Sun,2014-09-28,30,26,27,24,Heinz Field,1:03pm,3:23,62910,74,54,3,Pittsburgh Steelers ,7.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201409280pit.htm
+5,Sun,2014-10-05,4,11,17,14,Ford Field,1:03pm,3:24,62775,null,null,0,Detroit Lions ,6.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/201410050det.htm
+5,Sun,2014-10-05,5,6,31,24,Bank of America Stadium,1:03pm,3:10,73659,60,36,7,Carolina Panthers ,2.5,45.5 ,O,http://www.pro-football-reference.com/boxscores/201410050car.htm
+5,Sun,2014-10-05,8,31,29,28,LP Field,1:02pm,3:23,69143,67,31,13,Tennessee Titans ,1.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201410050oti.htm
+5,Sun,2014-10-05,9,13,20,17,AT&T Stadium,1:03pm,3:11,91159,null,null,0,Dallas Cowboys ,6.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201410050dal.htm
+5,Sun,2014-10-05,10,1,41,20,Sports Authority Field at Mile High,4:05pm,3:16,76895,71,20,10,Denver Broncos ,7.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/201410050den.htm
+5,Thu,2014-10-02,12,19,42,10,Lambeau Field,8:26pm,3:02,78054,62,98,6,Green Bay Packers ,7.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201410020gnb.htm
+5,Sun,2014-10-05,14,3,20,13,Lucas Oil Stadium,1:03pm,3:08,65258,null,null,0,Indianapolis Colts ,3.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201410050clt.htm
+5,Sun,2014-10-05,20,7,43,17,Gillette Stadium,8:43pm,3:00,68756,47,71,2,null,0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201410050nwe.htm
+5,Sun,2014-10-05,21,30,37,31,Louisiana Superdome,1:03pm,3:29,73004,null,null,0,New Orleans Saints ,10.0,48.0 ,O,http://www.pro-football-reference.com/boxscores/201410050nor.htm
+5,Sun,2014-10-05,22,2,30,20,MetLife Stadium,1:03pm,3:03,80307,55,45,9,New York Giants ,4.0,50.0 ,P,http://www.pro-football-reference.com/boxscores/201410050nyg.htm
+5,Sun,2014-10-05,25,17,34,28,Lincoln Financial Field,1:02pm,3:13,69596,59,37,16,Philadelphia Eagles ,6.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201410050phi.htm
+5,Sun,2014-10-05,26,15,17,9,EverBank Field,1:02pm,2:54,66198,71,30,10,Pittsburgh Steelers ,6.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/201410050jax.htm
+5,Sun,2014-10-05,27,23,31,0,Qualcomm Stadium,4:25pm,3:11,63471,91,11,8,San Diego Chargers ,6.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/201410050sdg.htm
+5,Sun,2014-10-05,28,16,22,17,Levi's Stadium,4:25pm,2:55,70799,85,28,1,San Francisco 49ers ,5.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201410050sfo.htm
+5,Mon,2014-10-06,29,32,27,17,FedExField,8:30pm,3:10,79522,67,47,4,Seattle Seahawks ,7.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201410060was.htm
+6,Sun,2014-10-12,1,32,30,20,University of Phoenix Stadium,3:25pm,3:20,61139,null,null,0,Arizona Cardinals ,5.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201410120crd.htm
+6,Sun,2014-10-12,3,30,48,17,Raymond James Stadium,1:02pm,3:01,60041,84,62,6,Baltimore Ravens ,3.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201410120tam.htm
+6,Sun,2014-10-12,6,2,27,13,Georgia Dome,4:25pm,3:04,70712,null,null,0,Atlanta Falcons ,3.5,55.5 ,U,http://www.pro-football-reference.com/boxscores/201410120atl.htm
+6,Sun,2014-10-12,7,5,37,37,Paul Brown Stadium,1:03pm,3:59,57053,60,61,5,Cincinnati Bengals ,7.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201410120cin.htm
+6,Sun,2014-10-12,8,26,31,10,FirstEnergy Stadium,1:02pm,3:07,67431,58,48,13,Cleveland Browns ,1.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201410120cle.htm
+6,Sun,2014-10-12,9,29,30,23,CenturyLink Field,4:26pm,3:06,68432,60,81,6,Seattle Seahawks ,9.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201410120sea.htm
+6,Sun,2014-10-12,10,23,31,17,MetLife Stadium,1:02pm,3:16,78160,61,37,5,Denver Broncos ,9.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201410120nyj.htm
+6,Sun,2014-10-12,11,19,17,3,TCF Bank Stadium,1:02pm,3:02,52213,53,0,0,Minnesota Vikings ,1.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/201410120min.htm
+6,Sun,2014-10-12,12,18,27,24,Sun Life Stadium,1:02pm,3:18,70875,86,63,13,Green Bay Packers ,1.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201410120mia.htm
+6,Thu,2014-10-09,14,13,33,28,NRG Stadium,8:26pm,3:15,71787,null,null,0,Indianapolis Colts ,2.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/201410090htx.htm
+6,Sun,2014-10-12,20,4,37,22,Ralph Wilson Stadium,1:02pm,3:20,70185,55,45,6,Buffalo Bills ,1.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201410120buf.htm
+6,Sun,2014-10-12,25,22,27,0,Lincoln Financial Field,8:41pm,2:52,69596,57,47,5,Philadelphia Eagles ,1.5,51.0 ,U,http://www.pro-football-reference.com/boxscores/201410120phi.htm
+6,Sun,2014-10-12,27,24,31,28,O.co Coliseum,4:05pm,3:08,53329,77,35,5,San Diego Chargers ,7.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/201410120rai.htm
+6,Mon,2014-10-13,28,17,31,17,Edward Jones Dome,8:30pm,3:14,56851,null,null,0,San Francisco 49ers ,3.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/201410130ram.htm
+6,Sun,2014-10-12,31,15,16,14,LP Field,1:02pm,3:05,69143,67,87,7,Tennessee Titans ,4.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201410120oti.htm
+7,Sun,2014-10-19,1,24,24,13,O.co Coliseum,4:25pm,2:57,52101,69,71,6,Arizona Cardinals ,3.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201410190rai.htm
+7,Sun,2014-10-19,3,2,29,7,M&T Bank Stadium,1:02pm,3:00,71184,54,0,14,Baltimore Ravens ,6.5,49.5 ,U,http://www.pro-football-reference.com/boxscores/201410190rav.htm
+7,Sun,2014-10-19,4,19,17,16,Ralph Wilson Stadium,1:02pm,3:10,68477,41,58,9,Buffalo Bills ,6.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/201410190buf.htm
+7,Sun,2014-10-19,9,22,31,21,AT&T Stadium,4:25pm,2:59,91028,null,null,0,Dallas Cowboys ,5.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201410190dal.htm
+7,Sun,2014-10-19,10,28,42,17,Sports Authority Field at Mile High,8:30pm,3:08,77047,67,25,4,Denver Broncos ,6.5,48.5 ,O,http://www.pro-football-reference.com/boxscores/201410190den.htm
+7,Sun,2014-10-19,11,21,24,23,Ford Field,1:02pm,3:11,63271,null,null,0,Detroit Lions ,1.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/201410190det.htm
+7,Sun,2014-10-19,12,5,38,17,Lambeau Field,1:02pm,3:07,78106,48,73,12,Green Bay Packers ,6.5,49.0 ,O,http://www.pro-football-reference.com/boxscores/201410190gnb.htm
+7,Sun,2014-10-19,14,7,27,0,Lucas Oil Stadium,1:02pm,3:06,66539,null,null,0,Indianapolis Colts ,3.5,50.5 ,U,http://www.pro-football-reference.com/boxscores/201410190clt.htm
+7,Sun,2014-10-19,15,8,24,6,EverBank Field,1:02pm,3:16,61341,76,54,8,Cleveland Browns ,4.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201410190jax.htm
+7,Sun,2014-10-19,16,27,23,20,Qualcomm Stadium,4:05pm,3:04,65260,75,55,2,San Diego Chargers ,3.0,46.0 ,U,http://www.pro-football-reference.com/boxscores/201410190sdg.htm
+7,Sun,2014-10-19,18,6,27,14,Soldier Field,1:00pm,2:50,62413,50,64,10,Chicago Bears ,3.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/201410190chi.htm
+7,Thu,2014-10-16,20,23,27,25,Gillette Stadium,8:25pm,3:04,68756,64,93,9,New England Patriots ,9.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/201410160nwe.htm
+7,Mon,2014-10-20,26,13,30,23,Heinz Field,8:30pm,3:07,56375,57,57,6,Pittsburgh Steelers ,3.0,44.5 ,O,http://www.pro-football-reference.com/boxscores/201410200pit.htm
+7,Sun,2014-10-19,17,29,28,26,Edward Jones Dome,1:00pm,3:02,57855,null,null,0,Seattle Seahawks ,7.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/201410190ram.htm
+7,Sun,2014-10-19,32,31,19,17,FedExField,1:02pm,3:06,75227,55,43,13,Washington Redskins ,6.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201410190was.htm
+8,Sun,2014-10-26,1,25,24,20,University of Phoenix Stadium,3:05pm,3:39,61789,null,null,0,Philadelphia Eagles ,1.0,48.5 ,U,http://www.pro-football-reference.com/boxscores/201410260crd.htm
+8,Sun,2014-10-26,4,23,43,23,MetLife Stadium,1:02pm,3:20,78160,59,44,16,New York Jets ,3.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/201410260nyj.htm
+8,Sun,2014-10-26,7,3,27,24,Paul Brown Stadium,1:02pm,2:59,55711,62,32,6,Baltimore Ravens ,3.0,44.5 ,O,http://www.pro-football-reference.com/boxscores/201410260cin.htm
+8,Sun,2014-10-26,8,24,23,13,FirstEnergy Stadium,4:25pm,3:10,67431,55,53,20,Cleveland Browns ,6.5,44.5 ,U,http://www.pro-football-reference.com/boxscores/201410260cle.htm
+8,Thu,2014-10-23,10,27,35,21,Sports Authority Field at Mile High,8:26pm,3:05,76907,68,24,3,Denver Broncos ,9.0,51.0 ,O,http://www.pro-football-reference.com/boxscores/201410230den.htm
+8,Sun,2014-10-26,11,2,22,21,Wembley Stadium,9:37am,3:00,83532,59,0,13,Detroit Lions ,3.5,45.5 ,U,http://www.pro-football-reference.com/boxscores/201410260atl.htm
+8,Sun,2014-10-26,13,31,30,16,LP Field,1:03pm,2:58,69143,73,45,2,Houston Texans ,3.5,43.0 ,O,http://www.pro-football-reference.com/boxscores/201410260oti.htm
+8,Sun,2014-10-26,16,17,34,7,Arrowhead Stadium,1:04pm,2:59,75972,70,73,8,Kansas City Chiefs ,7.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201410260kan.htm
+8,Sun,2014-10-26,18,15,27,13,EverBank Field,1:02pm,3:05,65633,76,45,6,Miami Dolphins ,7.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201410260jax.htm
+8,Sun,2014-10-26,19,30,19,13,Raymond James Stadium,1:03pm,3:09,56577,77,34,5,Tampa Bay Buccaneers ,1.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/201410260tam.htm
+8,Sun,2014-10-26,20,6,51,23,Gillette Stadium,1:02pm,3:02,68756,54,53,14,New England Patriots ,6.0,52.0 ,O,http://www.pro-football-reference.com/boxscores/201410260nwe.htm
+8,Sun,2014-10-26,21,12,44,23,Louisiana Superdome,8:30pm,3:03,73146,null,null,0,New Orleans Saints ,2.0,55.0 ,O,http://www.pro-football-reference.com/boxscores/201410260nor.htm
+8,Sun,2014-10-26,26,14,51,34,Heinz Field,4:25pm,3:31,62479,62,28,12,Indianapolis Colts ,4.5,48.5 ,O,http://www.pro-football-reference.com/boxscores/201410260pit.htm
+8,Sun,2014-10-26,29,5,13,9,Bank of America Stadium,1:04pm,2:49,74042,77,38,9,Seattle Seahawks ,6.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201410260car.htm
+8,Mon,2014-10-27,32,9,20,17,AT&T Stadium,8:30pm,3:13,87055,null,null,0,Dallas Cowboys ,9.5,49.0 ,U,http://www.pro-football-reference.com/boxscores/201410270dal.htm
+9,Sun,2014-11-02,1,9,28,17,AT&T Stadium,1:04pm,2:56,85688,null,null,0,Dallas Cowboys ,1.5,45.0 ,P,http://www.pro-football-reference.com/boxscores/201411020dal.htm
+9,Sun,2014-11-02,7,15,33,23,Paul Brown Stadium,1:02pm,3:13,60057,42,42,3,Cincinnati Bengals ,10.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201411020cin.htm
+9,Sun,2014-11-02,8,30,22,17,FirstEnergy Stadium,1:02pm,3:04,67431,42,67,8,Cleveland Browns ,7.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201411020cle.htm
+9,Mon,2014-11-03,14,22,40,24,MetLife Stadium,8:31pm,3:23,77975,55,26,6,Indianapolis Colts ,3.0,50.0 ,O,http://www.pro-football-reference.com/boxscores/201411030nyg.htm
+9,Sun,2014-11-02,16,23,24,10,Arrowhead Stadium,1:03pm,2:47,74127,57,30,20,Kansas City Chiefs ,8.5,41.5 ,U,http://www.pro-football-reference.com/boxscores/201411020kan.htm
+9,Sun,2014-11-02,18,27,37,0,Sun Life Stadium,1:02pm,2:58,70222,70,29,16,Miami Dolphins ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201411020mia.htm
+9,Sun,2014-11-02,19,32,29,26,TCF Bank Stadium,1:03pm,3:11,52252,50,0,10,null,0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201411020min.htm
+9,Sun,2014-11-02,20,10,43,21,Gillette Stadium,4:25pm,3:32,68756,35,63,19,Denver Broncos ,3.0,52.5 ,O,http://www.pro-football-reference.com/boxscores/201411020nwe.htm
+9,Thu,2014-10-30,21,5,28,10,Bank of America Stadium,8:30pm,2:53,73663,58,42,3,New Orleans Saints ,3.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201410300car.htm
+9,Sun,2014-11-02,25,13,31,21,NRG Stadium,1:03pm,3:02,71780,null,null,0,Philadelphia Eagles ,2.0,48.5 ,O,http://www.pro-football-reference.com/boxscores/201411020htx.htm
+9,Sun,2014-11-02,26,3,43,23,Heinz Field,8:30pm,3:39,63971,38,57,6,Pittsburgh Steelers ,2.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201411020pit.htm
+9,Sun,2014-11-02,29,24,30,24,CenturyLink Field,4:26pm,3:19,68337,54,80,9,Seattle Seahawks ,13.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/201411020sea.htm
+9,Sun,2014-11-02,17,28,13,10,Levi's Stadium,4:05pm,3:07,70799,61,55,8,San Francisco 49ers ,10.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201411020sfo.htm
+ConfChamp,Sun,2015-01-18,20,14,45,7,Gillette Stadium,6:50pm,3:12,68756,51,71,15,New England Patriots ,7.0,52.0 ,P,http://www.pro-football-reference.com/boxscores/201501180nwe.htm
+ConfChamp,Sun,2015-01-18,29,12,28,22,CenturyLink Field,3:06pm,3:24,68538,52,70,15,Seattle Seahawks ,8.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201501180sea.htm
+Division,Sun,2015-01-11,12,9,26,21,Lambeau Field,1:05pm,3:06,79704,24,62,0,Green Bay Packers ,6.0,51.5 ,U,http://www.pro-football-reference.com/boxscores/201501110gnb.htm
+Division,Sun,2015-01-11,14,10,24,13,Sports Authority Field at Mile High,4:40pm,3:08,76867,40,71,7,Denver Broncos ,7.0,53.5 ,U,http://www.pro-football-reference.com/boxscores/201501110den.htm
+Division,Sat,2015-01-10,20,3,35,31,Gillette Stadium,4:35pm,3:29,68756,20,30,12,New England Patriots ,7.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201501100nwe.htm
+Division,Sat,2015-01-10,29,5,31,17,CenturyLink Field,8:21pm,3:02,68524,48,89,0,Seattle Seahawks ,11.5,39.5 ,O,http://www.pro-football-reference.com/boxscores/201501100sea.htm
+SuperBowl,Sun,2015-02-01,20,29,28,24,University of Phoenix Stadium,6:30pm,3:36,70288,null,null,0,null,0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201502010sea.htm
+WildCard,Sat,2015-01-03,3,26,30,17,Heinz Field,8:15pm,3:10,62780,48,80,10,Pittsburgh Steelers ,3.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201501030pit.htm
+WildCard,Sat,2015-01-03,5,1,27,16,Bank of America Stadium,4:20pm,3:32,71849,51,82,6,Carolina Panthers ,6.5,37.5 ,O,http://www.pro-football-reference.com/boxscores/201501030car.htm
+WildCard,Sun,2015-01-04,9,11,24,20,AT&T Stadium,4:41pm,3:06,91410,null,null,0,Dallas Cowboys ,6.5,48.5 ,U,http://www.pro-football-reference.com/boxscores/201501040dal.htm
+WildCard,Sun,2015-01-04,14,7,26,10,Lucas Oil Stadium,1:05pm,3:06,63385,null,null,0,Indianapolis Colts ,3.0,48.0 ,U,http://www.pro-football-reference.com/boxscores/201501040clt.htm

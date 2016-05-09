@@ -1,0 +1,268 @@
+Week,Day,Date,WinnerID,LoserID,WinnerScore,LoserScore,Stadium,Time,Duration,Attendance,Temperature,Humidity,Wind,Favored Team , spread,over/under,Result,URL
+1,Sun,2012-09-09,1,29,20,16,University of Phoenix Stadium,3:25pm,3:35,60032,null,null,2,Seattle Seahawks ,3.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201209090crd.htm
+1,Sun,2012-09-09,2,16,40,24,Arrowhead Stadium,1:03pm,2:52,71180,69,47,7,Atlanta Falcons ,2.5,43.0 ,O,http://www.pro-football-reference.com/boxscores/201209090kan.htm
+1,Mon,2012-09-10,3,7,44,13,M&T Bank Stadium,7:10pm,3:04,71064,74,37,10,Baltimore Ravens ,7.0,43.0 ,O,http://www.pro-football-reference.com/boxscores/201209100rav.htm
+1,Sun,2012-09-09,6,14,41,21,Soldier Field,1:02pm,3:25,62341,67,66,13,Chicago Bears ,10.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/201209090chi.htm
+1,Wed,2012-09-05,9,22,24,17,MetLife Stadium,8:41pm,2:53,82287,77,63,5,New York Giants ,4.0,46.0 ,U,http://www.pro-football-reference.com/boxscores/201209050nyg.htm
+1,Sun,2012-09-09,10,26,31,19,Sports Authority Field at Mile High,8:31pm,3:08,76823,85,12,10,Denver Broncos ,2.0,45.5 ,O,http://www.pro-football-reference.com/boxscores/201209090den.htm
+1,Sun,2012-09-09,11,17,27,23,Ford Field,1:03pm,3:09,62315,null,null,0,Detroit Lions ,9.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/201209090det.htm
+1,Sun,2012-09-09,13,18,30,10,Reliant Stadium,1:03pm,2:59,71566,null,null,0,Houston Texans ,13.5,41.5 ,U,http://www.pro-football-reference.com/boxscores/201209090htx.htm
+1,Sun,2012-09-09,19,15,26,23,Mall of America Field,1:05pm,3:15,56607,null,null,0,Minnesota Vikings ,3.5,38.0 ,O,http://www.pro-football-reference.com/boxscores/201209090min.htm
+1,Sun,2012-09-09,20,31,34,13,LP Field,1:03pm,3:00,69143,74,45,4,New England Patriots ,6.5,48.0 ,U,http://www.pro-football-reference.com/boxscores/201209090oti.htm
+1,Sun,2012-09-09,23,4,48,28,MetLife Stadium,1:03pm,3:18,79088,74,48,1,New York Jets ,3.0,39.0 ,O,http://www.pro-football-reference.com/boxscores/201209090nyj.htm
+1,Sun,2012-09-09,25,8,17,16,Cleveland Browns Stadium,1:03pm,3:35,68693,68,57,9,Philadelphia Eagles ,9.5,42.0 ,U,http://www.pro-football-reference.com/boxscores/201209090cle.htm
+1,Mon,2012-09-10,27,24,22,14,O.co Coliseum,10:25pm,3:06,61896,67,59,11,Oakland Raiders ,1.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/201209100rai.htm
+1,Sun,2012-09-09,28,12,30,22,Lambeau Field,4:25pm,3:25,70523,72,40,11,Green Bay Packers ,5.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/201209090gnb.htm
+1,Sun,2012-09-09,30,5,16,10,Raymond James Stadium,4:26pm,3:01,51533,83,79,15,Carolina Panthers ,3.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201209090tam.htm
+1,Sun,2012-09-09,32,21,40,32,Louisiana Superdome,1:03pm,3:42,72180,null,null,0,New Orleans Saints ,9.0,50.5 ,O,http://www.pro-football-reference.com/boxscores/201209090nor.htm
+10,Sun,2012-11-11,3,24,55,20,M&T Bank Stadium,1:02pm,3:06,71339,61,56,6,Baltimore Ravens ,7.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201211110rav.htm
+10,Sun,2012-11-11,7,22,31,13,Paul Brown Stadium,1:03pm,3:01,56614,69,30,16,New York Giants ,4.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/201211110cin.htm
+10,Sun,2012-11-11,9,25,38,23,Lincoln Financial Field,4:25pm,3:12,69144,63,45,7,Dallas Cowboys ,2.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/201211110phi.htm
+10,Sun,2012-11-11,10,5,36,14,Bank of America Stadium,1:02pm,3:11,73939,71,38,5,Denver Broncos ,4.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201211110car.htm
+10,Sun,2012-11-11,13,6,13,6,Soldier Field,8:31pm,3:01,62410,54,90,8,Chicago Bears ,1.0,40.0 ,U,http://www.pro-football-reference.com/boxscores/201211110chi.htm
+10,Thu,2012-11-08,14,15,27,10,EverBank Field,8:30pm,3:03,63272,50,0,0,Indianapolis Colts ,3.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/201211080jax.htm
+10,Sun,2012-11-11,19,11,34,24,Mall of America Field,1:05pm,2:58,64059,null,null,0,Detroit Lions ,3.0,45.5 ,O,http://www.pro-football-reference.com/boxscores/201211110min.htm
+10,Sun,2012-11-11,20,4,37,31,Gillette Stadium,1:02pm,3:12,68756,60,55,12,New England Patriots ,13.5,54.0 ,O,http://www.pro-football-reference.com/boxscores/201211110nwe.htm
+10,Sun,2012-11-11,21,2,31,27,Louisiana Superdome,1:02pm,3:03,73126,null,null,0,Atlanta Falcons ,1.5,54.0 ,O,http://www.pro-football-reference.com/boxscores/201211110nor.htm
+10,Mon,2012-11-12,26,16,16,13,Heinz Field,8:40pm,3:05,57644,45,84,16,Pittsburgh Steelers ,13.0,40.0 ,U,http://www.pro-football-reference.com/boxscores/201211120pit.htm
+10,Sun,2012-11-11,28,17,24,24,Candlestick Park,4:25pm,3:50,69732,55,59,5,San Francisco 49ers ,13.0,38.0 ,O,http://www.pro-football-reference.com/boxscores/201211110sfo.htm
+10,Sun,2012-11-11,29,23,28,7,CenturyLink Field,4:06pm,2:54,67841,43,66,2,Seattle Seahawks ,5.5,38.5 ,U,http://www.pro-football-reference.com/boxscores/201211110sea.htm
+10,Sun,2012-11-11,30,27,34,24,Raymond James Stadium,1:03pm,2:55,54813,80,51,10,Tampa Bay Buccaneers ,3.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201211110tam.htm
+10,Sun,2012-11-11,31,18,37,3,Sun Life Stadium,1:03pm,2:54,60165,78,52,20,Miami Dolphins ,7.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201211110mia.htm
+11,Sun,2012-11-18,2,1,23,19,Georgia Dome,1:03pm,3:12,69630,null,null,0,Atlanta Falcons ,9.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201211180atl.htm
+11,Sun,2012-11-18,3,26,13,10,Heinz Field,8:30pm,3:06,63446,46,52,5,Baltimore Ravens ,3.0,40.5 ,U,http://www.pro-football-reference.com/boxscores/201211180pit.htm
+11,Thu,2012-11-15,4,18,19,14,Ralph Wilson Stadium,8:29pm,3:04,69118,35,73,5,Buffalo Bills ,2.5,46.0 ,U,http://www.pro-football-reference.com/boxscores/201211150buf.htm
+11,Sun,2012-11-18,7,16,28,6,Arrowhead Stadium,1:03pm,2:56,63336,59,37,15,Cincinnati Bengals ,3.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201211180kan.htm
+11,Sun,2012-11-18,9,8,23,20,Cowboys Stadium,1:04pm,3:47,81936,null,null,0,Dallas Cowboys ,7.0,43.5 ,U,http://www.pro-football-reference.com/boxscores/201211180dal.htm
+11,Sun,2012-11-18,10,27,30,23,Sports Authority Field at Mile High,4:25pm,3:23,76769,62,22,3,Denver Broncos ,7.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/201211180den.htm
+11,Sun,2012-11-18,12,11,24,20,Ford Field,1:02pm,3:15,63716,null,null,0,Green Bay Packers ,3.0,53.5 ,U,http://www.pro-football-reference.com/boxscores/201211180det.htm
+11,Sun,2012-11-18,13,15,43,37,Reliant Stadium,1:03pm,3:49,71676,null,null,0,Houston Texans ,15.5,40.5 ,O,http://www.pro-football-reference.com/boxscores/201211180htx.htm
+11,Sun,2012-11-18,20,14,59,24,Gillette Stadium,4:25pm,3:03,68756,42,62,14,New England Patriots ,10.0,55.0 ,O,http://www.pro-football-reference.com/boxscores/201211180nwe.htm
+11,Sun,2012-11-18,21,24,38,17,O.co Coliseum,4:05pm,3:11,56880,61,62,3,New Orleans Saints ,6.5,56.0 ,U,http://www.pro-football-reference.com/boxscores/201211180rai.htm
+11,Sun,2012-11-18,23,17,27,13,Edward Jones Dome,1:00pm,2:59,57711,33,null,0,St. Louis Rams ,3.5,38.5 ,O,http://www.pro-football-reference.com/boxscores/201211180ram.htm
+11,Mon,2012-11-19,28,6,32,7,Candlestick Park,8:40pm,2:53,69732,64,52,12,San Francisco 49ers ,5.0,35.0 ,O,http://www.pro-football-reference.com/boxscores/201211190sfo.htm
+11,Sun,2012-11-18,30,5,27,21,Bank of America Stadium,1:04pm,3:38,72603,53,15,9,Tampa Bay Buccaneers ,1.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201211180car.htm
+11,Sun,2012-11-18,32,25,31,6,FedExField,1:03pm,3:09,79327,52,55,9,Washington Redskins ,3.5,46.0 ,U,http://www.pro-football-reference.com/boxscores/201211180was.htm
+12,Sun,2012-11-25,2,30,24,23,Raymond James Stadium,1:02pm,2:52,54400,65,30,7,Atlanta Falcons ,1.5,51.5 ,U,http://www.pro-football-reference.com/boxscores/201211250tam.htm
+12,Sun,2012-11-25,3,27,16,13,Qualcomm Stadium,4:05pm,3:49,57882,59,82,1,Baltimore Ravens ,1.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201211250sdg.htm
+12,Mon,2012-11-26,5,25,30,22,Lincoln Financial Field,8:32pm,3:03,69144,36,42,2,Carolina Panthers ,3.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/201211260phi.htm
+12,Sun,2012-11-25,6,19,28,10,Soldier Field,1:00pm,3:08,62306,41,26,5,Chicago Bears ,6.5,39.0 ,U,http://www.pro-football-reference.com/boxscores/201211250chi.htm
+12,Sun,2012-11-25,7,24,34,10,Paul Brown Stadium,1:02pm,3:11,56503,41,47,9,Cincinnati Bengals ,8.0,51.0 ,U,http://www.pro-football-reference.com/boxscores/201211250cin.htm
+12,Sun,2012-11-25,8,26,20,14,Cleveland Browns Stadium,1:02pm,3:09,69661,34,65,10,Pittsburgh Steelers ,2.0,33.5 ,O,http://www.pro-football-reference.com/boxscores/201211250cle.htm
+12,Sun,2012-11-25,10,16,17,9,Arrowhead Stadium,1:03pm,2:59,74244,52,38,5,Denver Broncos ,10.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/201211250kan.htm
+12,Thu,2012-11-22,13,11,34,31,Ford Field,12:39pm,4:00,64827,null,30,0,Houston Texans ,4.0,49.0 ,O,http://www.pro-football-reference.com/boxscores/201211220det.htm
+12,Sun,2012-11-25,14,4,20,13,Lucas Oil Stadium,1:03pm,3:08,64366,33,18,0,Indianapolis Colts ,3.0,51.5 ,U,http://www.pro-football-reference.com/boxscores/201211250clt.htm
+12,Sun,2012-11-25,15,31,24,19,EverBank Field,1:03pm,3:03,63323,60,0,4,Tennessee Titans ,3.5,45.0 ,U,http://www.pro-football-reference.com/boxscores/201211250jax.htm
+12,Sun,2012-11-25,18,29,24,21,Sun Life Stadium,1:03pm,2:55,51295,72,51,6,Seattle Seahawks ,3.0,38.0 ,O,http://www.pro-football-reference.com/boxscores/201211250mia.htm
+12,Thu,2012-11-22,20,23,49,19,MetLife Stadium,8:31pm,3:02,79088,46,72,2,New England Patriots ,7.0,48.5 ,O,http://www.pro-football-reference.com/boxscores/201211220nyj.htm
+12,Sun,2012-11-25,22,12,38,10,MetLife Stadium,8:30pm,3:00,80365,34,60,17,New York Giants ,2.5,51.5 ,U,http://www.pro-football-reference.com/boxscores/201211250nyg.htm
+12,Sun,2012-11-25,28,21,31,21,Louisiana Superdome,4:25pm,3:18,73147,null,32,2,San Francisco 49ers ,1.5,50.0 ,O,http://www.pro-football-reference.com/boxscores/201211250nor.htm
+12,Sun,2012-11-25,17,1,31,17,University of Phoenix Stadium,4:25pm,3:08,60062,null,null,2,Arizona Cardinals ,1.0,36.5 ,O,http://www.pro-football-reference.com/boxscores/201211250crd.htm
+12,Thu,2012-11-22,32,9,38,31,Cowboys Stadium,4:41pm,3:29,90166,null,null,4,Dallas Cowboys ,3.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201211220dal.htm
+13,Thu,2012-11-29,2,21,23,13,Georgia Dome,8:29pm,3:09,70514,null,22,2,Atlanta Falcons ,3.5,55.0 ,U,http://www.pro-football-reference.com/boxscores/201211290atl.htm
+13,Sun,2012-12-02,4,15,34,18,Ralph Wilson Stadium,1:02pm,3:06,53971,52,87,17,Buffalo Bills ,6.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/201212020buf.htm
+13,Sun,2012-12-02,7,27,20,13,Qualcomm Stadium,4:25pm,3:11,54980,66,65,14,Cincinnati Bengals ,2.5,46.0 ,U,http://www.pro-football-reference.com/boxscores/201212020sdg.htm
+13,Sun,2012-12-02,8,24,20,17,O.co Coliseum,4:25pm,3:03,43641,61,84,21,Cleveland Browns ,2.5,39.5 ,U,http://www.pro-football-reference.com/boxscores/201212020rai.htm
+13,Sun,2012-12-02,9,25,38,33,Cowboys Stadium,8:20pm,3:17,81851,null,null,2,Dallas Cowboys ,10.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/201212020dal.htm
+13,Sun,2012-12-02,10,30,31,23,Sports Authority Field at Mile High,4:05pm,3:12,76432,64,16,4,Denver Broncos ,7.5,50.0 ,O,http://www.pro-football-reference.com/boxscores/201212020den.htm
+13,Sun,2012-12-02,12,19,23,14,Lambeau Field,1:02pm,2:58,70567,45,79,8,Green Bay Packers ,7.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201212020gnb.htm
+13,Sun,2012-12-02,13,31,24,10,LP Field,1:02pm,3:09,69143,66,60,19,Houston Texans ,7.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201212020oti.htm
+13,Sun,2012-12-02,14,11,35,33,Ford Field,1:03pm,3:29,63887,null,30,0,Detroit Lions ,7.0,51.0 ,O,http://www.pro-football-reference.com/boxscores/201212020det.htm
+13,Sun,2012-12-02,16,5,27,21,Arrowhead Stadium,1:03pm,2:56,62860,61,60,0,Carolina Panthers ,6.0,41.0 ,O,http://www.pro-football-reference.com/boxscores/201212020kan.htm
+13,Sun,2012-12-02,20,18,23,16,Sun Life Stadium,1:02pm,3:08,72114,77,66,18,New England Patriots ,9.0,51.5 ,U,http://www.pro-football-reference.com/boxscores/201212020mia.htm
+13,Sun,2012-12-02,23,1,7,6,MetLife Stadium,1:03pm,2:58,79088,46,89,6,New York Jets ,6.0,36.5 ,U,http://www.pro-football-reference.com/boxscores/201212020nyj.htm
+13,Sun,2012-12-02,26,3,23,20,M&T Bank Stadium,4:25pm,3:02,71442,57,62,9,Baltimore Ravens ,7.5,36.5 ,O,http://www.pro-football-reference.com/boxscores/201212020rav.htm
+13,Sun,2012-12-02,29,6,23,17,Soldier Field,1:03pm,3:19,62264,61,76,4,Chicago Bears ,3.5,37.0 ,O,http://www.pro-football-reference.com/boxscores/201212020chi.htm
+13,Sun,2012-12-02,17,28,16,13,Edward Jones Dome,1:00pm,3:36,57279,33,16,3,San Francisco 49ers ,8.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201212020ram.htm
+13,Mon,2012-12-03,32,22,17,16,FedExField,8:40pm,3:02,80246,55,98,1,New York Giants ,3.0,50.0 ,U,http://www.pro-football-reference.com/boxscores/201212030was.htm
+14,Sun,2012-12-09,5,2,30,20,Bank of America Stadium,1:04pm,2:58,73292,70,50,4,Atlanta Falcons ,3.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201212090car.htm
+14,Sun,2012-12-09,8,16,30,7,Cleveland Browns Stadium,1:02pm,2:52,62422,44,70,5,Cleveland Browns ,7.0,38.0 ,U,http://www.pro-football-reference.com/boxscores/201212090cle.htm
+14,Sun,2012-12-09,9,7,20,19,Paul Brown Stadium,1:03pm,3:16,63590,53,96,6,Cincinnati Bengals ,3.5,46.0 ,U,http://www.pro-football-reference.com/boxscores/201212090cin.htm
+14,Thu,2012-12-06,10,24,26,13,O.co Coliseum,8:30pm,2:59,53807,57,73,7,Denver Broncos ,10.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201212060rai.htm
+14,Sun,2012-12-09,12,11,27,20,Lambeau Field,8:30pm,3:08,70382,33,92,10,Green Bay Packers ,6.5,49.0 ,U,http://www.pro-football-reference.com/boxscores/201212090gnb.htm
+14,Sun,2012-12-09,14,31,27,23,Lucas Oil Stadium,1:02pm,3:05,64688,33,75,0,Indianapolis Colts ,4.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201212090clt.htm
+14,Sun,2012-12-09,19,6,21,14,Mall of America Field,1:05pm,3:07,64134,null,null,0,Chicago Bears ,1.5,40.5 ,U,http://www.pro-football-reference.com/boxscores/201212090min.htm
+14,Mon,2012-12-10,20,13,42,14,Gillette Stadium,8:40pm,2:58,68756,59,91,7,New England Patriots ,5.5,51.0 ,O,http://www.pro-football-reference.com/boxscores/201212100nwe.htm
+14,Sun,2012-12-09,22,21,52,27,MetLife Stadium,4:26pm,3:12,81437,42,88,1,New York Giants ,4.5,51.5 ,O,http://www.pro-football-reference.com/boxscores/201212090nyg.htm
+14,Sun,2012-12-09,23,15,17,10,EverBank Field,1:02pm,3:06,67027,67,0,10,New York Jets ,3.0,39.0 ,U,http://www.pro-football-reference.com/boxscores/201212090jax.htm
+14,Sun,2012-12-09,25,30,23,21,Raymond James Stadium,1:03pm,3:24,64941,69,92,1,Tampa Bay Buccaneers ,7.0,48.0 ,U,http://www.pro-football-reference.com/boxscores/201212090tam.htm
+14,Sun,2012-12-09,27,26,34,24,Heinz Field,1:02pm,3:24,61359,45,80,10,Pittsburgh Steelers ,7.5,38.0 ,O,http://www.pro-football-reference.com/boxscores/201212090pit.htm
+14,Sun,2012-12-09,28,18,27,13,Candlestick Park,4:05pm,2:56,69732,62,44,3,San Francisco 49ers ,10.5,38.5 ,O,http://www.pro-football-reference.com/boxscores/201212090sfo.htm
+14,Sun,2012-12-09,29,1,58,0,CenturyLink Field,4:26pm,3:08,67685,48,82,8,Seattle Seahawks ,10.0,36.0 ,O,http://www.pro-football-reference.com/boxscores/201212090sea.htm
+14,Sun,2012-12-09,17,4,15,12,Ralph Wilson Stadium,1:02pm,2:57,68109,37,74,14,Buffalo Bills ,3.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201212090buf.htm
+14,Sun,2012-12-09,32,3,31,28,FedExField,1:03pm,3:19,81178,51,95,7,Washington Redskins ,1.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/201212090was.htm
+15,Sun,2012-12-16,1,11,38,10,University of Phoenix Stadium,4:05pm,3:12,60483,null,null,0,Detroit Lions ,6.5,43.5 ,O,http://www.pro-football-reference.com/boxscores/201212160crd.htm
+15,Sun,2012-12-16,2,22,34,0,Georgia Dome,1:03pm,2:46,70741,null,30,0,null,0,50.0 ,U,http://www.pro-football-reference.com/boxscores/201212160atl.htm
+15,Sun,2012-12-16,5,27,31,7,Qualcomm Stadium,4:05pm,2:57,53832,59,64,6,San Diego Chargers ,3.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201212160sdg.htm
+15,Thu,2012-12-13,7,25,34,13,Lincoln Financial Field,8:30pm,3:16,69144,36,55,1,Cincinnati Bengals ,5.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201212130phi.htm
+15,Sun,2012-12-16,9,26,27,24,Cowboys Stadium,4:25pm,3:26,95595,null,null,2,Pittsburgh Steelers ,2.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/201212160dal.htm
+15,Sun,2012-12-16,10,3,34,17,M&T Bank Stadium,1:02pm,3:05,71317,53,74,7,Denver Broncos ,3.0,48.0 ,O,http://www.pro-football-reference.com/boxscores/201212160rav.htm
+15,Sun,2012-12-16,12,6,21,13,Soldier Field,1:03pm,2:58,62534,44,79,9,Green Bay Packers ,3.0,43.5 ,U,http://www.pro-football-reference.com/boxscores/201212160chi.htm
+15,Sun,2012-12-16,13,14,29,17,Reliant Stadium,1:02pm,3:04,71702,null,null,0,Houston Texans ,10.5,48.0 ,U,http://www.pro-football-reference.com/boxscores/201212160htx.htm
+15,Sun,2012-12-16,18,15,24,3,Sun Life Stadium,1:03pm,2:56,53667,80,60,13,Miami Dolphins ,7.5,38.0 ,U,http://www.pro-football-reference.com/boxscores/201212160mia.htm
+15,Sun,2012-12-16,19,17,36,22,Edward Jones Dome,1:00pm,3:12,55751,22,92,1,St. Louis Rams ,2.5,39.5 ,O,http://www.pro-football-reference.com/boxscores/201212160ram.htm
+15,Sun,2012-12-16,21,30,41,0,Louisiana Superdome,1:03pm,3:05,73096,null,40,0,New Orleans Saints ,3.5,55.0 ,U,http://www.pro-football-reference.com/boxscores/201212160nor.htm
+15,Sun,2012-12-16,24,16,15,0,O.co Coliseum,4:25pm,2:50,51446,54,77,2,Oakland Raiders ,4.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201212160rai.htm
+15,Sun,2012-12-16,28,20,41,34,Gillette Stadium,8:30pm,3:40,68756,34,100,5,New England Patriots ,5.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201212160nwe.htm
+15,Sun,2012-12-16,29,4,50,17,Rogers Centre,4:05pm,3:05,40770,null,null,0,Seattle Seahawks ,5.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201212160buf.htm
+15,Mon,2012-12-17,31,23,14,10,LP Field,8:40pm,2:59,69143,54,83,10,Tennessee Titans ,1.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201212170oti.htm
+15,Sun,2012-12-16,32,8,38,21,Cleveland Browns Stadium,1:03pm,3:06,65083,59,67,18,Cleveland Browns ,4.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/201212160cle.htm
+16,Sat,2012-12-22,2,11,31,18,Ford Field,8:40pm,2:58,63849,null,34,4,Atlanta Falcons ,4.0,50.5 ,U,http://www.pro-football-reference.com/boxscores/201212220det.htm
+16,Sun,2012-12-23,3,22,33,14,M&T Bank Stadium,4:25pm,3:04,71470,51,33,7,New York Giants ,2.5,47.0 ,P,http://www.pro-football-reference.com/boxscores/201212230rav.htm
+16,Sun,2012-12-23,5,24,17,6,Bank of America Stadium,1:04pm,2:55,73026,53,43,3,Carolina Panthers ,9.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201212230car.htm
+16,Sun,2012-12-23,6,1,28,13,University of Phoenix Stadium,4:25pm,3:04,62734,null,null,2,Chicago Bears ,7.0,36.5 ,O,http://www.pro-football-reference.com/boxscores/201212230crd.htm
+16,Sun,2012-12-23,7,26,13,10,Heinz Field,1:02pm,3:15,63236,35,56,10,Pittsburgh Steelers ,3.5,40.0 ,U,http://www.pro-football-reference.com/boxscores/201212230pit.htm
+16,Sun,2012-12-23,10,8,34,12,Sports Authority Field at Mile High,4:05pm,3:07,76351,51,22,15,Denver Broncos ,11.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201212230den.htm
+16,Sun,2012-12-23,12,31,55,7,Lambeau Field,1:02pm,3:06,70508,24,68,9,Green Bay Packers ,11.0,44.5 ,O,http://www.pro-football-reference.com/boxscores/201212230gnb.htm
+16,Sun,2012-12-23,14,16,20,13,Arrowhead Stadium,1:03pm,3:04,62938,25,74,6,Indianapolis Colts ,6.0,41.5 ,U,http://www.pro-football-reference.com/boxscores/201212230kan.htm
+16,Sun,2012-12-23,18,4,24,10,Sun Life Stadium,1:02pm,3:10,54462,73,47,8,Miami Dolphins ,5.0,43.0 ,U,http://www.pro-football-reference.com/boxscores/201212230mia.htm
+16,Sun,2012-12-23,19,13,23,6,Reliant Stadium,1:03pm,2:51,71688,null,null,0,Houston Texans ,7.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/201212230htx.htm
+16,Sun,2012-12-23,20,15,23,16,EverBank Field,1:02pm,3:02,70251,58,0,0,New England Patriots ,14.5,51.0 ,U,http://www.pro-football-reference.com/boxscores/201212230jax.htm
+16,Sun,2012-12-23,21,9,34,31,Cowboys Stadium,1:02pm,3:37,92570,null,null,0,Dallas Cowboys ,3.0,54.5 ,O,http://www.pro-football-reference.com/boxscores/201212230dal.htm
+16,Sun,2012-12-23,27,23,27,17,MetLife Stadium,1:03pm,3:11,79088,39,54,13,New York Jets ,3.0,38.0 ,O,http://www.pro-football-reference.com/boxscores/201212230nyj.htm
+16,Sun,2012-12-23,29,28,42,13,CenturyLink Field,8:31pm,3:02,68161,45,76,3,Seattle Seahawks ,2.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/201212230sea.htm
+16,Sun,2012-12-23,17,30,28,13,Raymond James Stadium,1:03pm,3:03,51535,59,28,8,Tampa Bay Buccaneers ,3.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201212230tam.htm
+16,Sun,2012-12-23,32,25,27,20,Lincoln Financial Field,1:03pm,2:53,69144,40,52,11,Washington Redskins ,6.0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201212230phi.htm
+17,Sun,2012-12-30,4,23,28,9,Ralph Wilson Stadium,1:02pm,3:03,54533,28,53,18,Buffalo Bills ,3.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/201212300buf.htm
+17,Sun,2012-12-30,5,21,44,38,Louisiana Superdome,1:03pm,3:24,73124,null,40,0,New Orleans Saints ,4.0,54.0 ,O,http://www.pro-football-reference.com/boxscores/201212300nor.htm
+17,Sun,2012-12-30,6,11,26,24,Ford Field,1:03pm,3:02,64451,null,null,0,Chicago Bears ,3.0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201212300det.htm
+17,Sun,2012-12-30,7,3,23,17,Paul Brown Stadium,1:03pm,3:13,61565,26,72,8,Cincinnati Bengals ,3.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201212300cin.htm
+17,Sun,2012-12-30,10,16,38,3,Sports Authority Field at Mile High,4:25pm,2:45,76502,35,41,10,Denver Broncos ,17.0,41.5 ,U,http://www.pro-football-reference.com/boxscores/201212300den.htm
+17,Sun,2012-12-30,14,13,28,16,Lucas Oil Stadium,1:02pm,2:59,66957,66,79,5,Houston Texans ,6.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201212300clt.htm
+17,Sun,2012-12-30,19,12,37,34,Mall of America Field,4:25pm,3:20,64134,null,null,2,Green Bay Packers ,3.0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201212300min.htm
+17,Sun,2012-12-30,20,18,28,0,Gillette Stadium,4:25pm,2:56,68756,28,45,15,New England Patriots ,10.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201212300nwe.htm
+17,Sun,2012-12-30,22,25,42,7,MetLife Stadium,1:04pm,2:49,80657,32,50,13,New York Giants ,6.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/201212300nyg.htm
+17,Sun,2012-12-30,26,8,24,10,Heinz Field,1:02pm,2:52,51831,28,78,12,Pittsburgh Steelers ,9.5,36.0 ,U,http://www.pro-football-reference.com/boxscores/201212300pit.htm
+17,Sun,2012-12-30,27,24,24,21,Qualcomm Stadium,4:21pm,3:04,66486,50,80,3,San Diego Chargers ,8.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/201212300sdg.htm
+17,Sun,2012-12-30,28,1,27,13,Candlestick Park,4:25pm,2:50,69732,50,70,5,San Francisco 49ers ,16.5,39.5 ,O,http://www.pro-football-reference.com/boxscores/201212300sfo.htm
+17,Sun,2012-12-30,29,17,20,13,CenturyLink Field,4:26pm,3:18,67936,41,77,1,Seattle Seahawks ,12.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201212300sea.htm
+17,Sun,2012-12-30,30,2,22,17,Georgia Dome,1:02pm,2:58,69644,null,20,0,Atlanta Falcons ,3.0,46.0 ,U,http://www.pro-football-reference.com/boxscores/201212300atl.htm
+17,Sun,2012-12-30,31,15,38,20,LP Field,1:02pm,3:00,69143,39,50,4,Tennessee Titans ,5.5,42.0 ,O,http://www.pro-football-reference.com/boxscores/201212300oti.htm
+17,Sun,2012-12-30,32,9,28,18,FedExField,8:31pm,2:57,82845,37,53,9,Washington Redskins ,3.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201212300was.htm
+2,Sun,2012-09-16,1,20,20,18,Gillette Stadium,1:02pm,3:19,68756,64,55,2,New England Patriots ,13.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201209160nwe.htm
+2,Mon,2012-09-17,2,10,27,21,Georgia Dome,8:41pm,3:27,70427,null,24,4,Atlanta Falcons ,3.0,50.5 ,U,http://www.pro-football-reference.com/boxscores/201209170atl.htm
+2,Sun,2012-09-16,4,16,35,17,Ralph Wilson Stadium,1:02pm,3:11,69402,66,55,11,Buffalo Bills ,3.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201209160buf.htm
+2,Sun,2012-09-16,5,21,35,27,Bank of America Stadium,1:03pm,3:09,72879,71,85,4,New Orleans Saints ,3.0,54.0 ,O,http://www.pro-football-reference.com/boxscores/201209160car.htm
+2,Sun,2012-09-16,7,8,34,27,Paul Brown Stadium,1:02pm,3:16,63036,76,37,5,Cincinnati Bengals ,7.0,39.5 ,O,http://www.pro-football-reference.com/boxscores/201209160cin.htm
+2,Thu,2012-09-13,12,6,23,10,Lambeau Field,8:29pm,3:12,70543,60,67,0,Green Bay Packers ,5.5,51.0 ,U,http://www.pro-football-reference.com/boxscores/201209130gnb.htm
+2,Sun,2012-09-16,13,15,27,7,EverBank Field,1:03pm,3:00,62907,83,66,5,Houston Texans ,7.0,40.0 ,U,http://www.pro-football-reference.com/boxscores/201209160jax.htm
+2,Sun,2012-09-16,14,19,23,20,Lucas Oil Stadium,1:03pm,3:12,63912,00,52,1,Minnesota Vikings ,3.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201209160clt.htm
+2,Sun,2012-09-16,18,24,35,13,Sun Life Stadium,1:02pm,3:10,54245,80,75,8,Oakland Raiders ,2.0,41.0 ,O,http://www.pro-football-reference.com/boxscores/201209160mia.htm
+2,Sun,2012-09-16,22,30,41,34,MetLife Stadium,1:03pm,3:23,76964,73,39,1,New York Giants ,8.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/201209160nyg.htm
+2,Sun,2012-09-16,25,3,24,23,Lincoln Financial Field,1:03pm,3:38,69144,72,40,5,Philadelphia Eagles ,3.0,47.0 ,P,http://www.pro-football-reference.com/boxscores/201209160phi.htm
+2,Sun,2012-09-16,26,23,27,10,Heinz Field,4:25pm,3:08,64511,71,36,2,Pittsburgh Steelers ,4.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/201209160pit.htm
+2,Sun,2012-09-16,27,31,38,10,Qualcomm Stadium,4:25pm,3:03,60804,85,37,8,San Diego Chargers ,6.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/201209160sdg.htm
+2,Sun,2012-09-16,28,11,27,19,Candlestick Park,8:30pm,3:06,69732,62,62,15,San Francisco 49ers ,7.0,46.0 ,P,http://www.pro-football-reference.com/boxscores/201209160sfo.htm
+2,Sun,2012-09-16,29,9,27,7,CenturyLink Field,4:06pm,2:57,68008,68,56,4,Dallas Cowboys ,3.0,43.0 ,U,http://www.pro-football-reference.com/boxscores/201209160sea.htm
+2,Sun,2012-09-16,17,32,31,28,Edward Jones Dome,4:05pm,3:26,53979,88,26,2,Washington Redskins ,3.5,42.5 ,O,http://www.pro-football-reference.com/boxscores/201209160ram.htm
+3,Sun,2012-09-23,1,25,27,6,University of Phoenix Stadium,3:05pm,3:06,60436,null,null,0,Philadelphia Eagles ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201209230crd.htm
+3,Sun,2012-09-23,2,27,27,3,Qualcomm Stadium,4:05pm,2:55,61297,82,52,13,San Diego Chargers ,3.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/201209230sdg.htm
+3,Sun,2012-09-23,3,20,31,30,M&T Bank Stadium,8:31pm,3:24,71269,67,39,5,Baltimore Ravens ,3.0,48.0 ,O,http://www.pro-football-reference.com/boxscores/201209230rav.htm
+3,Sun,2012-09-23,4,8,24,14,Cleveland Browns Stadium,1:02pm,3:10,69353,53,79,9,Buffalo Bills ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201209230cle.htm
+3,Sun,2012-09-23,6,17,23,6,Soldier Field,1:04pm,3:06,62224,56,42,10,Chicago Bears ,7.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201209230chi.htm
+3,Sun,2012-09-23,7,32,38,31,FedExField,1:03pm,3:21,80060,65,40,6,Washington Redskins ,3.0,49.5 ,O,http://www.pro-football-reference.com/boxscores/201209230was.htm
+3,Sun,2012-09-23,9,30,16,10,Cowboys Stadium,1:05pm,3:22,81984,null,null,0,Dallas Cowboys ,7.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201209230dal.htm
+3,Sun,2012-09-23,13,10,31,25,Sports Authority Field at Mile High,4:25pm,3:27,76566,84,10,13,Houston Texans ,1.5,43.5 ,O,http://www.pro-football-reference.com/boxscores/201209230den.htm
+3,Sun,2012-09-23,15,14,22,17,Lucas Oil Stadium,1:03pm,3:25,63536,77,25,2,Indianapolis Colts ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201209230clt.htm
+3,Sun,2012-09-23,16,21,27,24,Louisiana Superdome,1:02pm,3:54,72226,null,20,0,New Orleans Saints ,8.5,51.5 ,U,http://www.pro-football-reference.com/boxscores/201209230nor.htm
+3,Sun,2012-09-23,19,28,24,13,Mall of America Field,1:05pm,3:13,57288,null,null,0,San Francisco 49ers ,7.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201209230min.htm
+3,Thu,2012-09-20,22,5,36,7,Bank of America Stadium,8:20pm,3:06,73951,75,56,3,Carolina Panthers ,3.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201209200car.htm
+3,Sun,2012-09-23,23,18,23,20,Sun Life Stadium,1:03pm,4:00,60102,83,76,4,New York Jets ,3.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/201209230mia.htm
+3,Sun,2012-09-23,24,26,34,31,O.co Coliseum,4:25pm,3:39,62373,69,53,10,Pittsburgh Steelers ,4.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201209230rai.htm
+3,Mon,2012-09-24,29,12,14,12,CenturyLink Field,8:41pm,3:16,68218,67,49,3,Green Bay Packers ,3.5,45.5 ,U,http://www.pro-football-reference.com/boxscores/201209240sea.htm
+3,Sun,2012-09-23,31,11,44,41,LP Field,1:03pm,3:51,69143,68,32,5,Detroit Lions ,4.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201209230oti.htm
+4,Sun,2012-09-30,1,18,24,21,University of Phoenix Stadium,3:05pm,3:27,60183,null,null,0,Arizona Cardinals ,4.0,39.5 ,O,http://www.pro-football-reference.com/boxscores/201209300crd.htm
+4,Sun,2012-09-30,2,5,30,28,Georgia Dome,1:03pm,3:21,69594,null,30,0,Atlanta Falcons ,7.0,48.0 ,O,http://www.pro-football-reference.com/boxscores/201209300atl.htm
+4,Thu,2012-09-27,3,8,23,16,M&T Bank Stadium,8:30pm,3:15,70944,77,64,5,Baltimore Ravens ,11.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/201209270rav.htm
+4,Mon,2012-10-01,6,9,34,18,Cowboys Stadium,8:40pm,2:58,90080,noll,null,4,Dallas Cowboys ,3.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/201210010dal.htm
+4,Sun,2012-09-30,7,15,27,10,EverBank Field,4:05pm,2:46,63030,86,62,7,Jacksonville Jaguars ,1.5,45.5 ,U,http://www.pro-football-reference.com/boxscores/201209300jax.htm
+4,Sun,2012-09-30,10,24,37,6,Sports Authority Field at Mile High,4:05pm,2:55,76787,72,26,6,Denver Broncos ,6.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201209300den.htm
+4,Sun,2012-09-30,12,21,28,27,Lambeau Field,4:25pm,3:18,70571,64,58,7,Green Bay Packers ,7.5,54.0 ,O,http://www.pro-football-reference.com/boxscores/201209300gnb.htm
+4,Sun,2012-09-30,13,31,38,14,Reliant Stadium,1:03pm,2:54,71581,null,null,0,Houston Texans ,13.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/201209300htx.htm
+4,Sun,2012-09-30,19,11,20,13,Ford Field,1:03pm,3:01,63616,null,20,0,Detroit Lions ,4.0,48.5 ,U,http://www.pro-football-reference.com/boxscores/201209300det.htm
+4,Sun,2012-09-30,20,4,52,28,Ralph Wilson Stadium,1:02pm,3:17,70684,58,72,7,New England Patriots ,4.5,48.5 ,O,http://www.pro-football-reference.com/boxscores/201209300buf.htm
+4,Sun,2012-09-30,25,22,19,17,Lincoln Financial Field,8:30pm,3:09,69144,63,59,6,Philadelphia Eagles ,1.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/201209300phi.htm
+4,Sun,2012-09-30,27,16,37,20,Arrowhead Stadium,1:03pm,3:14,69979,67,54,0,San Diego Chargers ,2.5,43.5 ,O,http://www.pro-football-reference.com/boxscores/201209300kan.htm
+4,Sun,2012-09-30,28,23,34,0,MetLife Stadium,1:03pm,2:56,79088,67,50,4,San Francisco 49ers ,4.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201209300nyj.htm
+4,Sun,2012-09-30,17,29,19,13,Edward Jones Dome,1:00pm,2:56,53193,33,96,5,Seattle Seahawks ,2.5,39.0 ,U,http://www.pro-football-reference.com/boxscores/201209300ram.htm
+4,Sun,2012-09-30,32,30,24,22,Raymond James Stadium,4:25pm,3:31,58191,89,52,11,Tampa Bay Buccaneers ,2.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201209300tam.htm
+5,Sun,2012-10-07,2,32,24,17,FedExField,1:04pm,3:01,75337,52,77,3,Atlanta Falcons ,3.0,51.0 ,U,http://www.pro-football-reference.com/boxscores/201210070was.htm
+5,Sun,2012-10-07,3,16,9,6,Arrowhead Stadium,1:02pm,2:54,68803,47,45,0,Baltimore Ravens ,6.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201210070kan.htm
+5,Sun,2012-10-07,6,15,41,3,EverBank Field,4:05pm,3:02,67012,88,53,3,Chicago Bears ,6.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/201210070jax.htm
+5,Mon,2012-10-08,13,23,23,17,MetLife Stadium,8:40pm,3:03,79088,52,69,4,Houston Texans ,10.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201210080nyj.htm
+5,Sun,2012-10-07,14,12,30,27,Lucas Oil Stadium,1:03pm,3:38,67020,77,98,3,Green Bay Packers ,6.5,49.0 ,O,http://www.pro-football-reference.com/boxscores/201210070clt.htm
+5,Sun,2012-10-07,18,7,17,13,Paul Brown Stadium,1:03pm,3:06,61162,49,55,6,Cincinnati Bengals ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201210070cin.htm
+5,Sun,2012-10-07,19,31,30,7,Mall of America Field,4:15pm,3:20,57652,null,null,1,Minnesota Vikings ,6.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201210070min.htm
+5,Sun,2012-10-07,20,10,31,21,Gillette Stadium,4:25pm,3:03,68756,54,65,4,New England Patriots ,6.0,51.5 ,O,http://www.pro-football-reference.com/boxscores/201210070nwe.htm
+5,Sun,2012-10-07,21,27,31,24,Louisiana Superdome,8:31pm,3:07,73109,null,33,3,New Orleans Saints ,3.5,52.5 ,O,http://www.pro-football-reference.com/boxscores/201210070nor.htm
+5,Sun,2012-10-07,22,8,41,27,MetLife Stadium,1:02pm,3:05,79911,51,84,2,New York Giants ,8.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201210070nyg.htm
+5,Sun,2012-10-07,26,25,16,14,Heinz Field,1:02pm,3:02,64737,48,68,4,Pittsburgh Steelers ,4.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201210070pit.htm
+5,Sun,2012-10-07,28,4,45,3,Candlestick Park,4:25pm,2:56,69732,62,70,8,San Francisco 49ers ,10.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201210070sfo.htm
+5,Sun,2012-10-07,29,5,16,12,Bank of America Stadium,4:04pm,2:54,72676,63,69,6,Carolina Panthers ,2.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/201210070car.htm
+5,Thu,2012-10-04,17,1,17,3,Edward Jones Dome,8:20pm,3:21,54653,uhll,81,2,Arizona Cardinals ,1.5,38.0 ,U,http://www.pro-football-reference.com/boxscores/201210040ram.htm
+6,Sun,2012-10-14,2,24,23,20,Georgia Dome,1:01pm,2:59,69383,null,20,0,Atlanta Falcons ,10.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/201210140atl.htm
+6,Sun,2012-10-14,3,9,31,29,M&T Bank Stadium,1:02pm,3:17,71384,69,45,11,Baltimore Ravens ,3.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201210140rav.htm
+6,Sun,2012-10-14,4,1,19,16,University of Phoenix Stadium,4:05pm,3:23,60385,null,null,0,Arizona Cardinals ,5.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/201210140crd.htm
+6,Sun,2012-10-14,8,7,34,24,Cleveland Browns Stadium,1:02pm,3:09,67060,70,65,19,Cincinnati Bengals ,2.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/201210140cle.htm
+6,Mon,2012-10-15,10,27,35,24,Qualcomm Stadium,8:40pm,3:07,68604,78,50,7,null,0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201210150sdg.htm
+6,Sun,2012-10-14,11,25,26,23,Lincoln Financial Field,1:03pm,3:47,69144,66,58,15,Philadelphia Eagles ,3.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201210140phi.htm
+6,Sun,2012-10-14,12,13,42,24,Reliant Stadium,8:30pm,3:07,71702,null,null,3,Houston Texans ,4.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/201210140htx.htm
+6,Sun,2012-10-14,18,17,17,14,Sun Life Stadium,1:00pm,3:08,52983,84,72,20,Miami Dolphins ,5.0,38.0 ,U,http://www.pro-football-reference.com/boxscores/201210140mia.htm
+6,Sun,2012-10-14,22,28,26,3,Candlestick Park,4:23pm,3:01,69732,61,80,7,San Francisco 49ers ,7.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201210140sfo.htm
+6,Sun,2012-10-14,23,14,35,9,MetLife Stadium,1:02pm,2:58,79088,65,55,14,New York Jets ,3.0,44.0 ,P,http://www.pro-football-reference.com/boxscores/201210140nyj.htm
+6,Sun,2012-10-14,29,20,24,23,CenturyLink Field,4:04pm,3:12,68137,63,80,9,New England Patriots ,4.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/201210140sea.htm
+6,Sun,2012-10-14,30,16,38,10,Raymond James Stadium,1:00pm,3:04,46500,85,55,9,Tampa Bay Buccaneers ,5.0,39.5 ,O,http://www.pro-football-reference.com/boxscores/201210140tam.htm
+6,Thu,2012-10-11,31,26,26,23,LP Field,8:29pm,3:20,69143,64,52,2,Pittsburgh Steelers ,6.5,43.0 ,O,http://www.pro-football-reference.com/boxscores/201210110oti.htm
+6,Sun,2012-10-14,32,19,38,26,FedExField,4:24pm,3:02,78476,74,40,14,Minnesota Vikings ,2.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201210140was.htm
+7,Mon,2012-10-22,6,11,13,7,Soldier Field,8:40pm,3:13,62300,63,89,8,Chicago Bears ,6.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/201210220chi.htm
+7,Sun,2012-10-21,9,5,19,14,Bank of America Stadium,1:03pm,3:06,73981,62,43,8,Dallas Cowboys ,2.5,45.0 ,U,http://www.pro-football-reference.com/boxscores/201210210car.htm
+7,Sun,2012-10-21,12,17,30,20,Edward Jones Dome,1:00pm,3:02,64359,00,52,0,Green Bay Packers ,5.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/201210210ram.htm
+7,Sun,2012-10-21,13,3,43,13,Reliant Stadium,1:02pm,3:10,71708,null,null,0,Houston Texans ,6.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201210210htx.htm
+7,Sun,2012-10-21,14,8,17,13,Lucas Oil Stadium,1:02pm,3:00,64560,33,60,0,Indianapolis Colts ,1.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/201210210clt.htm
+7,Sun,2012-10-21,19,1,21,14,Mall of America Field,1:05pm,2:56,61068,null,null,0,Minnesota Vikings ,6.5,39.5 ,U,http://www.pro-football-reference.com/boxscores/201210210min.htm
+7,Sun,2012-10-21,20,23,29,26,Gillette Stadium,4:25pm,3:26,68752,62,39,13,New England Patriots ,10.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/201210210nwe.htm
+7,Sun,2012-10-21,21,30,35,28,Raymond James Stadium,1:02pm,3:21,58906,77,36,8,New Orleans Saints ,1.5,49.5 ,O,http://www.pro-football-reference.com/boxscores/201210210tam.htm
+7,Sun,2012-10-21,22,32,27,23,MetLife Stadium,1:03pm,3:02,81352,61,44,11,New York Giants ,6.5,51.5 ,U,http://www.pro-football-reference.com/boxscores/201210210nyg.htm
+7,Sun,2012-10-21,24,15,26,23,O.co Coliseum,4:25pm,3:24,51634,62,49,11,Oakland Raiders ,6.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201210210rai.htm
+7,Sun,2012-10-21,26,7,24,17,Paul Brown Stadium,8:30pm,3:01,63411,55,76,1,Cincinnati Bengals ,1.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201210210cin.htm
+7,Thu,2012-10-18,28,29,13,6,Candlestick Park,8:29pm,2:57,69732,80,30,15,San Francisco 49ers ,7.5,37.5 ,U,http://www.pro-football-reference.com/boxscores/201210180sfo.htm
+7,Sun,2012-10-21,31,4,35,34,Ralph Wilson Stadium,1:02pm,3:04,68836,55,75,15,Buffalo Bills ,4.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/201210210buf.htm
+8,Sun,2012-10-28,2,25,30,17,Lincoln Financial Field,1:03pm,3:04,69144,58,75,16,Philadelphia Eagles ,3.0,43.0 ,O,http://www.pro-football-reference.com/boxscores/201210280phi.htm
+8,Sun,2012-10-28,6,5,23,22,Soldier Field,1:03pm,3:06,62254,49,51,18,Chicago Bears ,7.5,41.5 ,O,http://www.pro-football-reference.com/boxscores/201210280chi.htm
+8,Sun,2012-10-28,8,27,7,6,Cleveland Browns Stadium,1:06pm,2:57,65337,44,89,19,San Diego Chargers ,3.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/201210280cle.htm
+8,Sun,2012-10-28,10,21,34,14,Sports Authority Field at Mile High,8:30pm,3:03,76832,59,30,5,Denver Broncos ,6.5,55.0 ,U,http://www.pro-football-reference.com/boxscores/201210280den.htm
+8,Sun,2012-10-28,11,29,28,24,Ford Field,1:03pm,2:59,63497,null,null,0,Detroit Lions ,3.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/201210280det.htm
+8,Sun,2012-10-28,12,15,24,15,Lambeau Field,1:05pm,3:14,70464,44,47,10,Green Bay Packers ,16.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/201210280gnb.htm
+8,Sun,2012-10-28,14,31,19,13,LP Field,1:06pm,3:07,69143,52,49,18,Tennessee Titans ,3.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201210280oti.htm
+8,Sun,2012-10-28,18,23,30,9,MetLife Stadium,1:06pm,3:07,79088,60,62,9,New York Jets ,1.0,39.0 ,P,http://www.pro-football-reference.com/boxscores/201210280nyj.htm
+8,Sun,2012-10-28,20,17,45,7,Wembley Stadium,1:06pm,3:07,84004,49,84,9,New England Patriots ,7.0,46.0 ,O,http://www.pro-football-reference.com/boxscores/201210280ram.htm
+8,Sun,2012-10-28,22,9,29,24,Cowboys Stadium,4:25pm,3:25,94067,null,null,2,New York Giants ,2.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/201210280dal.htm
+8,Sun,2012-10-28,24,16,26,16,Arrowhead Stadium,4:06pm,3:00,74730,50,40,3,Kansas City Chiefs ,1.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201210280kan.htm
+8,Sun,2012-10-28,26,32,27,12,Heinz Field,1:02pm,2:52,62371,45,88,10,Pittsburgh Steelers ,4.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201210280pit.htm
+8,Mon,2012-10-29,28,1,24,3,University of Phoenix Stadium,8:40pm,2:52,62810,null,null,4,San Francisco 49ers ,7.0,38.5 ,U,http://www.pro-football-reference.com/boxscores/201210290crd.htm
+8,Thu,2012-10-25,30,19,36,17,Mall of America Field,8:29pm,3:20,60860,null,null,2,Minnesota Vikings ,5.5,43.0 ,O,http://www.pro-football-reference.com/boxscores/201210250min.htm
+9,Sun,2012-11-04,2,9,19,13,Georgia Dome,8:31pm,2:54,70840,null,null,3,Atlanta Falcons ,4.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/201211040atl.htm
+9,Sun,2012-11-04,3,8,25,15,Cleveland Browns Stadium,1:03pm,3:02,65449,39,69,8,Baltimore Ravens ,3.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/201211040cle.htm
+9,Sun,2012-11-04,5,32,21,13,FedExField,1:05pm,3:17,79767,50,44,3,Washington Redskins ,3.0,48.5 ,U,http://www.pro-football-reference.com/boxscores/201211040was.htm
+9,Sun,2012-11-04,6,31,51,20,LP Field,1:04pm,3:07,69143,50,63,6,Chicago Bears ,5.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/201211040oti.htm
+9,Sun,2012-11-04,10,7,31,23,Paul Brown Stadium,1:02pm,3:08,63623,48,59,1,Denver Broncos ,5.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/201211040cin.htm
+9,Sun,2012-11-04,11,15,31,14,EverBank Field,1:04pm,2:47,63050,81,0,10,Detroit Lions ,6.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/201211040jax.htm
+9,Sun,2012-11-04,12,1,31,17,Lambeau Field,1:02pm,3:14,70504,39,57,7,Green Bay Packers ,10.5,43.5 ,O,http://www.pro-football-reference.com/boxscores/201211040gnb.htm
+9,Sun,2012-11-04,13,4,21,9,Reliant Stadium,1:02pm,3:01,71698,null,null,0,Houston Texans ,11.5,48.0 ,U,http://www.pro-football-reference.com/boxscores/201211040htx.htm
+9,Sun,2012-11-04,14,18,23,20,Lucas Oil Stadium,1:02pm,3:19,66479,null,null,1,Miami Dolphins ,2.0,43.5 ,U,http://www.pro-football-reference.com/boxscores/201211040clt.htm
+9,Mon,2012-11-05,21,25,28,13,Louisiana Superdome,8:40pm,3:00,73099,null,null,4,New Orleans Saints ,3.0,52.0 ,U,http://www.pro-football-reference.com/boxscores/201211050nor.htm
+9,Sun,2012-11-04,26,22,24,20,MetLife Stadium,4:26pm,3:03,80991,44,58,5,New York Giants ,3.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/201211040nyg.htm
+9,Thu,2012-11-01,27,16,31,13,Qualcomm Stadium,8:27pm,2:55,55831,63,74,12,San Diego Chargers ,7.0,41.0 ,O,http://www.pro-football-reference.com/boxscores/201211010sdg.htm
+9,Sun,2012-11-04,29,19,30,20,CenturyLink Field,4:06pm,3:00,67584,60,89,5,Seattle Seahawks ,4.0,38.5 ,O,http://www.pro-football-reference.com/boxscores/201211040sea.htm
+9,Sun,2012-11-04,30,24,42,32,O.co Coliseum,4:05pm,3:32,52055,71,55,7,Oakland Raiders ,1.0,47.5 ,O,http://www.pro-football-reference.com/boxscores/201211040rai.htm
+ConfChamp,Sun,2013-01-20,3,20,28,13,Gillette Stadium,6:40pm,3:07,68756,41,34,18,New England Patriots ,7.5,51.5 ,U,http://www.pro-football-reference.com/boxscores/201301200nwe.htm
+ConfChamp,Sun,2013-01-20,28,2,28,24,Georgia Dome,3:05pm,2:56,70863,null,null,0,San Francisco 49ers ,4.5,49.0 ,O,http://www.pro-football-reference.com/boxscores/201301200atl.htm
+Division,Sun,2013-01-13,2,29,30,28,Georgia Dome,1:05pm,3:09,70366,null,null,0,Atlanta Falcons ,3.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/201301130atl.htm
+Division,Sat,2013-01-12,3,10,38,35,Sports Authority Field at Mile High,4:36pm,4:11,76732,13,62,8,Denver Broncos ,9.0,44.5 ,O,http://www.pro-football-reference.com/boxscores/201301120den.htm
+Division,Sun,2013-01-13,20,13,41,28,Gillette Stadium,4:40pm,3:15,68756,51,87,10,New England Patriots ,9.5,51.0 ,O,http://www.pro-football-reference.com/boxscores/201301130nwe.htm
+Division,Sat,2013-01-12,28,12,45,31,Candlestick Park,8:25pm,3:10,69732,48,50,5,San Francisco 49ers ,3.0,45.5 ,O,http://www.pro-football-reference.com/boxscores/201301120sfo.htm
+SuperBowl,Sun,2013-02-03,3,28,34,31,Louisiana Superdome,6:31pm,4:14,71024,null,null,3,San Francisco 49ers ,4.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/201302030sfo.htm
+WildCard,Sun,2013-01-06,3,14,24,9,M&T Bank Stadium,1:07pm,3:10,71379,49,36,8,Baltimore Ravens ,7.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/201301060rav.htm
+WildCard,Sat,2013-01-05,12,19,24,10,Lambeau Field,8:09pm,2:55,71548,29,78,9,Green Bay Packers ,11.0,44.5 ,U,http://www.pro-football-reference.com/boxscores/201301050gnb.htm
+WildCard,Sat,2013-01-05,13,7,19,13,Reliant Stadium,4:35pm,3:03,71738,null,null,3,Houston Texans ,4.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/201301050htx.htm
+WildCard,Sun,2013-01-06,29,32,24,14,FedExField,4:40pm,2:53,84325,52,44,3,Seattle Seahawks ,3.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/201301060was.htm

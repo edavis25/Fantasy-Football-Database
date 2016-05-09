@@ -1,0 +1,268 @@
+Week,Day,Date,WinnerID,LoserID,WinnerScore,LoserScore,Stadium,Time,Duration,Attendance,Temperature,Humidity,Wind,Favored Team , spread,over/under,Result,URL
+1,Sun,2007-09-09,5,17,27,13,Edward Jones Dome,12:59pm,3:10,65307,null,null,0,St. Louis Rams ,1.0,43.0 ,U,http://www.pro-football-reference.com/boxscores/200709090ram.htm
+1,Mon,2007-09-10,7,3,27,20,Paul Brown Stadium,7:10pm,3:18,66093,82,57,5,Cincinnati Bengals ,2.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200709100cin.htm
+1,Sun,2007-09-09,9,22,45,35,Texas Stadium,8:25pm,3:14,63031,78,85,0,Dallas Cowboys ,6.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/200709090dal.htm
+1,Sun,2007-09-09,10,4,15,14,Ralph Wilson Stadium,1:02pm,3:09,71132,70,93,5,Denver Broncos ,3.0,37.0 ,U,http://www.pro-football-reference.com/boxscores/200709090buf.htm
+1,Sun,2007-09-09,11,24,36,21,McAfee Coliseum,4:15pm,3:04,61547,66,68,8,Oakland Raiders ,2.5,39.5 ,O,http://www.pro-football-reference.com/boxscores/200709090rai.htm
+1,Sun,2007-09-09,12,25,16,13,Lambeau Field,1:02pm,3:15,70598,62,80,9,Philadelphia Eagles ,3.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/200709090gnb.htm
+1,Sun,2007-09-09,13,16,20,3,Reliant Stadium,1:05pm,2:41,70080,null,null,0,Houston Texans ,3.0,38.0 ,U,http://www.pro-football-reference.com/boxscores/200709090htx.htm
+1,Thu,2007-09-06,14,21,41,10,RCA Dome,8:39pm,2:56,57631,null,null,0,Indianapolis Colts ,5.5,53.5 ,U,http://www.pro-football-reference.com/boxscores/200709060clt.htm
+1,Sun,2007-09-09,19,2,24,3,Hubert H. Humphrey Metrodome,1:00pm,2:45,62815,null,null,0,Minnesota Vikings ,3.0,35.5 ,U,http://www.pro-football-reference.com/boxscores/200709090min.htm
+1,Sun,2007-09-09,20,23,38,14,Giants Stadium,1:03pm,2:47,77900,84,47,10,New England Patriots ,6.5,41.0 ,O,http://www.pro-football-reference.com/boxscores/200709090nyj.htm
+1,Sun,2007-09-09,26,8,34,7,Cleveland Browns Stadium,1:03pm,3:09,73089,71,80,5,Pittsburgh Steelers ,4.5,36.5 ,O,http://www.pro-football-reference.com/boxscores/200709090cle.htm
+1,Sun,2007-09-09,27,6,14,3,Qualcomm Stadium,4:15pm,2:49,67837,73,70,8,San Diego Chargers ,6.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/200709090sdg.htm
+1,Mon,2007-09-10,28,1,20,17,Monster Park,10:25pm,3:17,68111,64,67,18,San Francisco 49ers ,3.0,46.5 ,U,http://www.pro-football-reference.com/boxscores/200709100sfo.htm
+1,Sun,2007-09-09,29,30,20,6,Qwest Field,4:15pm,2:57,68044,67,51,12,Seattle Seahawks ,6.0,41.0 ,U,http://www.pro-football-reference.com/boxscores/200709090sea.htm
+1,Sun,2007-09-09,31,15,13,10,Jacksonville Municipal Stadium,1:04pm,2:48,65437,86,56,0,Jacksonville Jaguars ,7.0,38.0 ,U,http://www.pro-football-reference.com/boxscores/200709090jax.htm
+1,Sun,2007-09-09,32,18,16,13,FedExField,1:02pm,3:12,90163,82,66,7,Washington Redskins ,3.0,34.5 ,U,http://www.pro-football-reference.com/boxscores/200709090was.htm
+10,Sun,2007-11-11,1,11,31,21,University of Phoenix Stadium,4:15pm,3:11,64753,null,null,0,Arizona Cardinals ,2.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/200711110crd.htm
+10,Sun,2007-11-11,2,5,20,13,Bank of America Stadium,1:03pm,3:02,73340,63,46,6,Carolina Panthers ,4.0,35.5 ,U,http://www.pro-football-reference.com/boxscores/200711110car.htm
+10,Sun,2007-11-11,4,18,13,10,Dolphin Stadium,1:02pm,3:03,70615,80,47,9,Buffalo Bills ,2.5,40.5 ,U,http://www.pro-football-reference.com/boxscores/200711110mia.htm
+10,Sun,2007-11-11,6,24,17,6,McAfee Coliseum,4:15pm,2:56,62715,62,63,14,Chicago Bears ,3.5,38.0 ,U,http://www.pro-football-reference.com/boxscores/200711110rai.htm
+10,Sun,2007-11-11,7,3,21,7,M&T Bank Stadium,4:05pm,2:59,71130,50,44,4,Baltimore Ravens ,3.0,44.5 ,U,http://www.pro-football-reference.com/boxscores/200711110rav.htm
+10,Sun,2007-11-11,9,22,31,20,Giants Stadium,4:15pm,3:00,78964,47,35,8,Dallas Cowboys ,1.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/200711110nyg.htm
+10,Sun,2007-11-11,10,16,27,11,Arrowhead Stadium,1:00pm,3:09,77368,69,70,15,Kansas City Chiefs ,2.5,37.0 ,O,http://www.pro-football-reference.com/boxscores/200711110kan.htm
+10,Sun,2007-11-11,12,19,34,0,Lambeau Field,1:02pm,2:51,70945,49,65,10,Green Bay Packers ,6.0,40.5 ,U,http://www.pro-football-reference.com/boxscores/200711110gnb.htm
+10,Sun,2007-11-11,15,31,28,13,LP Field,1:03pm,3:00,6911010,62,30,11,Tennessee Titans ,3.5,36.0 ,O,http://www.pro-football-reference.com/boxscores/200711110oti.htm
+10,Sun,2007-11-11,25,32,33,25,FedExField,1:03pm,3:12,90218,49,44,0,Washington Redskins ,2.5,37.5 ,O,http://www.pro-football-reference.com/boxscores/200711110was.htm
+10,Sun,2007-11-11,26,8,31,28,Heinz Field,1:02pm,3:10,64781,40,85,3,Pittsburgh Steelers ,9.5,47.5 ,O,http://www.pro-football-reference.com/boxscores/200711110pit.htm
+10,Sun,2007-11-11,27,14,23,21,Qualcomm Stadium,8:15pm,3:24,67726,61,76,8,Indianapolis Colts ,3.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/200711110sdg.htm
+10,Mon,2007-11-12,29,28,24,0,Qwest Field,8:41pm,3:05,68331,49,74,10,Seattle Seahawks ,9.0,37.5 ,U,http://www.pro-football-reference.com/boxscores/200711120sea.htm
+10,Sun,2007-11-11,17,21,37,29,Louisiana Superdome,1:02pm,3:04,70003,null,null,0,New Orleans Saints ,10.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/200711110nor.htm
+11,Sun,2007-11-18,1,7,35,27,Paul Brown Stadium,1:02pm,3:16,65403,44,71,5,Cincinnati Bengals ,3.5,49.5 ,O,http://www.pro-football-reference.com/boxscores/200711180cin.htm
+11,Sun,2007-11-18,8,3,33,30,M&T Bank Stadium,1:02pm,3:47,71055,53,57,11,Cleveland Browns ,2.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/200711180rav.htm
+11,Sun,2007-11-18,9,32,28,23,Texas Stadium,4:15pm,3:10,63706,77,53,0,Dallas Cowboys ,11.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/200711180dal.htm
+11,Mon,2007-11-19,10,31,34,20,Invesco Field at Mile High,8:40pm,3:01,76590,63,12,12,null,0,38.5 ,O,http://www.pro-football-reference.com/boxscores/200711190den.htm
+11,Sun,2007-11-18,12,5,31,17,Lambeau Field,1:02pm,3:08,70805,42,43,10,Green Bay Packers ,10.0,37.5 ,O,http://www.pro-football-reference.com/boxscores/200711180gnb.htm
+11,Sun,2007-11-18,13,21,23,10,Reliant Stadium,1:02pm,3:05,70780,null,null,0,Houston Texans ,1.0,50.5 ,U,http://www.pro-football-reference.com/boxscores/200711180htx.htm
+11,Sun,2007-11-18,14,16,13,10,RCA Dome,1:02pm,2:51,5718011,null,null,0,Indianapolis Colts ,14.5,41.5 ,U,http://www.pro-football-reference.com/boxscores/200711180clt.htm
+11,Sun,2007-11-18,15,27,24,17,Jacksonville Municipal Stadium,1:03pm,3:01,66732,70,52,5,Jacksonville Jaguars ,3.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/200711180jax.htm
+11,Sun,2007-11-18,19,24,29,22,Hubert H. Humphrey Metrodome,1:05pm,3:05,62960,null,null,0,Minnesota Vikings ,4.5,35.5 ,O,http://www.pro-football-reference.com/boxscores/200711180min.htm
+11,Sun,2007-11-18,20,4,56,10,Ralph Wilson Stadium,8:24pm,2:59,71338,36,66,10,New England Patriots ,16.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/200711180buf.htm
+11,Sun,2007-11-18,22,11,16,10,Ford Field,1:03pm,3:04,60675,null,null,0,New York Giants ,2.5,48.0 ,U,http://www.pro-football-reference.com/boxscores/200711180det.htm
+11,Sun,2007-11-18,23,26,19,16,Giants Stadium,4:05pm,3:10,77659,42,58,10,Pittsburgh Steelers ,9.5,40.5 ,U,http://www.pro-football-reference.com/boxscores/200711180nyj.htm
+11,Sun,2007-11-18,25,18,17,7,Lincoln Financial Field,1:02pm,2:49,68934,42,81,13,Philadelphia Eagles ,9.5,40.0 ,U,http://www.pro-football-reference.com/boxscores/200711180phi.htm
+11,Sun,2007-11-18,29,6,30,23,Qwest Field,4:16pm,3:14,68249,46,80,1,Seattle Seahawks ,5.5,37.5 ,O,http://www.pro-football-reference.com/boxscores/200711180sea.htm
+11,Sun,2007-11-18,17,28,13,9,Monster Park,4:15pm,3:01,68039,54,90,5,St. Louis Rams ,3.0,39.5 ,U,http://www.pro-football-reference.com/boxscores/200711180sfo.htm
+11,Sun,2007-11-18,30,2,31,7,Georgia Dome,1:05pm,3:18,69480,null,null,0,Tampa Bay Buccaneers ,3.0,35.5 ,O,http://www.pro-football-reference.com/boxscores/200711180atl.htm
+12,Sun,2007-11-25,6,10,37,34,Soldier Field,4:16pm,3:34,62148,39,69,13,Chicago Bears ,1.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/200711250chi.htm
+12,Sun,2007-11-25,7,31,35,6,Paul Brown Stadium,1:02pm,2:46,65489,42,67,2,Tennessee Titans ,1.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/200711250cin.htm
+12,Sun,2007-11-25,8,13,27,17,Cleveland Browns Stadium,1:03pm,2:56,72730,41,49,14,Cleveland Browns ,3.0,52.0 ,U,http://www.pro-football-reference.com/boxscores/200711250cle.htm
+12,Thu,2007-11-22,9,23,34,3,Texas Stadium,4:20pm,2:53,63315,45,41,0,Dallas Cowboys ,14.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/200711220dal.htm
+12,Thu,2007-11-22,12,11,37,26,Ford Field,12:36pm,3:24,63257,null,null,0,Green Bay Packers ,3.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/200711220det.htm
+12,Thu,2007-11-22,14,2,31,13,Georgia Dome,8:16pm,2:55,69845,null,null,0,Indianapolis Colts ,14.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/200711220atl.htm
+12,Sun,2007-11-25,15,4,36,14,Jacksonville Municipal Stadium,1:03pm,3:13,64546,68,85,10,Jacksonville Jaguars ,9.0,37.0 ,O,http://www.pro-football-reference.com/boxscores/200711250jax.htm
+12,Sun,2007-11-25,19,22,41,17,Giants Stadium,1:03pm,2:58,78591,46,33,6,New York Giants ,7.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200711250nyg.htm
+12,Sun,2007-11-25,20,25,31,28,Gillette Stadium,8:23pm,3:08,68756,39,49,8,New England Patriots ,24.5,51.5 ,O,http://www.pro-football-reference.com/boxscores/200711250nwe.htm
+12,Sun,2007-11-25,21,5,31,6,Bank of America Stadium,1:03pm,3:08,72032,46,41,5,New Orleans Saints ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/200711250car.htm
+12,Sun,2007-11-25,24,16,20,17,Arrowhead Stadium,1:00pm,2:58,76210,43,60,6,Kansas City Chiefs ,4.0,34.5 ,O,http://www.pro-football-reference.com/boxscores/200711250kan.htm
+12,Mon,2007-11-26,26,18,3,0,Heinz Field,8:55pm,2:35,57704,60,97,10,Pittsburgh Steelers ,16.0,38.5 ,U,http://www.pro-football-reference.com/boxscores/200711260pit.htm
+12,Sun,2007-11-25,27,3,32,14,Qualcomm Stadium,4:15pm,3:03,63337,69,53,8,San Diego Chargers ,9.0,38.5 ,O,http://www.pro-football-reference.com/boxscores/200711250sdg.htm
+12,Sun,2007-11-25,28,1,37,31,University of Phoenix Stadium,4:06pm,3:39,64483,null,null,0,Arizona Cardinals ,10.5,38.0 ,O,http://www.pro-football-reference.com/boxscores/200711250crd.htm
+12,Sun,2007-11-25,29,17,24,19,Edward Jones Dome,1:00pm,3:15,65423,null,null,0,Seattle Seahawks ,3.0,46.0 ,U,http://www.pro-football-reference.com/boxscores/200711250ram.htm
+12,Sun,2007-11-25,30,32,19,13,Raymond James Stadium,1:02pm,3:02,65596,81,61,8,Tampa Bay Buccaneers ,3.0,38.5 ,U,http://www.pro-football-reference.com/boxscores/200711250tam.htm
+13,Sun,2007-12-02,1,8,27,21,University of Phoenix Stadium,4:06pm,3:11,64791,null,null,0,null,0,52.0 ,U,http://www.pro-football-reference.com/boxscores/200712020crd.htm
+13,Sun,2007-12-02,4,32,17,16,FedExField,1:02pm,3:08,85831,40,55,8,Washington Redskins ,6.5,37.5 ,U,http://www.pro-football-reference.com/boxscores/200712020was.htm
+13,Sun,2007-12-02,5,28,31,14,Bank of America Stadium,1:03pm,3:02,73191,51,43,3,Carolina Panthers ,3.0,35.0 ,O,http://www.pro-football-reference.com/boxscores/200712020car.htm
+13,Thu,2007-11-29,9,12,37,27,Texas Stadium,8:16pm,3:16,64167,56,47,0,Dallas Cowboys ,6.5,52.5 ,O,http://www.pro-football-reference.com/boxscores/200711290dal.htm
+13,Sun,2007-12-02,14,15,28,25,RCA Dome,1:02pm,3:02,572013,null,null,0,Indianapolis Colts ,7.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/200712020clt.htm
+13,Sun,2007-12-02,19,11,42,10,Hubert H. Humphrey Metrodome,1:05pm,2:59,62996,null,null,0,Minnesota Vikings ,4.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/200712020min.htm
+13,Mon,2007-12-03,20,3,27,24,M&T Bank Stadium,8:41pm,3:06,71382,40,0,27,New England Patriots ,18.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/200712030rav.htm
+13,Sun,2007-12-02,22,6,21,16,Soldier Field,4:15pm,3:16,62244,46,82,13,New York Giants ,1.0,39.0 ,U,http://www.pro-football-reference.com/boxscores/200712020chi.htm
+13,Sun,2007-12-02,23,18,40,13,Dolphin Stadium,1:03pm,3:02,71109,81,58,10,Miami Dolphins ,1.0,37.5 ,O,http://www.pro-football-reference.com/boxscores/200712020mia.htm
+13,Sun,2007-12-02,24,10,34,20,McAfee Coliseum,4:05pm,3:08,61990,60,50,19,Denver Broncos ,3.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/200712020rai.htm
+13,Sun,2007-12-02,26,7,24,10,Heinz Field,8:24pm,3:17,58842,48,93,9,Pittsburgh Steelers ,7.0,38.0 ,U,http://www.pro-football-reference.com/boxscores/200712020pit.htm
+13,Sun,2007-12-02,27,16,24,10,Arrowhead Stadium,1:00pm,3:06,74874,34,64,16,San Diego Chargers ,6.0,37.5 ,U,http://www.pro-football-reference.com/boxscores/200712020kan.htm
+13,Sun,2007-12-02,29,25,28,24,Lincoln Financial Field,1:02pm,3:03,68445,33,79,9,Philadelphia Eagles ,3.0,39.0 ,O,http://www.pro-football-reference.com/boxscores/200712020phi.htm
+13,Sun,2007-12-02,17,2,28,16,Edward Jones Dome,1:00pm,3:16,62051,null,null,0,St. Louis Rams ,3.0,40.0 ,O,http://www.pro-football-reference.com/boxscores/200712020ram.htm
+13,Sun,2007-12-02,30,21,27,23,Louisiana Superdome,4:15pm,3:05,70009,null,null,0,New Orleans Saints ,3.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/200712020nor.htm
+13,Sun,2007-12-02,31,13,28,20,LP Field,1:02pm,3:10,692013,61,60,19,Tennessee Titans ,3.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200712020oti.htm
+14,Sun,2007-12-09,4,18,38,17,Ralph Wilson Stadium,1:02pm,3:19,71018,30,67,6,Buffalo Bills ,7.0,34.0 ,O,http://www.pro-football-reference.com/boxscores/200712090buf.htm
+14,Sun,2007-12-09,7,17,19,10,Paul Brown Stadium,1:02pm,2:53,65143,38,93,7,Cincinnati Bengals ,10.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/200712090cin.htm
+14,Sun,2007-12-09,8,23,24,18,Giants Stadium,4:15pm,3:04,76822,38,51,4,Cleveland Browns ,3.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/200712090nyj.htm
+14,Sun,2007-12-09,9,11,28,27,Ford Field,1:03pm,3:11,62759,null,null,0,Dallas Cowboys ,10.5,50.5 ,O,http://www.pro-football-reference.com/boxscores/200712090det.htm
+14,Sun,2007-12-09,10,16,41,7,Invesco Field at Mile High,4:15pm,2:50,75895,21,78,6,Denver Broncos ,7.5,37.5 ,O,http://www.pro-football-reference.com/boxscores/200712090den.htm
+14,Sun,2007-12-09,12,24,38,7,Lambeau Field,1:02pm,2:59,70828,18,54,4,Green Bay Packers ,10.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/200712090gnb.htm
+14,Sun,2007-12-09,13,30,28,14,Reliant Stadium,1:01pm,2:51,70237,null,null,0,Tampa Bay Buccaneers ,2.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200712090htx.htm
+14,Sun,2007-12-09,14,3,44,20,M&T Bank Stadium,8:23pm,2:57,70513,40,96,4,Indianapolis Colts ,9.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/200712090rav.htm
+14,Sun,2007-12-09,15,5,37,6,Jacksonville Municipal Stadium,1:03pm,3:06,66090,77,64,9,Jacksonville Jaguars ,10.5,39.0 ,O,http://www.pro-football-reference.com/boxscores/200712090jax.htm
+14,Sun,2007-12-09,19,28,27,7,Monster Park,4:05pm,3:02,68050,53,42,6,Minnesota Vikings ,8.5,39.5 ,U,http://www.pro-football-reference.com/boxscores/200712090sfo.htm
+14,Sun,2007-12-09,20,26,34,13,Gillette Stadium,4:15pm,3:02,68756,34,55,2,New England Patriots ,10.5,49.5 ,U,http://www.pro-football-reference.com/boxscores/200712090nwe.htm
+14,Mon,2007-12-10,21,2,34,14,Georgia Dome,8:40pm,3:03,69553,null,null,0,New Orleans Saints ,4.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/200712100atl.htm
+14,Sun,2007-12-09,22,25,16,13,Lincoln Financial Field,1:02pm,3:05,68594,36,79,3,Philadelphia Eagles ,3.0,42.0 ,U,http://www.pro-football-reference.com/boxscores/200712090phi.htm
+14,Sun,2007-12-09,27,31,23,17,LP Field,1:02pm,3:32,699014,69,85,7,San Diego Chargers ,1.0,40.0 ,P,http://www.pro-football-reference.com/boxscores/200712090oti.htm
+14,Sun,2007-12-09,29,1,42,21,Qwest Field,4:06pm,3:14,68193,35,83,0,Seattle Seahawks ,7.5,44.5 ,O,http://www.pro-football-reference.com/boxscores/200712090sea.htm
+14,Thu,2007-12-06,32,6,24,16,FedExField,8:16pm,3:17,82213,26,84,0,Washington Redskins ,3.0,40.0 ,P,http://www.pro-football-reference.com/boxscores/200712060was.htm
+15,Sun,2007-12-16,5,29,13,10,Bank of America Stadium,1:02pm,2:43,73421,45,78,18,Seattle Seahawks ,8.0,37.0 ,U,http://www.pro-football-reference.com/boxscores/200712160car.htm
+15,Sun,2007-12-16,8,4,8,0,Cleveland Browns Stadium,1:03pm,2:57,73196,30,93,32,Cleveland Browns ,5.0,37.0 ,U,http://www.pro-football-reference.com/boxscores/200712160cle.htm
+15,Sun,2007-12-16,12,17,33,14,Edward Jones Dome,1:00pm,3:09,66008,null,null,0,Green Bay Packers ,7.0,47.0 ,P,http://www.pro-football-reference.com/boxscores/200712160ram.htm
+15,Thu,2007-12-13,13,10,31,13,Reliant Stadium,8:15pm,2:52,70747,null,null,0,Denver Broncos ,2.5,47.5 ,U,http://www.pro-football-reference.com/boxscores/200712130htx.htm
+15,Sun,2007-12-16,14,24,21,14,McAfee Coliseum,4:05pm,2:48,62000,55,58,8,Indianapolis Colts ,10.0,45.0 ,U,http://www.pro-football-reference.com/boxscores/200712160rai.htm
+15,Sun,2007-12-16,15,26,29,22,Heinz Field,1:03pm,3:09,58793,35,79,19,Pittsburgh Steelers ,3.0,34.5 ,O,http://www.pro-football-reference.com/boxscores/200712160pit.htm
+15,Sun,2007-12-16,18,3,22,16,Dolphin Stadium,1:03pm,3:16,70287,79,84,20,Baltimore Ravens ,3.0,37.5 ,O,http://www.pro-football-reference.com/boxscores/200712160mia.htm
+15,Mon,2007-12-17,19,6,20,13,Hubert H. Humphrey Metrodome,8:40pm,3:05,63800,null,null,0,Minnesota Vikings ,10.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/200712170min.htm
+15,Sun,2007-12-16,20,23,20,10,Gillette Stadium,1:02pm,2:59,68756,36,88,17,New England Patriots ,20.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/200712160nwe.htm
+15,Sun,2007-12-16,21,1,31,24,Louisiana Superdome,1:03pm,2:55,70007,null,null,0,New Orleans Saints ,3.5,49.5 ,O,http://www.pro-football-reference.com/boxscores/200712160nor.htm
+15,Sun,2007-12-16,25,9,10,6,Texas Stadium,4:15pm,3:08,63777,49,31,0,Dallas Cowboys ,10.0,49.0 ,U,http://www.pro-football-reference.com/boxscores/200712160dal.htm
+15,Sun,2007-12-16,27,11,51,14,Qualcomm Stadium,4:15pm,3:03,66505,67,63,8,San Diego Chargers ,9.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/200712160sdg.htm
+15,Sat,2007-12-15,28,7,20,13,Monster Park,8:15pm,2:38,68053,52,74,0,Cincinnati Bengals ,8.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/200712150sfo.htm
+15,Sun,2007-12-16,30,2,37,3,Raymond James Stadium,1:03pm,2:34,65133,68,60,25,Tampa Bay Buccaneers ,12.5,37.5 ,O,http://www.pro-football-reference.com/boxscores/200712160tam.htm
+15,Sun,2007-12-16,31,16,26,17,Arrowhead Stadium,1:00pm,2:55,74976,22,71,6,Tennessee Titans ,3.5,34.5 ,O,http://www.pro-football-reference.com/boxscores/200712160kan.htm
+15,Sun,2007-12-16,32,22,22,10,Giants Stadium,8:24pm,3:14,77899,36,75,18,New York Giants ,6.5,36.5 ,U,http://www.pro-football-reference.com/boxscores/200712160nyg.htm
+16,Sun,2007-12-23,1,2,30,27,University of Phoenix Stadium,4:05pm,3:25,64159,null,null,0,Arizona Cardinals ,10.5,43.5 ,O,http://www.pro-football-reference.com/boxscores/200712230crd.htm
+16,Sun,2007-12-23,6,12,35,7,Soldier Field,1:03pm,2:44,62272,16,73,22,Green Bay Packers ,7.5,32.0 ,O,http://www.pro-football-reference.com/boxscores/200712230chi.htm
+16,Sun,2007-12-23,7,8,19,14,Paul Brown Stadium,1:02pm,3:02,66023,31,63,19,Cleveland Browns ,3.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/200712230cin.htm
+16,Sat,2007-12-22,9,5,20,13,Bank of America Stadium,8:15pm,3:00,73860,51,70,10,Dallas Cowboys ,10.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/200712220car.htm
+16,Sun,2007-12-23,11,16,25,20,Ford Field,1:02pm,2:59,59938,null,null,0,Detroit Lions ,5.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/200712230det.htm
+16,Sun,2007-12-23,14,13,38,15,RCA Dome,1:02pm,3:00,5723016,null,null,0,Indianapolis Colts ,6.5,45.0 ,O,http://www.pro-football-reference.com/boxscores/200712230clt.htm
+16,Sun,2007-12-23,15,24,49,11,Jacksonville Municipal Stadium,1:02pm,3:09,66905,69,78,6,Jacksonville Jaguars ,13.5,39.5 ,O,http://www.pro-football-reference.com/boxscores/200712230jax.htm
+16,Sun,2007-12-23,20,18,28,7,Gillette Stadium,4:15pm,3:02,68756,43,95,7,New England Patriots ,22.5,45.5 ,U,http://www.pro-football-reference.com/boxscores/200712230nwe.htm
+16,Sun,2007-12-23,22,4,38,21,Ralph Wilson Stadium,1:02pm,3:12,71302,52,32,23,New York Giants ,3.0,32.0 ,O,http://www.pro-football-reference.com/boxscores/200712230buf.htm
+16,Sun,2007-12-23,25,21,38,23,Louisiana Superdome,1:02pm,3:15,70011,null,null,0,New Orleans Saints ,3.0,48.0 ,O,http://www.pro-football-reference.com/boxscores/200712230nor.htm
+16,Thu,2007-12-20,26,17,41,24,Edward Jones Dome,8:15pm,2:58,65705,null,null,0,Pittsburgh Steelers ,8.0,43.0 ,O,http://www.pro-football-reference.com/boxscores/200712200ram.htm
+16,Mon,2007-12-24,27,10,23,3,Qualcomm Stadium,8:10pm,2:49,65477,62,48,8,San Diego Chargers ,8.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/200712240sdg.htm
+16,Sun,2007-12-23,28,30,21,19,Monster Park,4:05pm,3:27,68193,51,65,5,Tampa Bay Buccaneers ,7.0,37.0 ,O,http://www.pro-football-reference.com/boxscores/200712230sfo.htm
+16,Sun,2007-12-23,29,3,27,6,Qwest Field,4:16pm,3:07,68164,43,95,0,Seattle Seahawks ,13.5,39.0 ,U,http://www.pro-football-reference.com/boxscores/200712230sea.htm
+16,Sun,2007-12-23,31,23,10,6,LP Field,4:15pm,2:43,6923116,42,38,10,Tennessee Titans ,9.0,37.5 ,U,http://www.pro-football-reference.com/boxscores/200712230oti.htm
+16,Sun,2007-12-23,32,19,32,21,Hubert H. Humphrey Metrodome,8:15pm,3:16,63634,null,null,0,Minnesota Vikings ,6.5,40.5 ,O,http://www.pro-football-reference.com/boxscores/200712230min.htm
+17,Sun,2007-12-30,1,17,48,19,University of Phoenix Stadium,4:15pm,3:08,64671,null,null,0,Arizona Cardinals ,6.0,49.0 ,O,http://www.pro-football-reference.com/boxscores/200712300crd.htm
+17,Sun,2007-12-30,2,29,44,41,Georgia Dome,1:04pm,3:10,64925,null,null,0,Seattle Seahawks ,2.0,38.5 ,O,http://www.pro-football-reference.com/boxscores/200712300atl.htm
+17,Sun,2007-12-30,3,26,27,21,M&T Bank Stadium,4:17pm,3:02,71353,42,100,5,Pittsburgh Steelers ,3.0,35.5 ,O,http://www.pro-football-reference.com/boxscores/200712300rav.htm
+17,Sun,2007-12-30,5,30,31,23,Raymond James Stadium,1:02pm,2:53,65609,80,64,14,Carolina Panthers ,2.5,36.0 ,O,http://www.pro-football-reference.com/boxscores/200712300tam.htm
+17,Sun,2007-12-30,6,21,33,25,Soldier Field,1:00pm,3:16,62064,30,89,2,Chicago Bears ,1.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/200712300chi.htm
+17,Sun,2007-12-30,7,18,38,25,Dolphin Stadium,1:03pm,3:04,70461,81,59,22,Cincinnati Bengals ,3.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/200712300mia.htm
+17,Sun,2007-12-30,8,28,20,7,Cleveland Browns Stadium,1:03pm,3:02,73041,35,64,8,Cleveland Browns ,11.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/200712300cle.htm
+17,Sun,2007-12-30,10,19,22,19,Invesco Field at Mile High,4:16pm,3:06,76084,36,46,7,Minnesota Vikings ,3.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/200712300den.htm
+17,Sun,2007-12-30,12,11,34,13,Lambeau Field,1:02pm,3:04,70869,20,83,7,Green Bay Packers ,3.0,38.5 ,O,http://www.pro-football-reference.com/boxscores/200712300gnb.htm
+17,Sun,2007-12-30,13,15,42,28,Reliant Stadium,1:02pm,2:46,70660,null,null,0,Houston Texans ,7.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/200712300htx.htm
+17,Sat,2007-12-29,20,22,38,35,Giants Stadium,8:15pm,3:07,79110,44,53,8,New England Patriots ,13.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/200712290nyg.htm
+17,Sun,2007-12-30,23,16,13,10,Giants Stadium,4:15pm,3:19,76737,41,52,7,New York Jets ,4.5,35.0 ,U,http://www.pro-football-reference.com/boxscores/200712300nyj.htm
+17,Sun,2007-12-30,25,4,17,9,Lincoln Financial Field,1:01pm,3:02,68594,42,62,5,Philadelphia Eagles ,9.0,39.0 ,U,http://www.pro-football-reference.com/boxscores/200712300phi.htm
+17,Sun,2007-12-30,27,24,30,17,McAfee Coliseum,4:15pm,3:07,61706,54,68,7,San Diego Chargers ,9.0,42.5 ,O,http://www.pro-football-reference.com/boxscores/200712300rai.htm
+17,Sun,2007-12-30,31,14,16,10,RCA Dome,8:24pm,2:47,5730217,null,null,0,Tennessee Titans ,4.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/200712300clt.htm
+17,Sun,2007-12-30,32,9,27,6,FedExField,4:15pm,3:04,90910,39,60,6,Washington Redskins ,9.0,39.5 ,U,http://www.pro-football-reference.com/boxscores/200712300was.htm
+2,Sun,2007-09-16,1,29,23,20,University of Phoenix Stadium,3:05pm,3:05,64542,null,null,0,Seattle Seahawks ,2.5,42.5 ,O,http://www.pro-football-reference.com/boxscores/200709160crd.htm
+2,Sun,2007-09-16,3,23,20,13,M&T Bank Stadium,4:15pm,3:13,71246,69,32,3,Baltimore Ravens ,10.0,33.0 ,P,http://www.pro-football-reference.com/boxscores/200709160rav.htm
+2,Sun,2007-09-16,6,16,20,10,Soldier Field,4:15pm,3:10,62095,70,30,11,Chicago Bears ,12.0,34.5 ,U,http://www.pro-football-reference.com/boxscores/200709160chi.htm
+2,Sun,2007-09-16,8,7,51,45,Cleveland Browns Stadium,1:03pm,3:34,72801,59,50,6,Cincinnati Bengals ,7.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/200709160cle.htm
+2,Sun,2007-09-16,9,18,37,20,Dolphin Stadium,4:05pm,3:16,71615,89,60,9,Dallas Cowboys ,3.5,40.5 ,O,http://www.pro-football-reference.com/boxscores/200709160mia.htm
+2,Sun,2007-09-16,10,24,23,20,Invesco Field at Mile High,4:15pm,3:29,76784,87,16,0,Denver Broncos ,10.0,37.0 ,O,http://www.pro-football-reference.com/boxscores/200709160den.htm
+2,Sun,2007-09-16,11,19,20,17,Ford Field,4:05pm,3:24,61771,null,null,0,Detroit Lions ,3.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/200709160det.htm
+2,Sun,2007-09-16,12,22,35,13,Giants Stadium,1:04pm,3:00,78701,64,47,7,New York Giants ,2.5,39.0 ,O,http://www.pro-football-reference.com/boxscores/200709160nyg.htm
+2,Sun,2007-09-16,13,5,34,21,Bank of America Stadium,1:02pm,3:10,73665,74,30,10,Carolina Panthers ,6.5,38.5 ,O,http://www.pro-football-reference.com/boxscores/200709160car.htm
+2,Sun,2007-09-16,14,31,22,20,LP Field,1:02pm,2:59,691602,67,48,6,Indianapolis Colts ,7.0,46.0 ,U,http://www.pro-football-reference.com/boxscores/200709160oti.htm
+2,Sun,2007-09-16,15,2,13,7,Jacksonville Municipal Stadium,1:04pm,2:50,61821,88,81,9,Jacksonville Jaguars ,10.0,34.5 ,U,http://www.pro-football-reference.com/boxscores/200709160jax.htm
+2,Sun,2007-09-16,20,27,38,14,Gillette Stadium,8:24pm,2:54,68756,55,72,5,New England Patriots ,3.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/200709160nwe.htm
+2,Sun,2007-09-16,26,4,26,3,Heinz Field,1:02pm,2:52,64307,59,51,4,Pittsburgh Steelers ,10.0,39.0 ,U,http://www.pro-football-reference.com/boxscores/200709160pit.htm
+2,Sun,2007-09-16,28,17,17,16,Edward Jones Dome,1:02pm,2:54,65295,null,null,0,St. Louis Rams ,3.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/200709160ram.htm
+2,Sun,2007-09-16,30,21,31,14,Raymond James Stadium,1:03pm,2:56,65178,88,67,7,New Orleans Saints ,4.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/200709160tam.htm
+2,Mon,2007-09-17,32,25,20,12,Lincoln Financial Field,8:40pm,3:10,67726,62,60,6,Philadelphia Eagles ,7.0,38.5 ,U,http://www.pro-football-reference.com/boxscores/200709170phi.htm
+3,Sun,2007-09-23,3,1,26,23,M&T Bank Stadium,1:00pm,3:09,71372,75,50,9,Baltimore Ravens ,7.0,35.5 ,O,http://www.pro-football-reference.com/boxscores/200709230rav.htm
+3,Sun,2007-09-23,5,2,27,20,Georgia Dome,4:15pm,3:01,68175,null,null,0,Carolina Panthers ,4.0,38.5 ,O,http://www.pro-football-reference.com/boxscores/200709230atl.htm
+3,Sun,2007-09-23,9,6,34,10,Soldier Field,8:24pm,3:07,62099,79,36,0,Chicago Bears ,3.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/200709230chi.htm
+3,Sun,2007-09-23,12,27,31,24,Lambeau Field,1:02pm,3:07,70733,73,35,11,San Diego Chargers ,5.5,42.5 ,O,http://www.pro-football-reference.com/boxscores/200709230gnb.htm
+3,Sun,2007-09-23,14,13,30,24,Reliant Stadium,1:03pm,2:57,70765,null,null,0,Indianapolis Colts ,6.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/200709230htx.htm
+3,Sun,2007-09-23,15,10,23,14,Invesco Field at Mile High,4:05pm,2:46,76463,75,36,10,Denver Broncos ,3.0,36.0 ,O,http://www.pro-football-reference.com/boxscores/200709230den.htm
+3,Sun,2007-09-23,16,19,13,10,Arrowhead Stadium,1:00pm,2:59,78038,83,52,5,Kansas City Chiefs ,3.0,34.0 ,U,http://www.pro-football-reference.com/boxscores/200709230kan.htm
+3,Sun,2007-09-23,20,4,38,7,Gillette Stadium,1:02pm,2:51,68756,74,34,10,New England Patriots ,16.5,41.0 ,O,http://www.pro-football-reference.com/boxscores/200709230nwe.htm
+3,Sun,2007-09-23,22,32,24,17,FedExField,4:15pm,3:12,90803,82,38,4,Washington Redskins ,3.5,42.5 ,U,http://www.pro-football-reference.com/boxscores/200709230was.htm
+3,Sun,2007-09-23,23,18,31,28,Giants Stadium,1:02pm,2:56,77197,72,37,8,New York Jets ,3.0,36.5 ,O,http://www.pro-football-reference.com/boxscores/200709230nyj.htm
+3,Sun,2007-09-23,24,8,26,24,McAfee Coliseum,4:05pm,3:05,51075,67,63,10,Oakland Raiders ,3.0,41.5 ,O,http://www.pro-football-reference.com/boxscores/200709230rai.htm
+3,Sun,2007-09-23,25,11,56,21,Lincoln Financial Field,1:02pm,3:16,67570,76,38,12,Philadelphia Eagles ,5.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/200709230phi.htm
+3,Sun,2007-09-23,26,28,37,16,Heinz Field,1:02pm,3:02,64313,72,37,6,Pittsburgh Steelers ,9.5,38.0 ,O,http://www.pro-football-reference.com/boxscores/200709230pit.htm
+3,Sun,2007-09-23,29,7,24,21,Qwest Field,4:05pm,3:02,68110,54,78,0,Seattle Seahawks ,3.0,49.5 ,U,http://www.pro-football-reference.com/boxscores/200709230sea.htm
+3,Sun,2007-09-23,30,17,24,3,Raymond James Stadium,1:02pm,2:42,65267,86,74,5,Tampa Bay Buccaneers ,3.5,38.5 ,U,http://www.pro-football-reference.com/boxscores/200709230tam.htm
+3,Mon,2007-09-24,31,21,31,14,Louisiana Superdome,8:40pm,3:02,70002,null,null,0,New Orleans Saints ,4.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/200709240nor.htm
+4,Sun,2007-09-30,1,26,21,14,University of Phoenix Stadium,3:15pm,3:28,64844,null,null,0,Pittsburgh Steelers ,5.0,42.5 ,U,http://www.pro-football-reference.com/boxscores/200709300crd.htm
+4,Sun,2007-09-30,2,13,26,16,Georgia Dome,1:02pm,3:03,69312,null,null,0,Houston Texans ,2.5,39.5 ,O,http://www.pro-football-reference.com/boxscores/200709300atl.htm
+4,Sun,2007-09-30,4,23,17,14,Ralph Wilson Stadium,1:02pm,2:41,70600,70,68,10,New York Jets ,3.0,37.0 ,U,http://www.pro-football-reference.com/boxscores/200709300buf.htm
+4,Sun,2007-09-30,8,3,27,13,Cleveland Browns Stadium,1:02pm,2:57,73024,77,0,6,Baltimore Ravens ,4.5,40.0 ,P,http://www.pro-football-reference.com/boxscores/200709300cle.htm
+4,Sun,2007-09-30,9,17,35,7,Texas Stadium,1:02pm,3:01,62866,85,58,0,Dallas Cowboys ,13.0,47.0 ,U,http://www.pro-football-reference.com/boxscores/200709300dal.htm
+4,Sun,2007-09-30,11,6,37,27,Ford Field,1:03pm,3:35,60811,null,null,0,Chicago Bears ,2.5,46.0 ,O,http://www.pro-football-reference.com/boxscores/200709300det.htm
+4,Sun,2007-09-30,12,19,23,16,Hubert H. Humphrey Metrodome,1:05pm,3:12,63779,null,null,0,Green Bay Packers ,1.0,38.0 ,O,http://www.pro-football-reference.com/boxscores/200709300min.htm
+4,Sun,2007-09-30,14,10,38,20,RCA Dome,4:15pm,2:52,573014,null,null,0,Indianapolis Colts ,10.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/200709300clt.htm
+4,Sun,2007-09-30,16,27,30,16,Qualcomm Stadium,4:15pm,3:01,65175,76,61,8,San Diego Chargers ,12.0,38.5 ,O,http://www.pro-football-reference.com/boxscores/200709300sdg.htm
+4,Mon,2007-10-01,20,7,34,13,Paul Brown Stadium,8:40pm,2:52,66113,72,49,8,New England Patriots ,7.5,54.0 ,U,http://www.pro-football-reference.com/boxscores/200710010cin.htm
+4,Sun,2007-09-30,22,25,16,3,Giants Stadium,8:23pm,3:00,78862,67,56,8,Philadelphia Eagles ,2.5,47.0 ,U,http://www.pro-football-reference.com/boxscores/200709300nyg.htm
+4,Sun,2007-09-30,24,18,35,17,Dolphin Stadium,1:32pm,2:48,70621,82,69,16,Miami Dolphins ,3.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200709300mia.htm
+4,Sun,2007-09-30,29,28,23,3,Monster Park,4:05pm,3:09,67651,65,57,12,Seattle Seahawks ,1.0,40.5 ,U,http://www.pro-football-reference.com/boxscores/200709300sfo.htm
+4,Sun,2007-09-30,30,5,20,7,Bank of America Stadium,4:06pm,3:02,73707,78,33,12,Carolina Panthers ,3.0,39.5 ,U,http://www.pro-football-reference.com/boxscores/200709300car.htm
+5,Sun,2007-10-07,1,17,34,31,Edward Jones Dome,1:02pm,3:28,61788,null,null,0,Arizona Cardinals ,3.5,41.0 ,O,http://www.pro-football-reference.com/boxscores/200710070ram.htm
+5,Sun,2007-10-07,3,28,9,7,Monster Park,4:15pm,2:51,67885,63,54,3,Baltimore Ravens ,3.0,34.5 ,U,http://www.pro-football-reference.com/boxscores/200710070sfo.htm
+5,Sun,2007-10-07,5,21,16,13,Louisiana Superdome,1:03pm,3:05,70001,null,null,0,New Orleans Saints ,4.0,44.0 ,U,http://www.pro-football-reference.com/boxscores/200710070nor.htm
+5,Sun,2007-10-07,6,12,27,20,Lambeau Field,8:24pm,3:21,70904,79,68,5,Green Bay Packers ,3.5,40.5 ,O,http://www.pro-football-reference.com/boxscores/200710070gnb.htm
+5,Mon,2007-10-08,9,4,25,24,Ralph Wilson Stadium,8:40pm,3:17,71575,73,73,11,Dallas Cowboys ,11.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/200710080buf.htm
+5,Sun,2007-10-07,13,18,22,19,Reliant Stadium,1:02pm,3:01,70156,null,null,0,Houston Texans ,5.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/200710070htx.htm
+5,Sun,2007-10-07,14,30,33,14,RCA Dome,4:05pm,2:44,57705,null,null,0,Indianapolis Colts ,9.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/200710070clt.htm
+5,Sun,2007-10-07,15,16,17,7,Arrowhead Stadium,1:00pm,2:44,76917,78,76,10,Jacksonville Jaguars ,2.0,35.0 ,U,http://www.pro-football-reference.com/boxscores/200710070kan.htm
+5,Sun,2007-10-07,20,8,34,17,Gillette Stadium,1:02pm,3:18,68756,56,85,8,New England Patriots ,15.5,48.0 ,O,http://www.pro-football-reference.com/boxscores/200710070nwe.htm
+5,Sun,2007-10-07,22,23,35,24,Giants Stadium,1:02pm,3:10,78809,81,56,10,New York Giants ,4.0,40.5 ,O,http://www.pro-football-reference.com/boxscores/200710070nyg.htm
+5,Sun,2007-10-07,26,29,21,0,Heinz Field,1:02pm,2:41,64478,80,59,2,Pittsburgh Steelers ,5.0,41.5 ,U,http://www.pro-football-reference.com/boxscores/200710070pit.htm
+5,Sun,2007-10-07,27,10,41,3,Invesco Field at Mile High,4:15pm,2:45,76879,54,34,0,San Diego Chargers ,1.0,43.5 ,O,http://www.pro-football-reference.com/boxscores/200710070den.htm
+5,Sun,2007-10-07,31,2,20,13,LP Field,1:04pm,3:11,69705,84,47,5,Tennessee Titans ,7.5,41.0 ,U,http://www.pro-football-reference.com/boxscores/200710070oti.htm
+5,Sun,2007-10-07,32,11,34,3,FedExField,1:02pm,3:02,88944,88,52,8,Washington Redskins ,4.0,44.5 ,U,http://www.pro-football-reference.com/boxscores/200710070was.htm
+6,Sun,2007-10-14,3,17,22,3,M&T Bank Stadium,1:02pm,3:03,71175,68,40,8,Baltimore Ravens ,9.0,36.5 ,U,http://www.pro-football-reference.com/boxscores/200710140rav.htm
+6,Sun,2007-10-14,5,1,25,10,University of Phoenix Stadium,3:05pm,3:21,64403,null,null,0,Arizona Cardinals ,6.0,38.5 ,U,http://www.pro-football-reference.com/boxscores/200710140crd.htm
+6,Sun,2007-10-14,8,18,41,31,Cleveland Browns Stadium,1:03pm,3:08,73198,58,0,0,Cleveland Browns ,4.0,45.0 ,O,http://www.pro-football-reference.com/boxscores/200710140cle.htm
+6,Sun,2007-10-14,12,32,17,14,Lambeau Field,1:02pm,3:12,70761,46,79,7,Green Bay Packers ,3.0,40.5 ,U,http://www.pro-football-reference.com/boxscores/200710140gnb.htm
+6,Sun,2007-10-14,15,13,37,17,Jacksonville Municipal Stadium,1:03pm,3:16,63715,81,58,14,Jacksonville Jaguars ,7.0,37.5 ,O,http://www.pro-football-reference.com/boxscores/200710140jax.htm
+6,Sun,2007-10-14,16,7,27,20,Arrowhead Stadium,1:00pm,3:22,76846,68,56,12,Cincinnati Bengals ,2.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/200710140kan.htm
+6,Sun,2007-10-14,19,6,34,31,Soldier Field,1:02pm,3:16,62174,55,76,5,Chicago Bears ,4.5,35.5 ,O,http://www.pro-football-reference.com/boxscores/200710140chi.htm
+6,Sun,2007-10-14,20,9,48,27,Texas Stadium,4:17pm,3:31,63984,85,48,0,New England Patriots ,5.0,53.0 ,O,http://www.pro-football-reference.com/boxscores/200710140dal.htm
+6,Sun,2007-10-14,21,29,28,17,Qwest Field,8:23pm,3:04,68296,68,47,4,Seattle Seahawks ,6.5,43.0 ,O,http://www.pro-football-reference.com/boxscores/200710140sea.htm
+6,Mon,2007-10-15,22,2,31,10,Georgia Dome,8:40pm,3:07,69828,null,null,0,New York Giants ,5.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/200710150atl.htm
+6,Sun,2007-10-14,25,23,16,9,Giants Stadium,1:02pm,2:48,77189,62,45,12,Philadelphia Eagles ,4.5,43.5 ,U,http://www.pro-football-reference.com/boxscores/200710140nyj.htm
+6,Sun,2007-10-14,27,24,28,14,Qualcomm Stadium,4:15pm,2:56,67523,73,74,8,San Diego Chargers ,9.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/200710140sdg.htm
+6,Sun,2007-10-14,30,31,13,10,Raymond James Stadium,1:03pm,3:03,65347,81,62,10,Tampa Bay Buccaneers ,2.5,37.0 ,U,http://www.pro-football-reference.com/boxscores/200710140tam.htm
+7,Sun,2007-10-21,4,3,19,14,Ralph Wilson Stadium,1:02pm,2:53,70727,66,33,16,Baltimore Ravens ,3.0,33.5 ,U,http://www.pro-football-reference.com/boxscores/200710210buf.htm
+7,Sun,2007-10-21,6,25,19,16,Lincoln Financial Field,4:14pm,3:03,67806,75,38,7,Philadelphia Eagles ,5.5,43.0 ,U,http://www.pro-football-reference.com/boxscores/200710210phi.htm
+7,Sun,2007-10-21,7,23,38,31,Paul Brown Stadium,4:05pm,3:06,65868,77,30,13,Cincinnati Bengals ,6.0,48.5 ,O,http://www.pro-football-reference.com/boxscores/200710210cin.htm
+7,Sun,2007-10-21,9,19,24,14,Texas Stadium,4:15pm,3:05,63432,88,33,0,Dallas Cowboys ,9.5,46.5 ,U,http://www.pro-football-reference.com/boxscores/200710210dal.htm
+7,Sun,2007-10-21,10,26,31,28,Invesco Field at Mile High,8:23pm,3:02,77038,37,59,10,Pittsburgh Steelers ,4.5,38.5 ,O,http://www.pro-football-reference.com/boxscores/200710210den.htm
+7,Sun,2007-10-21,11,30,23,16,Ford Field,1:03pm,3:01,60442,null,null,0,Detroit Lions ,2.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/200710210det.htm
+7,Mon,2007-10-22,14,15,29,7,Jacksonville Municipal Stadium,8:40pm,3:02,67164,77,87,8,Indianapolis Colts ,3.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/200710220jax.htm
+7,Sun,2007-10-21,16,24,12,10,McAfee Coliseum,4:05pm,3:03,62240,68,32,10,Oakland Raiders ,1.5,38.0 ,U,http://www.pro-football-reference.com/boxscores/200710210rai.htm
+7,Sun,2007-10-21,20,18,49,28,Dolphin Stadium,1:02pm,3:03,71951,85,70,12,New England Patriots ,15.5,49.5 ,O,http://www.pro-football-reference.com/boxscores/200710210mia.htm
+7,Sun,2007-10-21,21,2,22,16,Louisiana Superdome,1:03pm,3:02,69994,null,null,0,New Orleans Saints ,7.5,42.0 ,U,http://www.pro-football-reference.com/boxscores/200710210nor.htm
+7,Sun,2007-10-21,22,28,33,15,Giants Stadium,1:03pm,3:04,78912,69,37,5,New York Giants ,9.5,39.0 ,O,http://www.pro-football-reference.com/boxscores/200710210nyg.htm
+7,Sun,2007-10-21,29,17,33,6,Qwest Field,4:16pm,3:05,68164,52,85,11,Seattle Seahawks ,7.5,39.5 ,U,http://www.pro-football-reference.com/boxscores/200710210sea.htm
+7,Sun,2007-10-21,31,13,38,36,Reliant Stadium,1:02pm,3:31,70734,null,null,0,Houston Texans ,2.0,38.0 ,O,http://www.pro-football-reference.com/boxscores/200710210htx.htm
+7,Sun,2007-10-21,32,1,21,19,FedExField,1:02pm,3:02,85640,75,38,9,Washington Redskins ,8.0,36.0 ,O,http://www.pro-football-reference.com/boxscores/200710210was.htm
+8,Sun,2007-10-28,4,23,13,3,Giants Stadium,4:05pm,2:42,76688,56,35,16,New York Jets ,3.0,38.5 ,U,http://www.pro-football-reference.com/boxscores/200710280nyj.htm
+8,Sun,2007-10-28,8,17,27,20,Edward Jones Dome,1:00pm,3:00,62777,null,null,0,Cleveland Browns ,3.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/200710280ram.htm
+8,Sun,2007-10-28,11,6,16,7,Soldier Field,1:05pm,3:02,62171,51,41,5,Chicago Bears ,6.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/200710280chi.htm
+8,Mon,2007-10-29,12,10,19,13,Invesco Field at Mile High,8:40pm,2:56,77160,67,17,0,Denver Broncos ,3.0,43.5 ,U,http://www.pro-football-reference.com/boxscores/200710290den.htm
+8,Sun,2007-10-28,14,5,31,7,Bank of America Stadium,1:02pm,3:06,74005,69,67,8,Indianapolis Colts ,6.5,44.0 ,U,http://www.pro-football-reference.com/boxscores/200710280car.htm
+8,Sun,2007-10-28,15,30,24,23,Raymond James Stadium,4:05pm,3:12,65133,84,57,11,Tampa Bay Buccaneers ,3.5,32.0 ,O,http://www.pro-football-reference.com/boxscores/200710280tam.htm
+8,Sun,2007-10-28,20,32,52,7,Gillette Stadium,4:17pm,2:58,68756,55,31,15,New England Patriots ,14.5,46.5 ,O,http://www.pro-football-reference.com/boxscores/200710280nwe.htm
+8,Sun,2007-10-28,21,28,31,10,Monster Park,4:17pm,3:14,68244,63,70,6,New Orleans Saints ,1.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200710280sfo.htm
+8,Sun,2007-10-28,22,18,13,10,Wembley Stadium,1:03pm,3:02,81176,59,88,15,New York Giants ,10.0,48.0 ,U,http://www.pro-football-reference.com/boxscores/200710280mia.htm
+8,Sun,2007-10-28,25,19,23,16,Hubert H. Humphrey Metrodome,1:05pm,3:12,63019,null,null,0,Philadelphia Eagles ,1.0,37.5 ,O,http://www.pro-football-reference.com/boxscores/200710280min.htm
+8,Sun,2007-10-28,26,7,24,13,Paul Brown Stadium,1:02pm,2:48,66188,55,38,7,Pittsburgh Steelers ,4.0,48.5 ,U,http://www.pro-football-reference.com/boxscores/200710280cin.htm
+8,Sun,2007-10-28,27,13,35,10,Qualcomm Stadium,4:05pm,2:49,60439,78,54,8,San Diego Chargers ,10.0,45.5 ,U,http://www.pro-football-reference.com/boxscores/200710280sdg.htm
+8,Sun,2007-10-28,31,24,13,9,LP Field,1:02pm,2:52,692808,58,64,16,Tennessee Titans ,7.0,39.0 ,U,http://www.pro-football-reference.com/boxscores/200710280oti.htm
+9,Sun,2007-11-04,2,28,20,16,Georgia Dome,1:02pm,3:06,66049,null,null,0,Atlanta Falcons ,3.5,37.0 ,U,http://www.pro-football-reference.com/boxscores/200711040atl.htm
+9,Sun,2007-11-04,4,7,33,21,Ralph Wilson Stadium,1:02pm,3:08,70745,47,59,9,Cincinnati Bengals ,1.0,44.0 ,O,http://www.pro-football-reference.com/boxscores/200711040buf.htm
+9,Sun,2007-11-04,8,29,33,30,Cleveland Browns Stadium,4:06pm,3:37,72927,48,50,6,Cleveland Browns ,1.5,47.0 ,O,http://www.pro-football-reference.com/boxscores/200711040cle.htm
+9,Sun,2007-11-04,9,25,38,17,Lincoln Financial Field,8:23pm,2:52,67688,49,61,6,Dallas Cowboys ,3.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/200711040phi.htm
+9,Sun,2007-11-04,11,10,44,7,Ford Field,1:02pm,3:23,60783,null,null,0,Detroit Lions ,3.0,46.5 ,O,http://www.pro-football-reference.com/boxscores/200711040det.htm
+9,Sun,2007-11-04,12,16,33,22,Arrowhead Stadium,1:00pm,3:16,78988,61,24,8,Kansas City Chiefs ,2.5,37.5 ,O,http://www.pro-football-reference.com/boxscores/200711040kan.htm
+9,Sun,2007-11-04,13,24,24,17,McAfee Coliseum,4:15pm,3:00,49603,70,35,4,Oakland Raiders ,3.0,41.0 ,P,http://www.pro-football-reference.com/boxscores/200711040rai.htm
+9,Sun,2007-11-04,19,27,35,17,Hubert H. Humphrey Metrodome,1:05pm,3:24,63043,null,null,0,San Diego Chargers ,7.0,42.0 ,O,http://www.pro-football-reference.com/boxscores/200711040min.htm
+9,Sun,2007-11-04,20,14,24,20,RCA Dome,4:18pm,3:04,57419,null,null,0,New England Patriots ,5.0,56.5 ,U,http://www.pro-football-reference.com/boxscores/200711040clt.htm
+9,Sun,2007-11-04,21,15,41,24,Louisiana Superdome,1:02pm,3:17,70009,null,null,0,New Orleans Saints ,3.0,40.0 ,O,http://www.pro-football-reference.com/boxscores/200711040nor.htm
+9,Mon,2007-11-05,26,3,38,7,Heinz Field,8:38pm,3:12,63457,52,78,5,Pittsburgh Steelers ,9.5,36.0 ,O,http://www.pro-football-reference.com/boxscores/200711050pit.htm
+9,Sun,2007-11-04,30,1,17,10,Raymond James Stadium,1:00pm,3:05,65267,78,53,10,Tampa Bay Buccaneers ,3.5,39.0 ,U,http://www.pro-football-reference.com/boxscores/200711040tam.htm
+9,Sun,2007-11-04,31,5,20,7,LP Field,1:02pm,3:03,69409,66,35,8,Tennessee Titans ,5.5,35.5 ,U,http://www.pro-football-reference.com/boxscores/200711040oti.htm
+9,Sun,2007-11-04,32,23,23,20,Giants Stadium,1:02pm,3:17,76663,55,44,8,Washington Redskins ,3.5,36.0 ,O,http://www.pro-football-reference.com/boxscores/200711040nyj.htm
+ConfChamp,Sun,2008-01-20,20,27,21,12,Gillette Stadium,3:05pm,2:55,68756,23,33,17,New England Patriots ,14.0,48.0 ,U,http://www.pro-football-reference.com/boxscores/200801200nwe.htm
+ConfChamp,Sun,2008-01-20,22,12,23,20,Lambeau Field,6:42pm,3:33,72740,-1,49,12,Green Bay Packers ,7.5,41.5 ,O,http://www.pro-football-reference.com/boxscores/200801200gnb.htm
+Division,Sat,2008-01-12,12,29,42,20,Lambeau Field,4:33pm,2:58,72168,31,81,4,Green Bay Packers ,7.5,44.0 ,O,http://www.pro-football-reference.com/boxscores/200801120gnb.htm
+Division,Sat,2008-01-12,20,15,31,20,Gillette Stadium,8:15pm,2:48,68756,37,64,5,New England Patriots ,13.5,51.5 ,U,http://www.pro-football-reference.com/boxscores/200801120nwe.htm
+Division,Sun,2008-01-13,22,9,21,17,Texas Stadium,4:45pm,3:05,63660,59,30,0,Dallas Cowboys ,7.0,47.5 ,U,http://www.pro-football-reference.com/boxscores/200801130dal.htm
+Division,Sun,2008-01-13,27,14,28,24,RCA Dome,1:06pm,3:12,56130Division,null,null,0,Indianapolis Colts ,11.0,47.0 ,O,http://www.pro-football-reference.com/boxscores/200801130clt.htm
+SuperBowl,Sun,2008-02-03,22,20,17,14,University of Phoenix Stadium,6:30pm,3:35,71101,null,null,0,New England Patriots ,12.5,54.5 ,U,http://www.pro-football-reference.com/boxscores/200802030nwe.htm
+WildCard,Sat,2008-01-05,15,26,31,29,Heinz Field,8:13pm,3:24,63629,39,95,8,Jacksonville Jaguars ,2.5,40.0 ,O,http://www.pro-football-reference.com/boxscores/200801050pit.htm
+WildCard,Sun,2008-01-06,22,30,24,14,Raymond James Stadium,1:03pm,2:53,65621,70,65,5,Tampa Bay Buccaneers ,3.0,39.5 ,U,http://www.pro-football-reference.com/boxscores/200801060tam.htm
+WildCard,Sun,2008-01-06,27,31,17,6,Qualcomm Stadium,4:30pm,3:04,65640,57,82,8,San Diego Chargers ,10.0,39.0 ,U,http://www.pro-football-reference.com/boxscores/200801060sdg.htm
+WildCard,Sat,2008-01-05,29,32,35,14,Qwest Field,4:35pm,3:18,68297,42,79,13,Seattle Seahawks ,3.5,38.5 ,O,http://www.pro-football-reference.com/boxscores/200801050sea.htm
