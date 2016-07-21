@@ -1,36 +1,79 @@
-CREATE VIEW TeamGameView AS
-SELECT Games.GameID AS 'GameID',
-     Games.Date AS 'Date',
-     Games.Week AS 'Week',
-	 Games.Day AS 'Day',
-	 Games.Time AS 'Time',
-     Games.WinnerID AS 'WinID',
-     Games.LoserID AS 'LoseID',
-     win.Name AS 'Winner',
-     lose.Name AS 'Loser',
-	 Games.WinnerScore AS 'WinScore',
-	 Games.LoserScore AS 'LoseScore',
-	 Games.Duration AS 'Duration',
-	 Stadiums.Name AS 'Stadium',
-	 Games.Attendance AS 'Attendance',
-	 Stadiums.Roof AS 'Roof',
-	 Stadiums.Surface AS 'Surface',
-	 Games.Temperature AS 'Temp',
-	 Games.Humidity AS 'Humidity',
-	 Games.Wind AS 'Wind',
-	 favored.Name AS 'Favored',
-	 Games.Spread AS 'Spread',
-	 CASE 
-		WHEN (win.name LIKE favored.name) AND ((Games.WinnerScore - Games.LoserScore) > Games.Spread) 
-			THEN 'Y' 
-		WHEN Games.Spread = 0
-			THEN null
-		ELSE 'N' 
-	 END AS 'SpreadCovered',
-	 Games.OverUnder AS 'OULine',
-	 Games.OUResult AS 'OUResult'
-FROM Games, Stadiums
-LEFT JOIN Teams as win ON win.TeamID = Games.WinnerID
-LEFT JOIN Teams as lose on lose.TeamID = Games.LoserID
-LEFT JOIN Teams as favored on favored.TeamID = Games.FavoredTeam
-WHERE Games.StadiumID = Stadiums.StadiumID;
+CREATE VIEW TeamGameView AS SELECT
+	Teams.Name AS 'Name',
+	TeamGame.TeamID AS 'TeamID',
+	TeamGame.GameID AS 'GameID',
+	GameView.Date AS 'Date',
+	GameView.Week AS 'Week',
+	GameView.Day AS 'Day',
+	GameView.Time AS 'Time',
+	CASE
+		WHEN (Name LIKE GameView.Winner)
+			THEN 'Y'
+		ELSE 
+			'N' 
+		END AS 'Won',
+	CASE 		
+		WHEN (Name LIKE GameView.Winner)
+			THEN GameView.Loser
+		ELSE 
+			GameView.Winner
+		END AS 'Opponent',
+	CASE
+		WHEN (Name LIKE GameView.Winner)
+			THEN GameView.WinScore
+		ELSE
+			GameView.LoseScore
+		END AS 'TotalScore',
+	CASE 
+		WHEN (Name LIKE GameView.Winner)
+			THEN GameView.LoseScore
+		ELSE
+			GameView.WinScore
+		END AS 'OppScore',
+	GameView.Duration AS 'Duration',
+	GameView.Stadium AS 'Stadium',
+	GameView.Roof AS 'Roof',
+	GameView.Surface AS 'Surface',
+	GameView.Temp AS 'Temp',
+	GameView.Humidity AS 'Humidity',
+	GameView.Wind AS 'Wind',
+	TeamGame."1stDowns" AS '1stDowns',
+	TeamGame.RushAtt AS 'RushAtt',
+	TeamGame.RushYds AS 'RushYds',
+	TeamGame.RushTds AS 'RushTds',
+	TeamGame.PassComp AS 'PassComp',
+	TeamGame.PassAtt AS 'PassAtt',
+	TeamGame.PassYds AS 'PassYds',
+	TeamGame.PassTds AS 'PassTds',
+	TeamGame.Ints AS 'Ints',
+	TeamGame.Sacked AS 'SkTaken',
+	TeamGame.SackedYds AS 'SkYds',
+	TeamGame.NetPassYds AS 'NetPassYds',
+	TeamGame.TotalYds AS 'TotalYds',
+	TeamGame.Fumbles AS 'Fmb',
+	TeamGame.FumblesLost AS 'FL',
+	TeamGame.Turnovers AS 'Turnovers',
+	TeamGame.Penalties AS 'Pen',
+	TeamGame.PenaltyYds AS 'PenYds',
+	TeamGame."3rdM" AS '3rdM',
+	TeamGame."3rdAtt" AS '3rdAtt',
+	TeamGame."4thM" AS '4thM',
+	TeamGame."4thAtt" AS '4thAtt',
+	TeamGame.TOP AS 'TOP',
+	TeamGame.Q1 AS 'Q1',
+	TeamGame.Q2 AS 'Q2',
+	TeamGame.Q3 AS 'Q3',
+	TeamGame.Q4 AS 'Q4',
+	TeamGame.OT AS 'OT',
+	TeamGame.URL AS 'URL'
+FROM
+	Teams, TeamGame
+LEFT JOIN
+	GameView ON GameView.GameID = TeamGame.GameID
+WHERE
+	TeamGame.TeamID = Teams.TeamID;
+	
+	
+
+	
+	
