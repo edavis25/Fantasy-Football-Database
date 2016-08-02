@@ -32,6 +32,14 @@ CREATE VIEW TeamGameView AS SELECT
 		END AS 'OppScore',
 	GameView.Duration AS 'Duration',
 	GameView.Stadium AS 'Stadium',
+	CASE 
+		WHEN Stadium IN (SELECT DISTINCT Stadiums.Name 
+						FROM Stadiums, TeamHomeStadium, Teams 
+						WHERE TeamHomeStadium.StadiumID = Stadiums.StadiumID AND 
+						TeamHomeStadium.TeamID = Teams.TeamID AND Teams.TeamID = TeamGame.TeamID)
+				THEN 'Y'
+		ELSE 'N'
+		END AS 'Home',
 	GameView.Roof AS 'Roof',
 	GameView.Surface AS 'Surface',
 	GameView.Temp AS 'Temp',
