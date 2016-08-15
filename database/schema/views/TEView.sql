@@ -30,7 +30,13 @@ CREATE VIEW TEView AS SELECT
 		PlayerGame2010.PuntRetYds AS 'PuntRetYds',
 		PlayerGame2010.PuntYdsReturn AS 'PuntYdsRet',
 		PlayerGame2010.PuntRetTd AS 'PuntRetTD',
-		PlayerGame2010.PuntRetLng AS 'PuntRetLng'
+		PlayerGame2010.PuntRetLng AS 'PuntRetLng',
+		((RecYds * 0.1) + (RecTd * 6) +  (RushYds * 0.1) + (RushTd * 6) + 
+            (KickRetTd * 6) + (PuntRetTd * 6) + (FL * -2) + (Receptions * 0.5))  AS 'FanDuel',
+        ((RecYds * 0.1) + (RecTd * 6) +  (RushYds * 0.1) + (RushTd * 6) + 
+			(KickRetTd * 6) + (PuntRetTd * 6) + (FL * -2)) AS 'Standard',
+        ((RecYds * 0.1) + (RecTd * 6) +  (RushYds * 0.1) + (RushTd * 6) + 
+             (KickRetTd * 6) + (PuntRetTd * 6) + (FL * -2) + (Receptions * 1))  AS 'PPR'
 FROM PlayerGame2010, Games, Players, Stadiums
 WHERE PlayerGame2010.PlayerID = Players.PlayerID AND
 	  PlayerGame2010.GameID = Games.GameID AND

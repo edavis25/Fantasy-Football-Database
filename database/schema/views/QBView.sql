@@ -24,7 +24,13 @@ CREATE VIEW QBView AS SELECT
 		PlayerGame2010.RushTd AS 'RushTd',
 		PlayerGame2010.RushLng AS 'RushLng',
 		PlayerGame2010.Fmb AS 'Fmb',
-		PlayerGame2010.FL AS 'FL'
+		PlayerGame2010.FL AS 'FL',
+		((PassYds * 0.04) + (PassTd * 4) +  (RushYds * 0.1) + (RushTd * 6) + 
+			(FL * -2) + (Int * -1))  AS 'FanDuel',
+        ((PassYds * 0.04) + (PassTd * 4) +  (RushYds * 0.1) + (RushTd * 6) + 
+            (FL * -2) + (Int * -1)) AS 'Standard',
+        ((PassYds * 0.04) + (PassTd * 4) +  (RushYds * 0.1) + (RushTd * 6) + 
+            (FL * -2) + (Int * -2))  AS 'PPR'
 FROM PlayerGame2010, Games, Players, Stadiums
 WHERE PlayerGame2010.PlayerID = Players.PlayerID AND
 	  PlayerGame2010.GameID = Games.GameID AND
