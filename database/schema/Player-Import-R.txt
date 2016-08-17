@@ -1,0 +1,252 @@
+mingram <- filter(rb, Name == "Mark Ingram")
+trawls <- filter(rb, Name == "Thomas Rawls")
+elacy <- filter(rb, Name == "Eddie Lacy")
+jcharles <- filter(rb, Name == "Jamaal Charles")
+lmccoy <- filter(rb, Name == "LeSean McCoy")
+jstewart <- filter(rb, Name == "Jonathan Stewart")
+chyde <- filter(rb, Name == "Carlos Hyde")
+cjanderson <- filter(rb, Name == "C.J. Anderson")
+mforte <- filter(rb, Name == "Matt Forte")
+dlewis <- filter(rb, Name == "Dion Lewis")
+jhill <- filter(rb, Name == "Jeremy Hill")
+lmurray <- filter(rb, Name == "Latavius Murray")
+rmatthews <- filter(rb, Name == "Ryan Mathews")
+jlangford <- filter(rb, Name == "Jeremy Langford")
+dmurray <- filter(rb, Name == "DeMarco Murray")
+afoster <- filter(rb, Name == "Arian Foster")
+mjones <- filter(rb, Name == "Matt Jones")
+mgordon <- filter(rb, Name == "Melvin Gordon")
+djohnson <- filter(rb, Name == "Duke Johnson")
+dwilliams <- filter(rb, Name == "DeAngelo Williams")
+dwoodhead <- filter(rb, Name == "Danny Woodhead")
+fgore <- filter(rb, Name == "Frank Gore")
+rjennings <- filter(rb, Name == "Rashad Jennings")
+tjyeldon <- filter(rb, Name == "T.J. Yeldon")
+gbernard <- filter(rb, Name == "Giovani Bernard")
+aabdullah <- filter(rb, Name == "Ameer Abdullah
+jforsett <- filter(rb, Name == "Justin Forsett")
+civory <- filter(rb, Name == "Chris Ivory")
+dhenry <- filter(rb, Name == "Derrick Henry")
+lblound <- filter(rb, Name == "LeGarrette Blount")
+bpowell <- filter(rb, Name == "Bilal Powell")
+jajayi <- filter(rb, Name == "Jay Ajayi")
+triddick <- filter(rb, Name == "Theo Riddick")
+tcoleman <- filter(rb, Name == "Tevin Coleman")
+csims <- filter(rb, Name == "Charles Sims")
+icrowell <- filter(rb, Name == "Isaiah Crowell")
+twest <- filter(rb, Name == "Terrance West")
+dbooker <- filter(rb, Name == "Devontae Booker")
+jstarks <- filter(rb, Name == "James Starks")
+dsproles <- filter(rb, Name == "Darren Sproles")
+jhoward <- filter(rb, Name == "Jordan Howard")
+jmckinnon <- filter(rb, Name == "Jerick McKinnon")
+cjohnson <- filter(rb, Name == "Chris Johnson")
+amorris <- filter(rb, Name == "Alfred Morris")
+
+
+
+abrown <- filter(wr, Name == "Antonio Brown")
+obeckham <- filter(wr, Name == "Odell Beckham")
+jjones <- filter(wr, Name == "Julio Jones")
+dhopkins <- filter(wr, Name == "DeAndre Hopkins")
+dbryant <- filter(wr, Name == "Dez Bryan")
+ajgreen <- filter(wr, Name == "A.J. Green")
+arobinson <- filter(wr, Name == "Allen Robinson")
+jnelson <- filter(wr, Name == "Jordy Nelson")
+bmarshall <- filter(wr, Name == "Brandon Marshall")
+ajeffery <- filter(wr, Name == "Alshon Jeffery")
+mevans <- filter(wr, Name == "Mike Evans")
+swatkins <- filter(wr, Name == "Sammy Watkins")
+bcooks <- filter(wr, Name == "Brandin Cooks")
+acooper <- filter(wr, Name == "Amari Cooper")
+dthomas <- filter(wr, Name == "Demaryius Thomas")
+kallen <- filter(wr, Name == "Keenan Allen")
+tyhilton <- filter(wr, Name == "T.Y. Hilton")
+kbenjamin <- filter(wr, Name == "Kelvin Benjamin")
+jedelman <- filter(wr, Name == "Julian Edelman")
+dbaldwin <- filter(wr, Name == "Doug Baldwin")
+jlandry <- filter(wr, Name == "Jarvis Landry")
+jmaclin <- filter(wr, Name == "Jeremy Maclin")
+rcobb <- filter(wr, Name == "Randall Cobb")
+edecker <- filter(wr, Name == "Eric Decker")
+gtate <- filter(wr, Name == "Golden Tate")
+esanders <- filter(wr, Name == "Emmanuel Sanders")
+dmoncrief <- filter(wr, Name == "Donte Moncrief")
+dparker <- filter(wr, Name == "DeVante Parker")
+lfitzgerald <- filter(wr, Name == "Larry Fitzgerald")
+jbrown <- filter(wr, Name == "John Brown")
+jmatthews <- filter(wr, Name == "Jordan Matthews")
+djackson <- filter(wr, Name == "DeSean Jackson")
+ahurns <- filter(wr, Name == "Allen Hurns")
+mcrabtree <- filter(wr, Name == "Michael Crabtree")
+tlockett <- filter(wr, Name == "Tyler Lockett")
+jgordon <- filter(wr, Name == "Josh Gordon")
+mjones <- filter(wr, Name == "Marvin Jones")
+kwhite <- filter(wr, Name == "Kevin White")
+sdiggs <- filter(wr, Name == "Stefon Diggs")
+sshepard <- filter(wr, Name == "Sterling Shepard")
+tsmith <- filter(wr, Name == "Torrey Smith")
+wsnead <- filter(wr, Name == "Willie Snead")
+vjackson <- filter(wr, Name == "Vincent Jackson")
+taustin <- filter(wr, Name == "Tavon Austin")
+tbenjamin <- filter(wr, Name == "Travis Benjamin")
+dfunchess <- filter(wr, Name == "Devin Funchess")
+ssmith <- filter(wr, Name == "Steve Smith")
+mwheaton <- filter(wr, Name == "Markus Wheaton")
+pdorsett <- filter(wr, Name == "Phillip Dorsett")
+chogan <- filter(wr, Name == "Chris Hogan")
+jstrong <- filter(wr, Name == "Jaelen Strong")
+dgreenbeckham <- filter(wr, Name == "Dorial Green-Beckham")
+bellington <- filter(wr, Name == "Bruce Ellington")
+nagholor <- filter(wr, Name == "Nelson Agholor")
+msanu <- filter(wr, Name == "Mohamed Sanu")
+rmatthews <- filter(wr, Name == "Rishard Matthews")
+mwallace <- filter(wr, Name == "Mike Wallace")
+pgarcon <- filter(wr, Name == "Pierre Garcon")
+aboldin <- filter(wr, Name == "Anquan Boldin")
+twilliams <- filter(wr, Name == "Terrance Williams")
+vcruz <- filter(wr, Name == "Victor Cruz")
+jcrowder <- filter(wr, Name == "Jamison Crowder")
+kbritt <- filter(wr, Name == "Kenny Britt")
+cconley <- filter(wr, Name == "Chris Conley")
+awilson <- filter(wr, Name == "Alber Wilson")
+dadams <- filter(wr, Name == "Davante Adams")
+tginn <- filter(wr, Name == "Ted Ginn")
+kwright <- filter(wr, Name == "Kendall Wright")
+jkearse <- filter(wr, Name == "Jermaine Kearse")
+jhardy <- filter(wr, Name == "Justin Hardin")
+rwoods <- filter(wr, Name == "Robert Woods")
+kstills <- filter(wr, Name == "Kenny Stills")
+jjnelson <- filter(wr, Name == "J.J. Nelson")
+rrandle <- filter(wr, Name == "Rueben Randle")
+dsmith <- filter(wr, Name == "Devin Smith")
+blafell <- filter(wr, Name == "Brandon LaFell")
+cbeasley <- filter(wr, Name == "Cole Beasley")
+qpatton <- filter(wr, Name == "Quinton Patton")
+tymontgomery <- filter(wr, Name == "Ty Montgomery")
+bquick <- filter(wr, Name == "Brian Quick")
+damendola <- filter(wr, Name == "Danny Amendola")
+rwhite <- filter(wr, Name == "Roddy White")
+wwelker <- filter(wr, Name == "Wes Welker")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
