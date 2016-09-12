@@ -4,3 +4,4 @@
 -----
 ###Executable .jar file can be found:
 - **update-player-status/dist/UpdatePlayerStatus.jar**
+
