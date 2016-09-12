@@ -1,0 +1,6 @@
+Removed required libraries to decrease file size. Removed libraries:
+
+- htmlunit-driver-standalone-2.20
+- selenium-java-2.53.0
+- selenium-server-standalone-2.53.0
+- sqlite-jdbc-3.8.11.2
