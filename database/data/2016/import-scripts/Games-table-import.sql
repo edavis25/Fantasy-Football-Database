@@ -5,6 +5,7 @@
 -- Check Table Names. Used 2 Temp Tables: GamesTemp and GamesTempTemp.
 -- GamesTemp was a copy of Games and GamesTempTemp held the new imported csv data.
 -- Final cleaning of GamesTempTemp followed by INSERT INTO SELECT * 
+-- If you change Temp table to be the Main table by renaming, Views will follow adjust themselves to the OLD NAME and won't work correctly
 
 --- Correct the Stadium Names to Run Name to ID update ----->
 UPDATE GamesTempTemp SET StadiumID = 'Mile High Stadium' WHERE StadiumID = 'Sports Authority Field at Mile High';
