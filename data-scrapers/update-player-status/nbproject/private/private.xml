@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/Update-Player-Status/src/updateplayerstatus/UpdateDatabase.java</file>
-            <file>file:/C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/Update-Player-Status/src/updateplayerstatus/Database.java</file>
-            <file>file:/C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/Update-Player-Status/src/updateplayerstatus/DatabaseConnection.java</file>
-            <file>file:/C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/Update-Player-Status/src/updateplayerstatus/UpdatePlayerStatusFXMLController.java</file>
-            <file>file:/C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/Update-Player-Status/src/updateplayerstatus/UpdatePlayerStatus.java</file>
-            <file>file:/C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/Update-Player-Status/src/updateplayerstatus/ScrapeStatus.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
