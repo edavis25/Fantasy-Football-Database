@@ -1,0 +1,28 @@
+-----TABLES-----
+SQLite Dump Files Create Errors in MySql. Change these in the dump file for import -->
+
+1. Remove PRAGMA lines
+2. Remove BEGIN TRANSACTION and END TRANSCATION
+3. Remove COMMIT lines
+4. Remove DELETE FROM and INSERT INTO the sqlite_sequence table (not sure what this is yet, insert seems to work OK after changing the other things)
+5. Replace AUTOINCREMENT - with - AUTO_INCREMENT
+6. Replace DEFAULT 't' and DEFAULT 'f' with DEFAULT '1' and DEFAULT '0' (Looks like boolean, check if this needs looked at)
+7. Replace 't' and 'f' with '1' and '0'
+8. Replace "" (quotes) with '' (single-quotes) except in string values (otherwise it replaces all quotes in text)
+9. Remove CONSTRAINT names from dump file for CHECK constraints etc.
+10. VARCHAR entries must have a specified size
+11. "Int" is not a valid column name and will throw error: (PlayerGame/TeamGame tables + views)
+
+
+*** Check column datatypes. Week needs to be changed to remove postseason string values. ***
+
+
+-- Pulled from www.redmine.org/boards/2/topics/12793
+
+-----VIEWS------
+Change SQLite3 Views for MySql:
+
+1. Create aliases for tables in the FROM clause
+2. Select fields using the given aliases (rather than the table names)
+3. Add () parentheses around the FROM clause elements
+4. Use alias names in the LEFT JOIN ON statements (instead of table names) 

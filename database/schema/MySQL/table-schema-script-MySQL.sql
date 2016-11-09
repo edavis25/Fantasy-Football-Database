@@ -1,0 +1,156 @@
+--  Script to build all TABLES in MySQL database ---->
+
+-- Create Table: Stadiums ------->
+CREATE TABLE Stadiums 
+(StadiumID INTEGER PRIMARY KEY AUTO_INCREMENT, 
+Name VARCHAR(40) NOT NULL, 
+Capacity INTEGER, 
+Roof CHAR CHECK ((Roof IN ('Y', 'N'))), 
+Surface CHAR CHECK ((Surface IN ('T', 'G'))));
+
+
+-- Create Table: Teams ------->
+CREATE TABLE Teams 
+(TeamID INTEGER PRIMARY KEY AUTO_INCREMENT, 
+City VARCHAR (20) NOT NULL, 
+Name VARCHAR (20) NOT NULL, 
+StadiumID INTEGER NOT NULL, FOREIGN KEY Stadium_FK(StadiumID) REFERENCES Stadiums(StadiumID) ON UPDATE CASCADE ON DELETE CASCADE, 
+Conference VARCHAR (3) NOT NULL CHECK (Conference IN ('AFC', 'NFC', 'NA')), 
+Division VARCHAR (5) NOT NULL CHECK (Division IN ('North', 'South', 'East', 'West', 'NA')), 
+Coach VARCHAR (20), 
+Abbr VARCHAR (3) NOT NULL, 
+OffenseStyle VARCHAR (10), 
+DefenseStyle VARCHAR (10));
+
+
+-- Create Table: TeamHomeStadium ------->
+CREATE TABLE TeamHomeStadium
+(StadiumID INTEGER NOT NULL, FOREIGN KEY TmHomeStadium_FK(StadiumID) REFERENCES Stadiums(StadiumID) ON UPDATE CASCADE ON DELETE CASCADE, 
+TeamID INTEGER NOT NULL, FOREIGN KEY TmHomeTeam_FK(TeamID) REFERENCES Teams(TeamID) ON UPDATE CASCADE ON DELETE CASCADE);
+
+
+-- Create Table: Games ------->
+CREATE TABLE Games 
+(GameID INTEGER PRIMARY KEY AUTO_INCREMENT, 
+Week INTEGER NOT NULL, 
+Day VARCHAR(3), 
+Date DATE NOT NULL, 
+WinnerID INTEGER NOT NULL, FOREIGN KEY Winner_FK(WinnerID) REFERENCES Teams(TeamID) ON UPDATE CASCADE ON DELETE CASCADE, 
+LoserID INTEGER NOT NULL, FOREIGN KEY Loser_FK(LoserID) REFERENCES Teams(TeamID) ON UPDATE CASCADE ON DELETE CASCADE, 
+WinnerScore INTEGER NOT NULL, 
+LoserScore INTEGER NOT NULL, 
+StadiumID INTEGER NOT NULL, FOREIGN KEY GameStadium_FK(StadiumID) REFERENCES Stadiums(StadiumID) ON UPDATE CASCADE ON DELETE CASCADE, 
+Time TIME, 
+Duration TIME, 
+Attendance INTEGER, 
+Temperature INTEGER, 
+Humidity INTEGER, 
+Wind INTEGER, 
+FavoredTeam INTEGER, FOREIGN KEY FavorTeam_FK(FavoredTeam) REFERENCES Teams(TeamID) ON UPDATE CASCADE ON DELETE CASCADE,
+Spread DOUBLE, 
+OverUnder DOUBLE, 
+OUResult CHAR, 
+URL VARCHAR(255));
+
+
+-- Create Table: TeamGame  -------->
+CREATE TABLE TeamGame 
+(TeamID INTEGER NOT NULL, FOREIGN KEY TeamGameTeamID_FK(TeamID) REFERENCES Teams(TeamID) ON DELETE CASCADE ON UPDATE CASCADE, 
+GameID INTEGER NOT NULL, FOREIGN KEY TeamGameGameID_FK(GameID) REFERENCES Games(GameID) ON DELETE CASCADE ON UPDATE CASCADE, 
+1stDowns INTEGER, 
+RushAtt INTEGER, 
+RushYDs INTEGER, 
+RushTDs INTEGER, 
+PassComp INTEGER, 
+PassAtt INTEGER, 
+PassYDs INTEGER, 
+PassTDs INTEGER, 
+Ints INTEGER, 
+Sacked INTEGER, 
+SackedYDs INTEGER, 
+NetPassYDs INTEGER, 
+TotalYDs INTEGER, 
+Fumbles INTEGER, 
+FumblesLost INTEGER, 
+Turnovers INTEGER, 
+Penalties INTEGER, 
+PenaltyYDs INTEGER, 
+3rdM INTEGER, 
+3rdAtt INTEGER, 
+4thM INTEGER, 
+4thAtt INTEGER, 
+TOP TIME, 
+Q1 INTEGER, 
+Q2 INTEGER, 
+Q3 INTEGER, 
+Q4 INTEGER, 
+OT INTEGER, 
+URL VARCHAR(255));
+
+
+-- Create Table: Players  -------->
+CREATE TABLE Players 
+(PlayerID INTEGER PRIMARY KEY AUTO_INCREMENT, 
+Name VARCHAR(30) NOT NULL, 
+Position VARCHAR (2) NOT NULL CHECK (Position IN ('QB', 'RB', 'WR', 'TE', 'K', 'P', 'OL', 'DL', 'DB', 'LB')), 
+DOB DATE, 
+College VARCHAR(30), 
+DraftTeam VARCHAR(20), 
+DraftRound INTEGER, 
+DraftPick INTEGER, 
+DraftYear INTEGER, 
+Status VARCHAR(3), 
+ActTeam INTEGER);
+
+
+
+-- Create Table: PlayerGame -------->
+CREATE TABLE PlayerGame 
+(PlayerID INTEGER NOT NULL, FOREIGN KEY PlayerGamePlayerID_FK(PlayerID) REFERENCES Players(PlayerID) ON DELETE CASCADE ON UPDATE CASCADE, 
+GameID INTEGER NOT NULL, FOREIGN KEY PlayerGameGameID_FK(GameID) REFERENCES Games(GameID) ON DELETE CASCADE ON UPDATE CASCADE, 
+PassCmp INTEGER, 
+PassAtt INTEGER, 
+PassYds INTEGER, 
+PassTd INTEGER, 
+Interceptions INTEGER, 
+SkTaken INTEGER, 
+SkYds INTEGER, 
+PassLng INTEGER, 
+QbRating DOUBLE, 
+RushAtt INTEGER, 
+RushYds INTEGER, 
+RushTd INTEGER, 
+RushLng INTEGER, 
+RecTgt INTEGER, 
+Receptions INTEGER, 
+RecYds INTEGER, 
+RecTd INTEGER, 
+RecLng INTEGER, 
+Fmb INTEGER, 
+FL INTEGER, 
+DefInt INTEGER, 
+DefIntYds INTEGER, 
+DefIntTd INTEGER, 
+DefIntLng INTEGER, 
+DefSk DECIMAL, 
+DefTkl DOUBLE, 
+DefAst DOUBLE, 
+DefFR INTEGER, 
+DefFRYrds INTEGER, 
+DefFRTd INTEGER, 
+DefFF INTEGER, 
+KickRet INTEGER, 
+KickRetYds INTEGER, 
+KickYdsRet DOUBLE, 
+KickRetTD INTEGER, 
+KickRetLng INTEGER, 
+PuntRet INTEGER, 
+PuntRetYds INTEGER, 
+PuntYdsReturn DOUBLE, 
+PuntRetTd INTEGER, 
+PuntRetLng INTEGER, 
+XPMade INTEGER, 
+XPAtt INTEGER, 
+FGMade INTEGER, 
+FGAtt INTEGER, 
+URL VARCHAR(255));
