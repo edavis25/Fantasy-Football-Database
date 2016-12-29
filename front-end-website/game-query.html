@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Fantasy Football Database</title>
+
+   	 	<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Dosis|Orbitron|Prompt" rel="stylesheet">
+		
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Simple-Sidebar and Readable Theme CSS -->
+		<link href="css/simple-sidebar.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/readable-bootstrap.css" />
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- High Charts plugin -->
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+				
+		<script type="text/javascript" src="js/sorttable.js"></script>
+		<script type="text/javascript" src="js/ffdatabase.js"></script>
+		<link rel="stylesheet" href="css/ffdatabase.css" />
+
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+
+			<!-- Sidebar -->
+			<div id="sidebar-wrapper">
+            	<ul class="sidebar-nav nav nav-stacked audiowide-font">
+               		<li class="sidebar-brand">
+                    <a href="index.html">Fantasy Database</a>
+                	</li>
+                	<li><a href="index.html#tools">Query Tools</a>
+                    	<ul>
+                    		<li class="active"><a class="active" href="game-query.html">Game Info</a></li>
+                    		<li><a>Team Stats</a></li>
+                    		<li><a>Player Stats</a></li>
+                    	</ul>
+                	</li>
+                	<li><a href="#">Schema</a></li>
+                	<li><a href="#">Custom Query</a></li>
+                	<li><a href="#">Analysis</a></li>
+                	<li><a href="#">About</a></li>
+                	<li><a href="#">Contact</a></li>
+            	</ul>
+       		</div>
+			<!-- /#sidebar-wrapper -->
+
+			<!-- Page Content -->
+			<div id="page-content-wrapper">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12 jumbotron">
+							<h1 class="jumbotron-text">Game Info Query Builder</h1>
+							<p class="consolas-font">
+								Query game data based on chosen filters.<br />
+								Choose filters in the form to restrict results.
+							</p>
+							<a href="#menu-toggle" class="btn orange audiowide-font" id="menu-toggle">&lt;&lt;</a>
+						</div>
+					</div>
+					
+					
+					<div class="row">
+						<div class="col-lg-12" id="form-div">
+							<form id="game-form">
+								<fieldset>
+								<legend class="audiowide-font">Filters</legend>
+								<div class="row">
+									<!-- Team selection box -->
+									<div class="form-group col-lg-3">
+										<label for="select-team" class="control-label">Team</label>
+										<select multiple="" id="select-team" name="select-team" class="form-control" size="5">
+											<option value="%">Select ALL</option><option value="Cardinals">Arizona Cardinals</option>
+											<option value="Falcons">Atlanta Falcons</option><option value="Ravens">Baltimore Ravens</option><option value="Bills">Buffalo Bills</option><option value="Panthers">Carolina Panthers</option>
+											<option value="Bears">Chicago Bears</option><option value="Bengals">Cincinnati Bengals</option><option value="Browns">Cleveland Browns</option><option value="Cowboys">Dallas Cowboys</option>
+											<option value="Broncos">Denver Broncos</option><option value="Lions">Detroit Lions</option><option value="Packers">Green Bay Packers</option><option value="Texans">Houston Texans</option>
+											<option value="Colts">Indianapolis Colts</option><option value="Jaguars">Jacksonville Jaguars</option><option value="Chiefs">Kansas City Chiefs</option><option value="Rams">Los Angeles Rams</option>
+											<option value="Dolphins">Miami Dolphins</option><option value="Vikings">Minnesota Vikings</option><option value="Patriots">New England Patriots</option><option value="Saints">New Orleans Saints</option>
+											<option value="Giants">New York Giants</option><option value="Jets">New York Jets</option><option value="Raiders">Oakland Raiders</option><option value="Eagles">Philadelphia Eagles</option>
+											<option value="Steelers">Pittsburgh Steelers</option><option value="Chargers">San Diego Chargers</option><option value="49ers">San Francisco 49ers</option><option value="Seahawks">Seattle Seahawks</option>
+											<option value="Buccaneers">Tampa Bay Buccaneers</option><option value="Titans">Tennessee Titans</option><option value="Redskins">Washington Redskins</option>
+										</select>
+									</div>
+
+									<!-- Week Select Boxes -->
+									<div class="form-group col-lg-3 col-xs-6">
+										<label for="start-year" class="control-label">Start Year</label>
+										<select id="start-year" name="start-year" class="form-control">
+											<option value="allYears">All</option>
+											<option value="2016">2016</option>
+											<option value="2015">2015</option>
+											<option value="2014">2014</option>
+											<option value="2013">2013</option>
+											<option value="2012">2012</option>
+											<option value="2011">2011</option>
+											<option value="2010">2010</option>
+											<option value="2009">2009</option>
+											<option value="2008">2008</option>
+											<option value="2007">2007</option>
+											<option value="2006">2006</option>
+											<option value="2005">2005</option>
+										</select>
+										<label for="end-year" class="control-label">End Year</label>
+										<select id="end-year" name="end-year" class="form-control disable-on-clear" disabled>
+											<!-- Options created in JavaScript function weekChange() -->
+										</select>
+									</div>
+									
+									<div class="form-group col-lg-3 col-xs-6">
+										<label for="start-week" class="control-label">Start Week</label>
+										<select id="start-week" name="start-week" class="form-control">
+											<option value="0">All</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+											<option value="13">13</option>
+											<option value="14">14</option>
+											<option value="15">15</option>
+											<option value="16">16</option>
+											<option value="17">17</option>
+											<option value="18">Wildcard</option>
+											<option value="19">Divison Playoff</option>
+											<option value="20">Conf. Champ</option>
+											<option value="21">Super Bowl</option>
+										</select>
+										<label for="end-week" class="control-label">End Week</label>
+										<select id="end-week" name="end-week" class="form-control disable-on-clear" disabled>
+											<!-- Options created in JavaScript function weekChange() -->
+										</select>
+									</div>
+
+									<!-- Indoor/Outdoor Radio Buttons -->
+									<div class="form-group col-lg-3 col-xs-6">
+										<label class="control-label">Indoor/Outdoor</label>
+										<div class="radio">
+											<label>
+												<input type="radio" id="roof-radio-both" name="roof-radios" value="%" checked />
+												All Games </label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="roof-radio-y" name="roof-radios" value="Y" />
+												Indoor Only </label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="roof-radio-n" name="roof-radios" value="N" />
+												Outdoor Only </label>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Second row in form -->
+								<div class="row">
+									
+									<div class="form-group col-lg-3 col-md-3 col-xs-6">
+										<label class="control-label">Won/Lost</label>
+										<div class="radio">
+											<label>
+												<input type="radio" id="won-radio-both" name="won-radios" value="%" checked />
+												All Games
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="won-radio-won" name="won-radios" value="won" />
+												Games Won
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="won-radio-lost" name="won-radios" value="lost" />
+												Games Lost
+											</label>
+										</div>
+									</div>
+									
+									<div class="form-group col-lg-3 col-md-3 col-xs-6">
+										<label class="control-label">Surface Type</label>
+										<div class="radio">
+											<label>
+												<input type="radio" id="surface-radio-both" name="surface-radios" value="%" checked />
+												All Games
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="surface-radio-grass" name="surface-radios" value="G" />
+												Grass Only
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="surface-radio-turf" name="surface-radios" value="T" />
+												Turf Only
+											</label>
+										</div>
+									</div>
+									
+									<div class="form-group col-lg-3 col-md-3 col-xs-6">
+										<label class="control-label">Spread Covered</label>
+										<div class="radio">
+											<label>
+												<input type="radio" id="spread-radio-both" name="spread-radios" value="%" checked />
+												All Games
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="spread-radio-yes" name="spread-radios" value="Y" />
+												Spread Covered
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="spread-radio-no" name="spread-radios" value="N" />
+												Not Covered
+											</label>
+										</div>
+									</div>
+									
+									<div class="form-group col-lg-3 col-md-3 col-xs-6">
+										<label class="control-label">Over/Under Result</label>
+										<div class="radio">
+											<label>
+												<input type="radio" id="overUnder-radio-both" name="overUnder-radios" value="%" checked />
+												All Games
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="overUnder-radio-over" name="overUnder-radios" value="O" />
+												Over
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" id="overUnder-radio-under" name="overUnder-radios" value="U" />
+												Under
+											</label>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Third row in form -->
+								<div class="row">
+									<input type="button" id="submit-button" name="submit-button" class="btn btn-success col-lg-3 audiowide-font" value="Run Query" />
+									<input type="button" id="clear-button" name="clear-button" class="btn btn-danger col-lg-3 col-lg-offset-1 audiowide-font" value="Clear All" />
+								</div>
+							</fieldset>
+							</form>
+						</div> <!-- Form Div -->
+					</div> <!-- End Row Div -->
+					
+					<hr size="2" />
+					
+					<div class="row">
+						<div class="col-lg-12 panel panel-default">
+							<div class="panel-heading" id="output-panel">
+								<h3 class="panel-title audiowide-font">Query Results</h3>
+							</div>
+							<div class="panel-body">
+								<input type="button" class="btn btn-danger viz-buttons" id="spread-covered-button" value="Spread Visualization" disabled />
+								<input type="button" class="btn btn-danger viz-buttons" id="ou-button" value="Over/Under Visualization" disabled />
+								<input type="button" class="btn btn-danger viz-buttons add-tooltip" id="wl-button" value="Won/Lost Visualization" data-placement="left" data-original-title="Won/Lost Visual only available when 1 team selected" disabled />
+								<div class="col-lg-12" id="output-div"></div>
+							</div>
+						</div>
+					</div>
+					
+				
+				
+					<!-- Spread Covered Pie Chart Modal Popup -->
+					<div class="modal" id="spread-covered-modal">
+  						<div class="modal-dialog modal-lg">
+    						<div class="modal-content">
+      							<!-- div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        							<h4 class="modal-title">Modal title</h4>
+      							</div -->
+      							<div class="modal-body">
+        							<div id="spread-modal-output"></div>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>
+					
+					<!-- Over/Under Result Pie Chart Modal Popup -->
+					<div class="modal" id="ou-modal">
+  						<div class="modal-dialog modal-lg">
+    						<div class="modal-content">
+      							<!-- div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        							<h4 class="modal-title">Modal title</h4>
+      							</div -->
+      							<div class="modal-body">
+        							<div id="ou-modal-output"></div>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>
+					
+					<!-- Won/Lost Pie Chart Modal Popup -->
+					<div class="modal" id="wl-modal">
+  						<div class="modal-dialog modal-lg">
+    						<div class="modal-content">
+      							<!-- div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        							<h4 class="modal-title">Modal title</h4>
+      							</div -->
+      							<div class="modal-body">
+        							<div id="wl-modal-output"></div>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>
+				
+				
+				</div> <!-- container-fluid end div -->
+			</div>
+			<!-- /#page-content-wrapper -->
+
+			</div>
+			<!-- /#wrapper -->
+
+			<!-- Menu Toggle Script -->
+			<script>
+				$("#menu-toggle").click(function(e) {
+					e.preventDefault();
+					$("#wrapper").toggleClass("toggled");
+				});
+			</script>
+
+</html>

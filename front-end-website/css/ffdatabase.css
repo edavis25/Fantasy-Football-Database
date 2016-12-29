@@ -1,0 +1,149 @@
+/**************************************************************************
+ ***   Sidebar & Nav Bar Stylings    **************************************
+ * ***********************************************************************/ 
+
+/* Button to show/hide nav sidebar */
+#menu-toggle
+{
+	background-color: #910900;
+	color: white;
+	font-size: 120%;
+	font-weight: 600;
+}
+
+/* Active page on nav bar */
+.sidebar-nav > .active, li.active 
+{
+	/* background-color: #520082;
+	background-color: #f27304;*/
+	background-color: #910900;
+	color: white;
+}
+.sidebar-nav > .active a
+{
+	color: white;
+}
+a.active
+{
+	color: white !important;
+}
+
+/* Hover event for links on nav bar */
+.sidebar-nav li a:hover
+{
+	background-color: #E56D64;
+}
+
+#sidebar-wrapper
+{
+	//font-family: arial;
+}
+
+
+/**************************************************************************
+ ***   Jumbotron Stylings    **********************************************
+ * ***********************************************************************/ 
+
+.jumbotron
+{
+	background-color: #ededed;
+	font-family: Audiowide;
+	padding-left: 2%;
+}
+
+/* Paragraph within the jumbotron */
+p.jumbotron
+{
+	font-size: 50%;
+}
+
+/* Jumbotron site tagline */
+.small-tagline
+{
+	font-size: 0.6em;
+}
+
+
+/**************************************************************************
+ ***   Generic Class Stylings (setting fonts, colors, etc..)   ************
+ * ***********************************************************************/ 
+ 
+ /* Set background orange and text white */
+.orange
+{
+	/* background-color: #f27304; */
+	background-color: #910900;
+	color: white;
+}
+
+h1.jumbotron-text
+{
+	color: #5E0700;
+	font-family: Audiowide;
+	font-size: 320%;
+}
+
+/* Generic classes for setting font */
+.audiowide-font
+{
+	font-family: Audiowide;
+}
+.orbitron-font
+{
+	font-family: Orbitron;
+}
+.arial-font
+{
+	font-family: Arial;
+}
+.consolas-font
+{
+	font-family: Consolas;
+}
+
+.center
+{
+	text-align: center;
+}
+
+
+/* Remove linebreaks in long columns */
+td
+{
+	white-space: nowrap;
+}
+
+
+#output-panel
+{
+	background-color: #f27304;
+}
+
+.panel
+{
+	border-color: #910900;
+}
+
+.panel-heading
+{
+	background-color: #910900 !important;
+	border-color: #910900 !important;
+	color: white !important;
+}
+
+img.container-icon
+{
+	height: 75px;
+}
+
+.green
+{
+	background-color: #006F13;
+	color: white;
+}
+
+.viz-buttons
+{
+	margin-bottom: 1%;
+}
+

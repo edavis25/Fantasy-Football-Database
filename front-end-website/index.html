@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fantasy Football Database</title>
+    
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Audiowide|Dosis|Orbitron|Prompt" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Simple-Sidebar and Readable Theme CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/readable-bootstrap.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+       <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/sorttable.js"></script>
+	<script type="text/javascript" src="js/ffdatabase.js"></script>
+	<link rel="stylesheet" href="css/ffdatabase.css" />
+</script>
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav nav nav-stacked audiowide-font">
+                <li class="sidebar-brand active">
+                    <a href="index.html">Fantasy Database</a>
+                </li>
+                <li><a href="index.html#tools" class="smooth-scroll">Query Tools</a>
+                    <ul>
+                    	<li><a href="game-query.html">Game Info</a></li>
+                    	<li><a>Team Stats</a></li>
+                    	<li><a>Player Stats</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Schema</a></li>
+                <li><a href="#">Custom Query</a></li>
+                <li><a href="#">Analysis</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content (place all content within page-content wapper)------->
+        <div id="page-content-wrapper">
+        	
+        	<div id="jumbotron" class="jumbotron">
+        		<h1 class="jumbotron-text">Saber-skeptics Sabernator</h1>
+        		<p>Sent back through time to overthink fantasy sports<span class="small-tagline"> (and eliminate Sarah Connor)</span></p>
+        	</div>
+        	
+            <div class="container-fluid">
+                <!-------- First Row (after jumbotron)------------>
+                <div class="row">
+                	<a href="#menu-toggle" class="btn btn-default audiowide-font" id="menu-toggle">&lt;&lt;</a>
+                    <div class="col-lg-12">
+                    	<a id="tools"></a>
+                        <h2 class="audiowide-font">Football Relational Database</h2>
+                        <p>Run custom queries on our football stats relational database. Check out the schema here.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                    </div>
+                </div>
+                
+                <!------- Second Row ------------>
+                <div class="row">
+                	<!-- First (left) container -->
+                	<div class="col-lg-4">
+                		<!-- Nest div inside to create horizontal padding -->
+                		<div class="col-lg-12 panel panel-default home-content-panel">
+                			<div class="panel-heading">
+                				<h3 class="panel-title audiowide-font">Team Stats Query Builder</h3>
+                			</div>
+                			<div class="panel-body">
+                				Build a 
+                			</div>
+                		</div>
+                	</div>
+                	
+                	<!-- Second (middle) container -->
+                	<div class="col-lg-4">
+                		<!-- Nest div inside to create horizontal padding -->
+                		<div class="col-lg-12 panel panel-default home-content-panel">
+                			<div class="panel-heading">
+                				<h3 class="panel-title audiowide-font">Player Stats Query Builder</h3>
+                			</div>
+                			<div class="panel-body">
+                				Build a 
+                			</div>
+                		</div>
+                	</div>            
+ 
+                	<!-- Third (right) container -->
+                	<div class="col-lg-4">
+                		<!-- Nest div inside to create horizontal padding -->
+                		<div class="col-lg-12 panel panel-default home-content-panel">
+                			<div class="panel-heading">
+                				<h3 class="panel-title audiowide-font">Game Info Query Builder</h3>
+                			</div>
+                			<div class="panel-body">
+                				<div class="col-lg-12">
+                					<div class="row">
+                						<div class="col-sm-6 col-xs-12 text-center audiowide-font">
+                						<!-- <img src="img/weather-icon.svg" class="col-lg-4 col-md-6 col-xs-12" /> -->
+                							<img src="img/weather-icon.svg" class="col-xs-12 container-icon" />
+                							<p>Weather</p>
+                						</div>
+                						<div class="col-sm-6 col-xs-12 text-center audiowide-font">
+                							<img src="img/card-icon.svg" class="col-xs-12 container-icon" />
+                							<p>Vegas Lines &amp; Spreads</p>
+                						</div>
+                					</div>
+                					<div class="row">
+                						<p class="consolas-font">Find game information for winning and losing teams dating back to 2005. 
+                							Game data includes winner, loser, score, location, weather, and Vegas spreads &amp; over/under lines
+                							with final results.</p>
+                							<a href="game-query.html" id="game-query-button" name="game-query-button" class="btn btn-success col-xs-8 col-xs-offset-2 audiowide-font">Game Info</a>
+                					</div>
+                				</div>
+                			</div>
+                		</div>
+                	</div>              
+                </div> <!-- End Row -->
+                
+                
+                <div class="row">
+                	<div class="jumbotron">
+                		<h2 class="consolas-font">Run Custom SQL Queries Into The Database</h2>
+                		<p class="consolas-font">Know SQL? Check out the database schema and create your own custom SQL queries!</p>
+                	</div>
+                </div>
+                
+                
+                <!------- Third Row ------------>
+                <div class="row">
+                	<div class="col-lg-12">
+                        <h2 class="audiowide-font">Historical Analysis &amp; Projections</h2>
+                        <p>Run custom queries on our football stats relational database. Check out the schema here.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                    </div>
+                </div> <!-- End Row -->
+            
+            
+            </div>
+        </div> <!-- /#page-content-wrapper -->
+    </div> <!-- /#wrapper -->
+  
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
