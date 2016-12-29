@@ -1,149 +1,153 @@
-/**************************************************************************
- ***   Sidebar & Nav Bar Stylings    **************************************
- * ***********************************************************************/ 
+/** ===============================================================
+ * 	Main CSS file for jackieplank.com
+ *  @author Eric Davis - 2016
+ *
+ * SWATCH COLORS
+ * =============
+ * Dark Red - #910900
+ * Light Red - #E56D64
+ *
+ * CONTENTS
+ * =============
+ * I. 	  Body, Header, & Footer - Stylings for page layout elements
+ * II.	  Sidebar & Nav - Stylings for the Sidebar/Navigation bar
+ * III.   Content - Stylings for various main content across the different pages
+ * IV.	  Homepage - Stylings specific to the homepage
+ * V.	  Custom Generic - Custom generic stylings for any element
+ * VI.    Bootstrap Overrides - Style overrides for the Bootstrap classes
+ * VII.   Tables & Charts - Stylings for the charts and tables
+ *
+ =================================================================== */
 
-/* Button to show/hide nav sidebar */
-#menu-toggle
-{
+/* ============================================================
+ * ==  I. Body, Header & Footer		===========================
+ * ============================================================ */
+
+/* ======== Jumbotron ======== */
+.jumbotron {
+	background-color: #ededed;
+	font-family: Audiowide;
+	padding-left: 2%;
+}
+p.jumbotron {
+	font-size: 50%;
+}
+/* Jumbotron site tagline */
+.small-tagline {
+	font-size: 0.6em;
+}
+h1.jumbotron-text {
+	color: #5E0700;
+	font-family: Audiowide;
+	font-size: 320%;
+}
+
+/* ============================================================
+ * ==  II. Sidebar & Nav		===============================
+ * ============================================================ */
+
+/* ======== Button to show/hide nav sidebar ========*/
+#menu-toggle {
 	background-color: #910900;
 	color: white;
 	font-size: 120%;
 	font-weight: 600;
 }
 
-/* Active page on nav bar */
-.sidebar-nav > .active, li.active 
-{
-	/* background-color: #520082;
-	background-color: #f27304;*/
+/* ======== Sidebar Nav ======== */
+.sidebar-nav > .active, li.active {
 	background-color: #910900;
 	color: white;
 }
-.sidebar-nav > .active a
-{
+.sidebar-nav > .active a {
 	color: white;
 }
-a.active
-{
+a.active {
 	color: white !important;
 }
-
-/* Hover event for links on nav bar */
-.sidebar-nav li a:hover
-{
+.sidebar-nav li a:hover {
 	background-color: #E56D64;
 }
 
-#sidebar-wrapper
-{
-	//font-family: arial;
+
+/* ============================================================
+ * ==  III. Content		=======================================
+ * ============================================================ */
+
+/* Visualization buttons above output tables */
+.viz-buttons {
+	margin-bottom: 1%;
 }
 
 
-/**************************************************************************
- ***   Jumbotron Stylings    **********************************************
- * ***********************************************************************/ 
+/* ============================================================
+ * ==  IV. Homepage		=======================================
+ * ============================================================ */
 
-.jumbotron
-{
-	background-color: #ededed;
-	font-family: Audiowide;
-	padding-left: 2%;
-}
-
-/* Paragraph within the jumbotron */
-p.jumbotron
-{
-	font-size: 50%;
-}
-
-/* Jumbotron site tagline */
-.small-tagline
-{
-	font-size: 0.6em;
+/* Icons in the Homepage Containers */
+img.container-icon {
+	height: 75px;
 }
 
 
-/**************************************************************************
- ***   Generic Class Stylings (setting fonts, colors, etc..)   ************
- * ***********************************************************************/ 
- 
- /* Set background orange and text white */
-.orange
-{
-	/* background-color: #f27304; */
+/* ============================================================
+ * ==  V. Custom Generic		===============================
+ * ============================================================ */
+
+/* ======== Backgrounds ======== */
+.bg-red {
 	background-color: #910900;
 	color: white;
 }
 
-h1.jumbotron-text
-{
-	color: #5E0700;
-	font-family: Audiowide;
-	font-size: 320%;
-}
-
-/* Generic classes for setting font */
-.audiowide-font
-{
+/* ======== Fonts ======== */
+.audiowide-font {
 	font-family: Audiowide;
 }
-.orbitron-font
-{
+.orbitron-font {
 	font-family: Orbitron;
 }
-.arial-font
-{
+.arial-font {
 	font-family: Arial;
 }
-.consolas-font
-{
+.consolas-font {
 	font-family: Consolas;
 }
 
-.center
-{
+/* ======== Alignment & Float ======== */
+.center {
 	text-align: center;
 }
 
-
-/* Remove linebreaks in long columns */
-td
-{
-	white-space: nowrap;
+/* ======== Colors ======== 
+.green {
+	background-color: #006F13;
+	color: white;
 }
+*/
 
 
-#output-panel
-{
-	background-color: #f27304;
-}
+/* ============================================================
+ * ==  VI. Bootstrap Overrides		===========================
+ * ============================================================ */
 
-.panel
-{
+.panel {
 	border-color: #910900;
 }
 
-.panel-heading
-{
+.panel-heading {
 	background-color: #910900 !important;
 	border-color: #910900 !important;
 	color: white !important;
 }
 
-img.container-icon
-{
-	height: 75px;
-}
 
-.green
-{
-	background-color: #006F13;
-	color: white;
-}
+/* ============================================================
+ * ==  VII. Tables & Charts		===============================
+ * ============================================================ */
 
-.viz-buttons
-{
-	margin-bottom: 1%;
+/* ======== Tables ======== */
+/* Remove linebreaks in long columns */
+td {
+	white-space: nowrap;
 }
-

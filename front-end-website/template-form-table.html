@@ -66,10 +66,9 @@
 			<div id="page-content-wrapper">
 				<!-- Page content header - jumbotron -->
 				<div class="col-lg-12 jumbotron">
-					<h1 class="jumbotron-text">Game Info Query Builder</h1>
-					<p class="consolas-font">Query game data based on chosen filters.
-						<br />Choose filters in the form to restrict results.
-					</p>
+					<h1 class="jumbotron-text">Jumbotron Page Header</h1>
+					<p class="consolas-font">Add a short description! </p>
+					<p class="consolas-font">A couple form elements have been added for demonstration and convenience!<br />Add new rows to the form for more elements.</p>
 					<a href="#menu-toggle" class="btn bg-red audiowide-font" id="menu-toggle">&lt;&lt;</a>
 				</div>
 				
@@ -82,6 +81,7 @@
 							<form id="game-form">
 								<fieldset>
 									<legend class="audiowide-font">Filters</legend>
+									
 									<!-- Form Row 1 -->
 									<div class="row">
 										<!-- Team selection box -->
@@ -179,84 +179,11 @@
 
 									<!-- Form Row 2 -->
 									<div class="row">
-										<div class="form-group col-lg-3 col-md-3 col-xs-6">
-											<label class="control-label">Won/Lost</label>
-											<div class="radio">
-												<label>
-													<input type="radio" id="won-radio-both" name="won-radios" value="%" checked />
-													All Games </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="won-radio-won" name="won-radios" value="won" />
-													Games Won </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="won-radio-lost" name="won-radios" value="lost" />
-													Games Lost </label>
-											</div>
-										</div>
-
-										<div class="form-group col-lg-3 col-md-3 col-xs-6">
-											<label class="control-label">Surface Type</label>
-											<div class="radio">
-												<label>
-													<input type="radio" id="surface-radio-both" name="surface-radios" value="%" checked />
-													All Games </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="surface-radio-grass" name="surface-radios" value="G" />
-													Grass Only </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="surface-radio-turf" name="surface-radios" value="T" />
-													Turf Only </label>
-											</div>
-										</div>
-
-										<div class="form-group col-lg-3 col-md-3 col-xs-6">
-											<label class="control-label">Spread Covered</label>
-											<div class="radio">
-												<label>
-													<input type="radio" id="spread-radio-both" name="spread-radios" value="%" checked />
-													All Games </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="spread-radio-yes" name="spread-radios" value="Y" />
-													Spread Covered </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="spread-radio-no" name="spread-radios" value="N" />
-													Not Covered </label>
-											</div>
-										</div>
-
-										<div class="form-group col-lg-3 col-md-3 col-xs-6">
-											<label class="control-label">Over/Under Result</label>
-											<div class="radio">
-												<label>
-													<input type="radio" id="overUnder-radio-both" name="overUnder-radios" value="%" checked />
-													All Games </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="overUnder-radio-over" name="overUnder-radios" value="O" />
-													Over </label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" id="overUnder-radio-under" name="overUnder-radios" value="U" />
-													Under </label>
-											</div>
-										</div>
+										<!-- Insert more elements or delete this row! -->
 									</div> <!-- End Form row 2 -->
 
-									<!-- Form Row 3 -->
+
+									<!-- Form Row 3 - Submit Button -->
 									<div class="row">
 										<input type="button" id="submit-button" name="submit-button" class="btn btn-success col-lg-3 audiowide-font" value="Run Query" />
 										<input type="button" id="clear-button" name="clear-button" class="btn btn-danger col-lg-3 col-lg-offset-1 audiowide-font" value="Clear All" />
@@ -288,16 +215,13 @@
 
 					<!-- ========== BEGIN MODALS ========== -->
 					
-					<!-- Spread Covered Modal -->
+					<!-- Example Modal to display charts -->
 					<div class="modal" id="spread-covered-modal">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
-								<!-- div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title">Modal title</h4>
-								</div -->
 								<div class="modal-body">
-									<div id="spread-modal-output"></div>
+									
+									
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">
@@ -306,47 +230,7 @@
 								</div>
 							</div>
 						</div>
-					</div> <!-- End Spread Covered Modal -->
-
-					<!-- Over/Under Result Pie Chart Modal -->
-					<div class="modal" id="ou-modal">
-						<div class="modal-dialog modal-lg">
-							<div class="modal-content">
-								<!-- div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title">Modal title</h4>
-								</div -->
-								<div class="modal-body">
-									<div id="ou-modal-output"></div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">
-										Close
-									</button>
-								</div>
-							</div>
-						</div>
-					</div> <!-- End Over/Under Modal -->
-
-					<!-- Won/Lost Pie Chart Modal Popup -->
-					<div class="modal" id="wl-modal">
-						<div class="modal-dialog modal-lg">
-							<div class="modal-content">
-								<!-- div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title">Modal title</h4>
-								</div -->
-								<div class="modal-body">
-									<div id="wl-modal-output"></div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">
-										Close
-									</button>
-								</div>
-							</div>
-						</div>
-					</div> <!-- End Won/Lost Modal -->
+					</div> <!-- End modal -->
 
 				</div> <!-- End page body content -->
 			</div> <!-- End page content wrapper -->		
