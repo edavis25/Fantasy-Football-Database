@@ -21,16 +21,25 @@
 		<!--  Custom CSS -->
 		<link rel="stylesheet" href="css/ffdatabase.css">
 
-		<!-- SCRIPTS -->
+		<!-- CDNs & SNIPPETS -->
 		<!-- jQuery 3.1.1 -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- Bootstrap 3.3.7 -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- Sorttable Snippet -->
 		<script type="text/javascript" src="js/sorttable.js"></script>
-		<!-- Custome JavaScript -->
+		
+		<!-- Highcharts CDN-->
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		
+		<!-- Plotly CDN -->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		
+		<!-- Custom scripts for all pages (generic event handlers, form validation, etc.) -->
 		<script type="text/javascript" src="js/ffdatabase.js"></script>
-
+		<!-- Custom scripts specific to page -->
+		<script type="text/javascript" src="js/game-query.js"></script>
+		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -258,8 +267,8 @@
 
 									<!-- Form Row 3 -->
 									<div class="row">
-										<input type="button" id="submit-button" name="submit-button" class="btn btn-success col-lg-3 audiowide-font" value="Run Query" />
-										<input type="button" id="clear-button" name="clear-button" class="btn btn-danger col-lg-3 col-lg-offset-1 audiowide-font" value="Clear All" />
+										<input type="button" id="" name="submit-button" class="btn btn-success col-lg-3 audiowide-font submit-button" value="Run Query" />
+										<input type="button" id="" name="clear-button" class="btn btn-danger col-lg-3 col-lg-offset-1 audiowide-font clear-button" value="Clear All" />
 									</div>
 								</fieldset>
 							</form>
