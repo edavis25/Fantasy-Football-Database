@@ -1,0 +1,104 @@
+/** ===============================================================
+ * 	Main CSS file for jackieplank.com
+ *  @author Eric Davis - 2016
+ * 
+ * SWATCH COLORS
+ * =============
+ * 
+ * 
+ * CONTENTS
+ * =============
+ * I. 	Body - Stylings for the page body
+ * II.	Header & Nav - Stylings for the Header & NavBar
+ * III. Content - Stylings for the page main content
+ * IV.	Homepage - Stylings specific to the homepage
+ * V.	Generic - Generic stylings for any element
+ * 
+ =================================================================== */
+
+
+/* =============================================
+ * ==  I. Body		============================
+ * ============================================= */
+
+
+/* =============================================
+ * ==  II. Header & Nav		====================
+ * ============================================= */
+
+.navbar, .side-nav 
+{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+}
+.side-nav a, .side-nav li 
+{
+	color: #337ab7 !important;
+}
+.navbar .active a 
+{
+	background-color: #e7e7e7 !important;
+}
+
+
+/* =============================================
+ * ==  III. Content		========================
+ * ============================================= */
+
+/* Dashboard Stylings */
+
+.ranking-label 
+{
+	font-size: 150%;
+}
+.ranking-value 
+{
+	font-size: 350%;
+	font-weight: 600;
+	text-align: center;
+}
+
+/* Table of team name links in sidebar nav */
+#team-table a
+{
+	background-color: rgba(0,0,0,0) !important;
+}
+
+
+/* =============================================
+ * ==  IV. Homepage		========================
+ * ============================================= */
+
+
+
+/* =============================================
+ * ==  V. Generic		========================
+ * ============================================= */
+
+/* Padding & Alignment  */
+.pad-bottom-10 
+{
+	padding-bottom: 10px;
+}
+.pad-left 
+{
+	padding-left: 10px;
+}
+.v-margin-15 
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Borders & Backgrounds */
+.border-right 
+{
+	border-right: 2px solid #c6c6c6;
+	line-height: 10px;
+}
+
+/* Tables & Panels  */
+.table-stripes tr:nth-child(odd) 
+{
+	background-color: #ffffff;
+}

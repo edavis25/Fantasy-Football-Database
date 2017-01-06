@@ -30,6 +30,19 @@ $(document).ready(function()
 		populateEndBox("start-week", "end-week", 0, 20, false);
 	});
 	
+	
+	enableButtons(false, "viz-buttons");
+	$(".submit-button").on("click", function()
+	{
+		 enableButtons(false, "viz-buttons");
+		 teamQuery();
+		 enableButtons(true, "viz-buttons");
+		 setWonLostButton();
+		 
+	});
+	
+	
+	
 	/*
 	 * Spread Covered Chart Button Click
 	 */
@@ -88,6 +101,15 @@ $(document).ready(function()
 		buildPiechartDataArray(objects, dataArray);	
 		// Draw the pie chart using formated array.
 		drawPieChart("Won/Lost Percentages", dataArray, "Won/Lost Percentage", "#wl-modal-output");
+	});
+	
+	
+	/*
+	 * Points Scored Line Chart Button Click
+	 */
+	$('#points-button').on('click', function()
+	{
+		
 	});
 	
 }); //End Document Ready Block

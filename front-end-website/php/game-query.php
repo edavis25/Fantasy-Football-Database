@@ -17,12 +17,16 @@ mysqli_query($db, $query) or die('Error querying database.');
 $result = mysqli_query($db, $query);
 
 // Echo row count of results and user query (query for testing)
-echo "<h5 class=\"row-count\">Number of Results: " . mysqli_num_rows($result) . "</h5>";
+//echo "<h5 class=\"row-count\">Number of Results: " . mysqli_num_rows($result) . "</h5>";
 //echo $query;
+$myString = "<h5 class=\"row-count\">Number of Results: " . mysqli_num_rows($result) . "</h5>";
 
 // Create table opening tag & headers
 // Also add div for bootstrap responsive table
-echo "<div class=\"table-responsive\"><table id=\"output-table\" class=\"table table-striped table-hover sortable\">
+
+
+//echo 
+$myString.="<div class=\"table-responsive\"><table id=\"output-table\" class=\"table table-striped table-hover sortable\">
 		  <thead><tr><th>GameID</th><th>Date</th><th>Week</th><th>Day</th><th>Time</th>
 		  <th>Winner</th><th>Loser</th><th>WinScore</th><th>LoseScore</th><th>Duration</th><th>Stadium</th>
 		  <th>Atten</th><th>Roof</th><th>Surface</th><th>Temp</th><th>Humid</th><th>Wind</th>
@@ -31,7 +35,8 @@ echo "<div class=\"table-responsive\"><table id=\"output-table\" class=\"table t
 // Iterate results
 while ($row = mysqli_fetch_array($result)) {
 	// Build results into table
-	echo "<tr><td>" . $row['GameID'] . "</td>
+	//echo 
+	$myString.="<tr><td>" . $row['GameID'] . "</td>
 			  <td>" . $row['Date'] . "</td>
 			  <td>" . $row['Week'] . "</td>
 			  <td>" . $row['Day'] . "</td>
@@ -56,7 +61,7 @@ while ($row = mysqli_fetch_array($result)) {
 }
 
 // Close table
-echo "</tbody></table></div>";
+echo $myString."</tbody></table></div>";
 
 // Close connection to database
 mysqli_close($db);

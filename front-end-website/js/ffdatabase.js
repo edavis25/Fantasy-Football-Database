@@ -215,9 +215,12 @@ $(document).ready(function()
 	});
 	*/
 	
-	/*
+	/* 
+	 * MOVED TO GAME-QUERY
+	 
+	
 	 * Run Query Submit Button
-	*/
+	
 	enableButtons(false, "viz-buttons");
 	$(".submit-button").on("click", function()
 	{
@@ -226,7 +229,7 @@ $(document).ready(function()
 		 enableButtons(true, "viz-buttons");
 		 setWonLostButton();
 	});
- 	
+ 	/*
 	
 	/*
 	 * Clear All Button
