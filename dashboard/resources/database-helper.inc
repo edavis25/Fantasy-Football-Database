@@ -60,23 +60,23 @@
  		return countRank($teamName, $query, 'Name');
 	}
 	
-	function getRecord($teamName)
+	function getRecord($teamName, $outcome)
 	{
 		global $DB;
 		
 		$query = "SELECT 
-    (SELECT 
-        COUNT(Won)
-    FROM TeamGameView
-    WHERE Date > '2016-04-20'
-    AND Won = 'Y'
-    AND Name = '".$teamName."') AS Won,
-    (SELECT 
-        COUNT(Won)
-    FROM TeamGameView
-    WHERE Date > '2016-04-20'
-    AND Won = 'N'
-    AND Name = '".$teamName."') AS Lost";
+    				(SELECT 
+        				COUNT(Won)
+    				FROM TeamGameView
+    				WHERE Date > '2016-04-20'
+    				AND Won = 'Y'
+    				AND Name = '".$teamName."') AS Won,
+    				(SELECT 
+        				COUNT(Won)
+    				FROM TeamGameView
+    				WHERE Date > '2016-04-20'
+    				AND Won = 'N'
+    				AND Name = '".$teamName."') AS Lost";
 		
 		// Query database and store results
 		mysqli_query($DB, $query) or die('Error querying database.');
@@ -88,9 +88,59 @@
 			$record[] = $row['Won'];
 			$record[] = $row['Lost'];
 		}
-		echo "Won".$record[0];
-		echo "Lost".$record[1];
+
+		if ($outcome == "wins")
+		{
+			return $record[0];
+		}
+		else if ($outcome == "losses")
+		{
+			return $record[1];
+		} 
+		else
+		{
+			return "Record Error";
+		}
 	}
+	
+	function getYardTotals($teamName)
+	{
+		global $DB;
+		
+		$query = "SELECT
+  				(
+         			SELECT SUM(NetPassYds)
+         			FROM TeamGameView
+         			WHERE Date > '2016-04-20'
+         			AND Name = '".$teamName."'
+     			) AS PassEarned,
+    			(
+         			SELECT SUM(NetPassYds)
+         			FROM TeamGameView
+         			WHERE Date > '2016-04-20'
+         			AND Opponent = '".$teamName."'
+     			) AS PassAllowed,
+     			(
+         			SELECT SUM(RushYds)
+         			FROM TeamGameView
+         			WHERE Date > '2016-04-20'
+         			AND Name = '".$teamName."'
+     			) AS RushEarned,
+     			(
+         			SELECT SUM(RushYds)
+         			FROM TeamGameView
+         			WHERE Date > '2016-04-20'
+         			AND Opponent = '".$teamName."'
+     			) AS RushAllowed";
+				
+		// Query database and store results
+		mysqli_query($DB, $query) or die('Error querying database.');
+		$result = mysqli_query($DB, $query);
+		
+		$row = mysqli_fetch_array($result);
+		return $row; 
+	}
+	
 	/**
 	 * Count Rank - Return a team's league ranking from an ordered query.
 	 * param teamName - Name of team for ranking

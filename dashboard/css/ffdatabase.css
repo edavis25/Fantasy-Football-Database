@@ -4,6 +4,11 @@
  * 
  * SWATCH COLORS
  * =============
+ * Green Rank - 00ba31
+ * Yellow Rank - ffdf02
+ * Orange Rank - ff6c0a
+ * Red Rank - dc030d
+ * Blue - 337ab7
  * 
  * 
  * CONTENTS
@@ -40,6 +45,24 @@
 	background-color: #e7e7e7 !important;
 }
 
+/* Nav-bar Team Dashboard Links */
+.team-link
+{
+	background: none;
+	border: none;
+	text-align: left;
+	width: 100%;
+}
+.navbar tr:hover
+{
+	background-color: #e7e7e7;
+}
+
+/* Table of team name links in sidebar nav - REMOVE ??????????? */
+#team-table a
+{
+	background-color: rgba(0,0,0,0) !important;
+}
 
 /* =============================================
  * ==  III. Content		========================
@@ -58,10 +81,28 @@
 	text-align: center;
 }
 
-/* Table of team name links in sidebar nav */
-#team-table a
+.team-record
 {
-	background-color: rgba(0,0,0,0) !important;
+	margin-left: 3px;
+	margin-top: -7px;
+}
+
+/* Ranking Colors */
+.rank-color-green
+{
+	color: #00ba31;
+}
+.rank-color-orange
+{
+	color: #ff6c0a;
+}
+.rank-color-red
+{
+	color: #dc030d;
+}
+.rank-color-yellow
+{
+	color: #ffdf02;
 }
 
 
@@ -102,3 +143,5 @@
 {
 	background-color: #ffffff;
 }
+
+
