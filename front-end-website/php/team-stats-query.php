@@ -1,5 +1,10 @@
 <?php
 
+	/***************
+	 * IMPORTANT - THE VIEW NAMES HAVE BEEN CHANGED IN THE DB!!!
+	 */
+
+
 	// Create MySQL connection. Params=(host, DB username, DB passwword, name of Database)
 	$db = mysqli_connect('localhost', 'Read_User', 'readOnly', 'ffdatabase') or die('Error connecting to MySQL server.');
 	// Create query

@@ -1,4 +1,4 @@
-CREATE VIEW Games_View AS SELECT 
+CREATE VIEW Games2016_View AS SELECT 
 g.GameID AS GameID, 
 g.Date AS Date, 
 g.Week AS Week, 
@@ -26,4 +26,4 @@ g.OUResult AS OUResult
 FROM (Games g, Stadiums s)
 LEFT JOIN Teams win ON win.TeamID = g.WinnerID 
 LEFT JOIN Teams lose ON lose.TeamID = g.LoserID 
-LEFT JOIN Teams favored ON favored.TeamID = g.FavoredTeam WHERE g.StadiumID = s.StadiumID
+LEFT JOIN Teams favored ON favored.TeamID = g.FavoredTeam WHERE g.StadiumID = s.StadiumID AND g.Date BETWEEN '2016-04-20' AND '2017-04-20'

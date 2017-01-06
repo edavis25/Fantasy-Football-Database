@@ -1,4 +1,12 @@
-<?php // Get team names json and decode into basic array
+<?php 
+
+/***************
+	 * IMPORTANT - THE VIEW NAMES HAVE BEEN CHANGED IN THE DB!!!
+	 */
+
+	 
+
+// Get team names json and decode into basic array
 //$teamNames = json_decode(str_replace('\\', '', $_REQUEST['teamNames']));
 // Get rest of radio button parameters
 //$wonLost = $_REQUEST['wonLost'];

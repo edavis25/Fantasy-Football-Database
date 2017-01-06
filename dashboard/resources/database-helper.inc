@@ -3,18 +3,23 @@
 	 * PHP Database helper functions
 	 * NOTES:
 	 *  1) Global variable for date for SQL queries?
+	 *  2) Global variables for tables/views instead?
 	 */
 	
-	//Create Global Database
+	// Create Global Database
 	$DB = mysqli_connect('localhost', 'Read_User', 'readOnly', 'ffdatabase') or die('Error connecting to MySQL server.');
+	
+	// Create Global Tables (for easy changing)
+	$TEAM_GAME_VIEW = 'TeamGame2016_View';
 	
 	function getOffRank($teamName)
 	{
+		global $TEAM_GAME_VIEW;
+			
 		$query = "SELECT
  					Name,
  					((SUM(PassYds) * 0.04) + (SUM(PassTds) * 6) + (SUM(RushYds) * 0.1) + (SUM(RushTds) * 6) + (SUM(FL) * - 2) + (SUM(Ints) * - 1)) AS OffRank
- 					FROM TeamGameView
- 					WHERE Date > '2016-04-20'
+ 					FROM ".$TEAM_GAME_VIEW." 
  					GROUP BY Name
  					ORDER BY OffRank DESC";
 		
@@ -23,11 +28,12 @@
 	
 	function getDefRank($teamName)
 	{
+		global $TEAM_GAME_VIEW;
+			
 		$query = " SELECT
  					Opponent,
  					((SUM(PassYds) * 0.04) + (SUM(PassTds) * 6) + (SUM(RushYds) * 0.1) + (SUM(RushTds) * 6) + (SUM(FL) * - 2) + (SUM(Ints) * - 1)) AS OffRank
- 					FROM TeamGameView
- 					WHERE Date > '2016-04-20'
+ 					FROM ".$TEAM_GAME_VIEW." 
  					GROUP BY Opponent
  					ORDER BY OffRank ASC";
  		
@@ -36,11 +42,12 @@
 	
 	function getRushRank($teamName)
 	{
+		global $TEAM_GAME_VIEW;	
+			
 		$query = "SELECT
  						Name,
  						((SUM(RushYds) * 0.1) + (SUM(RushTds) * 6) + (SUM(FL) * - 2)) AS OffRank
- 					FROM TeamGameView
- 					WHERE Date > '2016-04-20'
+ 					FROM ".$TEAM_GAME_VIEW." 
  					GROUP BY Name
  					ORDER BY OffRank DESC";
 					
@@ -48,12 +55,13 @@
 	}
 	
 	function getPassRank($teamName)
-	{	
+	{
+		global $TEAM_GAME_VIEW;		
+				
 		$query = "SELECT
  					Name,
  					((SUM(PassYds) * 0.1) + (SUM(PassTds) * 6) + (SUM(Ints) * - 2)) AS OffRank
- 				FROM TeamGameView
- 				WHERE Date > '2016-04-20'
+ 				FROM ".$TEAM_GAME_VIEW." 
  				GROUP BY Name
  				ORDER BY OffRank DESC";
  				
@@ -63,23 +71,22 @@
 	function getRecord($teamName, $outcome)
 	{
 		global $DB;
+		global $TEAM_GAME_VIEW;
 		
 		$query = "SELECT 
     				(SELECT 
         				COUNT(Won)
-    				FROM TeamGameView
-    				WHERE Date > '2016-04-20'
-    				AND Won = 'Y'
+    				FROM ".$TEAM_GAME_VIEW." 
+    				WHERE Won = 'Y'
     				AND Name = '".$teamName."') AS Won,
     				(SELECT 
         				COUNT(Won)
-    				FROM TeamGameView
-    				WHERE Date > '2016-04-20'
-    				AND Won = 'N'
+    				FROM ".$TEAM_GAME_VIEW." 
+    				WHERE Won = 'N'
     				AND Name = '".$teamName."') AS Lost";
 		
 		// Query database and store results
-		mysqli_query($DB, $query) or die('Error querying database.');
+		mysqli_query($DB, $query) or die('Error querying database. - Record');
 		$result = mysqli_query($DB, $query);
 		
 		$record = array();
@@ -106,35 +113,32 @@
 	function getYardTotals($teamName)
 	{
 		global $DB;
+		global $TEAM_GAME_VIEW;
 		
 		$query = "SELECT
   				(
          			SELECT SUM(NetPassYds)
-         			FROM TeamGameView
-         			WHERE Date > '2016-04-20'
-         			AND Name = '".$teamName."'
+         			FROM ".$TEAM_GAME_VIEW." 
+         			WHERE Name = '".$teamName."'
      			) AS PassEarned,
     			(
          			SELECT SUM(NetPassYds)
-         			FROM TeamGameView
-         			WHERE Date > '2016-04-20'
-         			AND Opponent = '".$teamName."'
+         			FROM ".$TEAM_GAME_VIEW." 
+         			WHERE Opponent = '".$teamName."'
      			) AS PassAllowed,
      			(
          			SELECT SUM(RushYds)
-         			FROM TeamGameView
-         			WHERE Date > '2016-04-20'
-         			AND Name = '".$teamName."'
+         			FROM ".$TEAM_GAME_VIEW." 
+         			WHERE Name = '".$teamName."'
      			) AS RushEarned,
      			(
          			SELECT SUM(RushYds)
-         			FROM TeamGameView
-         			WHERE Date > '2016-04-20'
-         			AND Opponent = '".$teamName."'
+         			FROM ".$TEAM_GAME_VIEW." 
+         			WHERE Opponent = '".$teamName."'
      			) AS RushAllowed";
 				
 		// Query database and store results
-		mysqli_query($DB, $query) or die('Error querying database.');
+		mysqli_query($DB, $query) or die('Error querying database. - Yards');
 		$result = mysqli_query($DB, $query);
 		
 		$row = mysqli_fetch_array($result);
@@ -150,9 +154,10 @@
 	function countRank($teamName, $query, $columnName)
 	{
 		global $DB;
+		global $TEAM_GAME_VIEW;
 		
 		// Query database and store results
-		mysqli_query($DB, $query) or die('Error querying database.');
+		mysqli_query($DB, $query) or die('Error querying database. - Rank');
 		$result = mysqli_query($DB, $query);
 		
 		// Look for team and return rank (from ordered DB query ONLY)
