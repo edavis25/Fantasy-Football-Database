@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="Z:/Code Projects/Libraries/Java/htmlunit-driver-standalone-2.20.jar"/>
-	<classpathentry kind="lib" path="Z:/Code Projects/Libraries/Java/Selenium/selenium-server-standalone-2.53.0.jar"/>
-	<classpathentry kind="lib" path="Z:/Code Projects/Libraries/Java/Selenium/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="/home/eric/Documents/Java Libraries/htmlunit-driver-standalone-2.20.jar"/>
+	<classpathentry kind="lib" path="/home/eric/Documents/Java Libraries/Selenium/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="/home/eric/Documents/Java Libraries/Selenium/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

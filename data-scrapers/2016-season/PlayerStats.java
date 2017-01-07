@@ -25,7 +25,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class PlayerStats {
 
-	static final String URL = "file:///C:/Users/KingEricc/Documents/GitHub/Fantasy-Football-Database/data-scrapers/2016-season/11-29-table.html";
+	static final String URL = "file:///home/eric/Documents/GitHub/Fantasy-Football-Database/data-scrapers/2016-season/11-29-table.html";
 	static final String OFFENSE_FILENAME = "11-29-2016-offense.csv";
 	static final String DEFENSE_FILENAME = "11-29-2016-defense.csv";
 	static final String RETURNS_FILENAME = "11-29-2016-returns.csv";
