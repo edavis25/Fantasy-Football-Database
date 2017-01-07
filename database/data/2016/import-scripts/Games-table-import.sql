@@ -21,6 +21,59 @@ UPDATE GamesTempTemp SET StadiumID = (SELECT Stadiums.StadiumID FROM Stadiums WH
 --- Insert the data imported into GamesTempTemp into GamesTemp after final cleaning ----->
 INSERT INTO GamesTemp SELECT * FROM GamesTempTemp;
 
+-- Something like this to update FavoredTeam
+UPDATE GamesTemp
+SET FavoredTeam =
+	(SELECT TeamID
+		FROM Teams
+        WHERE Teams.Name = GamesTemp.FavoredTeam)
+
+-- SELECT Inserrt (Instead of using *)
+INSERT INTO Games
+	(GameID,
+	Week,
+	Day,
+	Date,
+	WinnerID,
+	LoserID,
+	WinnerScore,
+	LoserScore,
+	StadiumID,
+	Time,
+	Duration,
+	Attendance,
+	Temperature,
+	Humidity,
+	Wind,
+	FavoredTeam,
+	Spread,
+	OverUnder,
+	OUResult,
+	URL)
+SELECT
+	GameID,
+	Week,
+	Day,
+	Date,
+	WinnerID,
+	LoserID,
+	WinnerScore,
+	LoserScore,
+	StadiumID,
+	Time,
+	Duration,
+	Attendance,
+	Temperature,
+	Humidity,
+	Wind,
+	FavoredTeam,
+	Spread,
+	OverUnder,
+	OUResult,
+	URL 
+FROM Games_TEMP
+
+
 /*
 ***** RANDOM NOTES *****
 - Use create similar table to create GamesTemp from Games - Run INSERT INTO SELECT * FROM Games into GamesTempTemp

@@ -20,12 +20,81 @@
 -- If you change Temp table to be the Main table by renaming, Views will follow adjust themselves to the OLD NAME and won't work correctly
 
 
+-- Create Temp Table (Dont forget to remove keys and change appropriate column values to varchar)
+
+
 --- Set TeamID using the team abbreviation (Jacksonville is different in our DB) ----->
 UPDATE TeamGameTempTemp SET TeamID = (SELECT Teams.TeamID FROM Teams WHERE TeamGameTempTemp.TeamID = Teams.Abbr);
 
 --- Set the GameID using the URL as a temporary key ----->
 UPDATE TeamGameTempTemp SET GameID = (SELECT Games.GameID FROM Games WHERE Games.URL = TeamGameTempTemp.URL);
 
+-- Insert With SELECT
+INSERT INTO TeamGame
+	(TeamID,
+	GameID,
+	1stDowns,
+	RushAtt,
+	RushYDs,
+	RushTDs,
+	PassComp,
+	PassAtt,
+	PassYDs,
+	PassTDs,
+	Ints,
+	Sacked,
+	SackedYDs,
+	NetPassYDs,
+	TotalYDs,
+	Fumbles,
+	FumblesLost,
+	Turnovers,
+	Penalties,
+	PenaltyYDs,
+	3rdM,
+	3rdAtt,
+	4thM,
+	4thAtt,
+	TOP,
+	Q1,
+	Q2,
+	Q3,
+	Q4,
+	OT,
+	URL)
+SELECT
+	TeamID,
+	GameID,
+	1stDowns,
+	RushAtt,
+	RushYDs,
+	RushTDs,
+	PassComp,
+	PassAtt,
+	PassYDs,
+	PassTDs,
+	Ints,
+	Sacked,
+	SackedYDs,
+	NetPassYDs,
+	TotalYDs,
+	Fumbles,
+	FumblesLost,
+	Turnovers,
+	Penalties,
+	PenaltyYDs,
+	3rdM,
+	3rdAtt,
+	4thM,
+	4thAtt,
+	TOP,
+	Q1,
+	Q2,
+	Q3,
+	Q4,
+	OT,
+	URL
+FROM TeamGame_TEMP
 
 /* Random Notes
 - For some reason it gave me some grief with the GameID foreign key. Remove it and then add it back (TeamID foreign key was fine)
