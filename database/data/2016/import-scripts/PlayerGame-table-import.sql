@@ -108,7 +108,7 @@ INSERT INTO PlayerGame --Existing table for import
 	FGAtt,
 	URL)
 SELECT
-	(PlayerID, 
+	PlayerID, 
 	GameID, 
 	PassCmp, 
 	PassAtt,
@@ -155,6 +155,6 @@ SELECT
 	XPAtt,
 	FGMade,
 	FGAtt,
-	URL)
+	URL
 FROM PlayerGame_TEMP --Temp table w/ imported CSV
 
