@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 import fantasy.library.CSVReader;
 
+// NOTE: Make sure existing players files does NOT have a header
+
 public class PlayerSearch 
 {
 	private static ArrayList<String> missing = new ArrayList<String>();
@@ -13,7 +15,7 @@ public class PlayerSearch
 	public static void main(String[] args) 
 	{
 		// .csv dump of the existing player names in DB (Used in Scanner)
-		File existingPlayers = new File("existing-players-Jan-7.csv");
+		File existingPlayers = new File("existing-players-Jan-8.csv");
 		// Player Stats .csv file to be inserted into DB (Used in CSVReader)
 		File newPlayers = new File("../../database/data/2016/player-stats/16_all/16_all.csv");
 		
@@ -69,7 +71,7 @@ public class PlayerSearch
 			}
 			
 			// Write missing player array to file
-			File file = new File("missing-names.csv");
+			File file = new File("missing-names-1.csv");
 			PrintWriter writer = new PrintWriter(file);
 			for (String str : missing)
 			{	
