@@ -170,67 +170,75 @@
 				<!-- 3rd Row -->
                 <div class="row">
                 	
+                	<!-- Season Yard Totals Bar Graph -->
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Season Totals</h3>
+                                <h3 class="panel-title"><i class="glyphicon glyphicon-align-left"></i> Season Totals</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="bar-test"></div>
                                 <div class="text-right">
                                     <a href="#">View Details <i class="fa fa-arrow-circle-right"></i></a>
-                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     
+                    <!-- Season Leaders Table -->
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Season Leaders</h3>
+                                <h3 class="panel-title"><i class="glyphicon glyphicon-user"></i> Offensive Leaders</h3>
                             </div>
                             <div class="panel-body">
-                                <div class="list-group">
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">just now</span>
-                                        <i class="fa fa-fw fa-calendar"></i> Calendar updated
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">4 minutes ago</span>
-                                        <i class="fa fa-fw fa-comment"></i> Commented on a post
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">23 minutes ago</span>
-                                        <i class="fa fa-fw fa-truck"></i> Order 392 shipped
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">46 minutes ago</span>
-                                        <i class="fa fa-fw fa-money"></i> Invoice 653 has been paid
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">1 hour ago</span>
-                                        <i class="fa fa-fw fa-user"></i> A new user has been added
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">2 hours ago</span>
-                                        <i class="fa fa-fw fa-check"></i> Completed task: "pick up dry cleaning"
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">yesterday</span>
-                                        <i class="fa fa-fw fa-globe"></i> Saved the world
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">two days ago</span>
-                                        <i class="fa fa-fw fa-check"></i> Completed task: "fix error on sales page"
-                                    </a>
-                                </div>
-                                <div class="text-right">
-                                    <a href="#">View All Activity <i class="fa fa-arrow-circle-right"></i></a>
-                                </div>
-                            </div>
+								<table class="table table-striped">
+                                	<tr>
+                                		<th><b>Passing</b></th><th><b>YDs</b></th><th><b>TDs</b></th><th><b>COMP</b></th><th><b>ATT</b></th><th><b>COMP%</b></th>
+                                	</tr>
+                                	<!-- Get Passing Leader Stats -->
+									<?php 
+                                		$arr = array("Name", "PassYds", "PassTD", "PassCmp", "PassAtt"); 
+                                		$print = getSeasonLeader($team, $arr, 'PassYds', 2);
+											
+										echo "<tr><td>".$print[0][0]."</td><td>".$print[0][1]."</td><td>".$print[0][2]."</td><td>".$print[0][3]."</td><td>".$print[0][4]."</td><td>".round((($print[0][3] / $print[0][4]) * 100), 2)."</td></tr>";
+										echo "<tr><td>".$print[1][0]."</td><td>".$print[1][1]."</td><td>".$print[1][2]."</td><td>".$print[1][3]."</td><td>".$print[1][4]."</td><td>".round((($print[1][3] / $print[1][4]) * 100), 2)."</td></tr>";
+                                	?>
+
+                                	</tr>
+                                	<tr>
+                                		<th><b>Rushing</b></th><th><b>YDs</b></th><th><b>TDs</b></th><th><b>FUMB</b></th><th><b>ATT</b></th><th><b>YDs/ATT</b></th><th>
+                                	</tr>
+                                	<!-- Get Rushing Leader Stats -->
+                                	<?php
+                                		$arr = array("Name", "RushYds", "RushTD", "Fmb", "RushAtt");
+										$print = getSeasonLeader($team, $arr, 'RushYds', 2);
+										
+										echo "<tr><td>".$print[0][0]."</td><td>".$print[0][1]."</td><td>".$print[0][2]."</td><td>".$print[0][3]."</td><td>".$print[0][4]."</td><td>".round(($print[0][1] / $print[0][4]), 2)."</td></tr>";
+										echo "<tr><td>".$print[1][0]."</td><td>".$print[1][1]."</td><td>".$print[1][2]."</td><td>".$print[1][3]."</td><td>".$print[1][4]."</td><td>".round(($print[1][1] / $print[1][4]), 2)."</td></tr>";
+                                	?>
+
+
+                           			<tr>
+                           				<th><b>Receiving</b></th><th><b>YDs</b></th><th><b>TDs</b></th><th><b>TGT</b></th><th><b>REC</b></th><th><b>YDs/REC</b></th><th>
+                           			</tr>
+                           			
+                           			<?php
+                           				
+                                		$arr = array("Name", "RecYds", "RecTds", "RecTgt", "Rec");
+										$print = getSeasonLeader($team, $arr, 'RecYds', 3);
+										
+										echo "<tr><td>".$print[0][0]."</td><td>".$print[0][1]."</td><td>".$print[0][2]."</td><td>".$print[0][3]."</td><td>".$print[0][4]."</td><td>".round(($print[0][1] / $print[0][4]), 2)."</td></tr>";
+										echo "<tr><td>".$print[1][0]."</td><td>".$print[1][1]."</td><td>".$print[1][2]."</td><td>".$print[1][3]."</td><td>".$print[1][4]."</td><td>".round(($print[1][1] / $print[1][4]), 2)."</td></tr>";
+										echo "<tr><td>".$print[2][0]."</td><td>".$print[2][1]."</td><td>".$print[2][2]."</td><td>".$print[2][3]."</td><td>".$print[1][4]."</td><td>".round(($print[2][1] / $print[2][4]), 2)."</td></tr>";
+                 
+									?>
+                           			
+                           		</table>
+                            </div> <!-- End pain panel body -->
                         </div>
-                    </div>
+                    </div> <!-- End Container -->
+                    
                     
                     <div class="col-lg-4">
                         <div class="panel panel-default">

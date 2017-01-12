@@ -76,7 +76,7 @@
                     <div class="col-md-2 col-sm-4 col-xs-6 border-right">
                     	<div class="row">
                     		<!-- h1 class="ranking-label"><b>OFF</b>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: green; font-weight: 600; font-size: 150%;">5</span></h1 -->
-                    		<h1 class="ranking-value" style="color: green;">6</h1>
+                    		<h1 class="ranking-value" style="color: green; font-family: times;">6</h1>
                     	</div>
                     	<div class="row">
                     		<p class="ranking-label" style="text-align: center;">Offense</p>
@@ -170,7 +170,7 @@
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Season Totals</h3>
+                                <h3 class="panel-title"><i class="glyphicon glyphicon-align-left"></i> Season Totals</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="bar-test"></div>
@@ -185,7 +185,7 @@
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Season Leaders</h3>
+                                <h3 class="panel-title"><i class="glyphicon glyphicon-user"></i> Season Leaders</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="list-group">

@@ -25,7 +25,11 @@
 /* =============================================
  * ==  I. Body		============================
  * ============================================= */
-
+#page-wrapper
+{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+}
 
 /* =============================================
  * ==  II. Header & Nav		====================
@@ -34,7 +38,8 @@
 .navbar, .side-nav 
 {
 	background-color: #f8f8f8;
-	border-color: #e7e7e7;
+	/* border-color: #e7e7e7; */
+	border: 2px solid #e7e7e7;
 }
 .side-nav a, .side-nav li 
 {
@@ -145,3 +150,7 @@
 }
 
 
+#bar-test
+{
+	height: 300px;
+}

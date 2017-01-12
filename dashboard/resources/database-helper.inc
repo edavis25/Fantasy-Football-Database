@@ -11,7 +11,65 @@
 	
 	// Create Global Tables (for easy changing)
 	$TEAM_GAME_VIEW = 'TeamGame2016_View';
+	$OFFENSE_VIEW = 'Offense2016_View';
 	
+	
+	function getPassLeader($teamName)
+	{
+		
+	}
+	
+	
+	/*
+	 * NOTE: Change this function and remove the SUM function and rewrite somehow (maybe optional)
+	 */
+	function getSeasonLeader($teamName, $columnArray, $orderBy, $limit)
+	{
+		// Get global references to Database and Table
+		global $DB;		
+		global $OFFENSE_VIEW;
+		
+		// Initialize the return array
+		$returnArr = array();
+		
+		// Start building query
+		$query = "SELECT ";
+		
+		// First row MUST be Player Name
+		$query.= $OFFENSE_VIEW .".". $columnArray[0];
+		
+		// If other elements in array exist, add to query
+		for ($i = 1; $i < count($columnArray); $i++)
+		{
+			$query.=",";		
+			$query.= "SUM(".$OFFENSE_VIEW .".". $columnArray[$i] .")";
+		}
+		
+		$query.= " FROM ". $OFFENSE_VIEW;
+		$query.= " INNER JOIN Players ON Players.PlayerID = ".$OFFENSE_VIEW.".PlayerID";
+		$query.= " INNER JOIN Teams ON Teams.TeamID = Players.ActTeam";
+		$query.= " AND Players.ActTeam = Teams.TeamID";
+		$query.= " AND Teams.Name = '" .$teamName ."'";
+		$query.= " GROUP BY ". $OFFENSE_VIEW .".".$columnArray[0];
+		$query.= " ORDER BY SUM(". $orderBy .") DESC";
+		$query.= " LIMIT ". $limit;
+		
+		// Query DB
+		mysqli_query($DB, $query) or die('Error querying database.');
+		$result = mysqli_query($DB, $query);
+		
+		// Fetch each row from return result into return array
+		while ($row = mysqli_fetch_array($result)) 
+		{
+			$returnArr[] = $row;
+		}
+		
+		return $returnArr;
+	}
+	
+	/**
+	 * Get Team Offensive Rank
+	 */
 	function getOffRank($teamName)
 	{
 		global $TEAM_GAME_VIEW;
@@ -26,6 +84,10 @@
 		return countRank($teamName, $query, 'Name');
 	}
 	
+	
+	/**
+	 * Get Team Defensive Rank 
+	 */
 	function getDefRank($teamName)
 	{
 		global $TEAM_GAME_VIEW;
@@ -40,6 +102,10 @@
 		return countRank($teamName, $query, 'Opponent');
 	}
 	
+	
+	/**
+	 * Get Team Rushing Rrank
+	 */
 	function getRushRank($teamName)
 	{
 		global $TEAM_GAME_VIEW;	
@@ -54,6 +120,10 @@
 		return countRank($teamName, $query, 'Name');
 	}
 	
+	
+	/**
+	 * Get Team Passing Rank
+	 */
 	function getPassRank($teamName)
 	{
 		global $TEAM_GAME_VIEW;		
@@ -68,6 +138,10 @@
  		return countRank($teamName, $query, 'Name');
 	}
 	
+	
+	/**
+	 * Get Team Win/Loss Record
+	 */
 	function getRecord($teamName, $outcome)
 	{
 		global $DB;
@@ -110,6 +184,10 @@
 		}
 	}
 	
+	
+	/**
+	 * Get Team Season Total Yards
+	 */
 	function getYardTotals($teamName)
 	{
 		global $DB;
