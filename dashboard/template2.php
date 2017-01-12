@@ -349,9 +349,6 @@
 		$(document).ready(function()
 		{
 			setRankColors();
-			
-			
-			
 		});
 	</script>
 	
