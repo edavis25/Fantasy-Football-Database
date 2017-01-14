@@ -49,3 +49,33 @@ AND Teams.Name = 'Browns'
 GROUP BY QBView.Name
 ORDER BY SUM(RushYds) DESC
 LIMIT 3
+
+
+-- Add Temp Ranking Value to Ordered Results
+SELECT @r := @r+1 AS Rank, innerTbl.*
+FROM
+  (SELECT
+     Name, 
+     ((SUM(PassYds) * 0.04) + (SUM(PassTds) * 6) + (SUM(RushYds) * 0.1) + (SUM(RushTds) * 6) + (SUM(FL) * - 2) + (SUM(Ints) * - 1)) AS OffRank
+   FROM TeamGame2016_View
+   GROUP BY Name
+   ORDER BY OffRank desc
+) innerTbl, (select @r:=0) x;
+
+
+-- Select Only the Rank From Above Query (WHERE = 'TeamName')
+SELECT Rank
+FROM
+  (SELECT 
+    @r := @r+1 AS Rank, 
+    Name
+   FROM
+     (SELECT
+	Name,
+	((SUM(PassYds) * 0.04) + (SUM(PassTds) * 6) + (SUM(RushYds) * 0.1) + (SUM(RushTds) * 6) + (SUM(FL) * - 2) + (SUM(Ints) * - 1)) AS OffRank
+	FROM TeamGame2016_View
+	GROUP BY Name
+	ORDER BY OffRank DESC
+      ) innerTbl
+) outerTbl, (SELECT @r:=0) y
+WHERE outerTbl.Name = 'Browns'
