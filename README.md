@@ -15,3 +15,8 @@
 - <a href="https://github.com/edavis25/Fantasy-Football-Database/tree/master/data-scrapers">**data-scrapers**</a> - R and Java web bots used to scrape data.
   - **UpdatePlayerStatus** - Java app scrapes nfl.com for rosters and updates player status in DB.
   - **fantasy-java-library** - Small .jar file with commonly used functions in the java scrapers.
+
+####TODO:
+- [ ] Backup DB
+- [ ] Add 2016 postseason data
+- [ ] Clean project directory
