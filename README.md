@@ -1,7 +1,7 @@
 # Fantasy-Football-Database
-###Fantasy football data scraping bots, relational database, and data analysis.
+### Fantasy football data scraping bots, relational database, and data analysis.
 -----
-###Directory Tree:
+### Directory Tree:
 
 - **analysis** - Data analysis, charts, & projections.
 - <a href="https://github.com/edavis25/Fantasy-Football-Database/tree/master/dashboard">**dashboard**</a> - Web browser dashboard front-end
@@ -16,7 +16,7 @@
   - **UpdatePlayerStatus** - Java app scrapes nfl.com for rosters and updates player status in DB.
   - **fantasy-java-library** - Small .jar file with commonly used functions in the java scrapers.
 
-####TODO:
+#### TODO:
 - [ ] Backup DB
 - [ ] Add 2016 postseason data
 - [ ] Clean project directory
